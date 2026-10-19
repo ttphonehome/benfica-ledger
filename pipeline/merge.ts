@@ -350,6 +350,18 @@ export function merge(input: MergeInput): { dataset: Dataset; report: MergeRepor
     }
   }
 
+  // Wikipedia's infobox names every manager of a season; flag any missing from the CSV.
+  for (const s of input.target) {
+    for (const name of input.wiki.get(s)?.infobox?.managers ?? []) {
+      const tokens = new Set(nameTokens(name));
+      const known = mgrList.some((m) => {
+        const t = nameTokens(m.name);
+        return t.length > 0 && t.every((x) => tokens.has(x)) && m.appointed <= seasonEnd(s) && tenureEnd(m.departed) >= seasonStart(s);
+      });
+      if (!known) warnings.push(`Wikipedia lists ${name} as a ${s} manager; managers.csv has no tenure for them that season`);
+    }
+  }
+
   const titlesIn = (season: string) => {
     const fromApi = input.coaches.flatMap((c) => c.titles).filter((t) => t.season === season).map((t) => t.competition);
     const fromCsv = manual.titles.filter((t) => t.season === season).map((t) => t.competition);

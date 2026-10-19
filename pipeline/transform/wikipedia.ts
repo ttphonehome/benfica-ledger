@@ -167,6 +167,20 @@ export function parseSquadStats(wikitext: string): WikiSeason {
   return { competitions, players };
 }
 
+/** Removes footnotes (<ref>…</ref>, {{refn|…}}, {{efn|…}}), whose links aren't managers. */
+export function stripNotes(s: string): string {
+  let out = s.replace(/<ref[^>]*\/>/gi, "").replace(/<ref[^>]*>[\s\S]*?(<\/ref>|$)/gi, "");
+  for (let i = out.search(/\{\{\s*(refn|efn|ref)\b/i); i >= 0; i = out.search(/\{\{\s*(refn|efn|ref)\b/i)) {
+    let depth = 0, j = i;
+    for (; j < out.length; j++) {
+      if (out.startsWith("{{", j)) { depth++; j++; }
+      else if (out.startsWith("}}", j)) { depth--; j++; if (depth === 0) break; }
+    }
+    out = out.slice(0, i) + out.slice(j + 1);
+  }
+  return out;
+}
+
 export interface WikiInfobox {
   leaguePosition: number | null;
   managers: string[];
@@ -176,7 +190,8 @@ export function parseInfobox(wikitext: string): WikiInfobox {
   const field = (name: string) => new RegExp(`\\|\\s*${name}\\s*=\\s*([^\\n]*)`, "i").exec(wikitext)?.[1] ?? "";
   const league = field("league result");
   const pos = /(\d+)(?:st|nd|rd|th)/i.exec(league);
-  const managerField = field("manager") || field("chrtitle2") || "";
-  const managers = [...managerField.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map((m) => m[1].replace(/\s*\([^)]*\)$/, "").trim());
+  const managerField = stripNotes(field("manager") || field("chrtitle2") || "");
+  const managers = [...managerField.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map((m) => m[1].replace(/\s*\([^)]*\)$/, "").trim())
+    .filter((n) => !/\b(manager|coach|head coach)\b/i.test(n)); // links to the role, e.g. [[Caretaker manager|interim]]
   return { leaguePosition: pos ? Number(pos[1]) : null, managers };
 }

@@ -48,3 +48,18 @@ describe("plain wikitable squad stats (older articles)", () => {
     ]);
   });
 });
+
+describe("infobox managers", () => {
+  it("ignores links inside footnotes, including an unclosed one at the end of the line", () => {
+    const line =
+      "| manager = [[Rui Vitória]] (until 3 January 2019)<br />[[Bruno Lage]]{{refn|group=n|[[Caretaker manager]] until 14 January 2019<ref>{{cite web|url=https://example.org|website=[[CMVM]]|publisher=[[S.L. Benfica]]";
+    expect(parseInfobox(line).managers).toEqual(["Rui Vitória", "Bruno Lage"]);
+  });
+  it("skips links to the role itself", () => {
+    expect(parseInfobox("| manager = [[Jorge Jesus]]<br />[[Nélson Veríssimo]] ([[Caretaker manager|caretaker]])").managers).toEqual(["Jorge Jesus", "Nélson Veríssimo"]);
+  });
+  it("reads both managers of a season with a change", () => {
+    const line = "| manager = [[Bruno Lage]] <br> <small>(until 16 September)</small><br /> [[José Mourinho]] <br> <small>(from 18 September)</small>";
+    expect(parseInfobox(line).managers).toEqual(["Bruno Lage", "José Mourinho"]);
+  });
+});

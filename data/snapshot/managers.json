@@ -418,7 +418,7 @@
   "name": "Roger Schmidt",
   "nick": "Schmidt",
   "appointed": "2022-07-01",
-  "departed": "2024-05-31",
+  "departed": "2024-08-31",
   "seasons": [
    {
     "season": "2022-23",
@@ -491,6 +491,35 @@
     "titles": [
      "Supertaça 2023-24"
     ]
+   },
+   {
+    "season": "2024-25",
+    "wins": 2,
+    "draws": 1,
+    "losses": 1,
+    "gf": 5,
+    "ga": 3,
+    "finish": null,
+    "leaguePoints": 7,
+    "competitions": [
+     "Primeira Liga"
+    ],
+    "formations": [
+     {
+      "name": "4-2-3-1",
+      "matches": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 5,
+      "ga": 3
+     }
+    ],
+    "academyMinutesPct": 20.9,
+    "youthPromoted": [],
+    "avgStartXIAge": null,
+    "notes": "",
+    "titles": []
    }
   ]
  },
@@ -498,18 +527,18 @@
   "id": "lage-2",
   "name": "Bruno Lage",
   "nick": "Lage · 2nd stint",
-  "appointed": "2024-06-15",
+  "appointed": "2024-09-01",
   "departed": "2026-06-30",
   "seasons": [
    {
     "season": "2024-25",
-    "wins": 38,
-    "draws": 8,
-    "losses": 10,
-    "gf": 135,
-    "ga": 52,
+    "wins": 36,
+    "draws": 7,
+    "losses": 9,
+    "gf": 130,
+    "ga": 49,
     "finish": 2,
-    "leaguePoints": 80,
+    "leaguePoints": 73,
     "competitions": [
      "Primeira Liga",
      "UEFA Champions League",

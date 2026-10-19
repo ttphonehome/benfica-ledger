@@ -1,9 +1,10 @@
 # Manager tenures (YYYY-MM-DD; leave departed empty for the current manager). Records are computed from match results.
+# API-Football gives months only: a start is the 1st, an end is the month's last day, unless a more precise day in the same month is known.
 id,name,nick,appointed,departed,source,verified
-lage-2,Bruno Lage,Lage · 2nd stint,2024-06-15,,design handoff,no
-schmidt,Roger Schmidt,Schmidt,2022-07-01,2024-05-31,design handoff,no
+lage-2,Bruno Lage,Lage · 2nd stint,2024-09-01,,API-Football coaches: from Sep 2024; API has no end date,no
+schmidt,Roger Schmidt,Schmidt,2022-07-01,2024-08-31,API-Football coaches: Jul 2022 to Aug 2024 (month only; end set to month's last day),yes
 verissimo,Nélson Veríssimo,Veríssimo,2021-12-29,2022-06-30,design handoff,no
 jesus-2,Jorge Jesus,Jesus · 2nd stint,2020-07-15,2021-12-28,design handoff,no
-lage-1,Bruno Lage,Lage · 1st stint,2019-01-03,2020-06-30,design handoff,no
+lage-1,Bruno Lage,Lage · 1st stint,2019-01-03,2020-06-30,API-Football coaches: Jan 2019 to Jun 2020 (month only; days from design handoff),yes
 rui-vitoria,Rui Vitória,Vitória,2015-06-22,2019-01-02,design handoff,no
-marco-silva,Marco Silva,Marco Silva,2026-07-01,,API-Football coaches,no
+marco-silva,Marco Silva,Marco Silva,2026-07-01,,API-Football coaches: from Jul 2026,yes
