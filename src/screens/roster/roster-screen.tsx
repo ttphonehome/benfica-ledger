@@ -9,7 +9,9 @@ import {
   type SortingState,
 } from "@tanstack/react-table";
 import type { PlayerProfile } from "@/data/schema";
-import { DASH, fmtMins } from "@/lib/format";
+import { DASH } from "@/i18n/format";
+import { useI18n } from "@/i18n/client";
+import type { DictKey } from "@/i18n/dictionaries/en";
 import { positionGroup, type PositionGroup } from "@/lib/stats/positions";
 import { defaultRosterSort, type PlayerHistory, type RosterRow } from "@/lib/stats/roster";
 import { Badge } from "@/components/ui/badge";
@@ -30,25 +32,25 @@ const col = createColumnHelper<RosterRow>();
 // Nullable numbers map to undefined so TanStack keeps them last in both
 // directions, like the reference.
 const columns = [
-  col.accessor("player", { header: "Player", sortingFn: localeText }),
-  col.accessor("pos", { header: "Pos", sortingFn: localeText }),
-  col.accessor("origin", { header: "Origin", sortingFn: localeText }),
-  col.accessor((r) => r.nat ?? undefined, { id: "nat", header: "Nat", sortingFn: localeText, sortUndefined: "last" }),
-  col.accessor("apps", { header: "Apps", meta: { right: true } }),
-  col.accessor("mins", { header: "Min", meta: { right: true } }),
-  col.accessor("goals", { header: "G", meta: { right: true } }),
-  col.accessor((r) => r.assists ?? undefined, { id: "assists", header: "A", sortUndefined: "last", meta: { right: true } }),
-  col.accessor((r) => r.rating ?? undefined, { id: "rating", header: "Rating", sortUndefined: "last", meta: { right: true } }),
-  col.accessor("weeksInjured", { header: "Wks Out", meta: { right: true } }),
-  col.accessor("status", { header: "Status", enableSorting: false }),
+  col.accessor("player", { header: "col.player", sortingFn: localeText }),
+  col.accessor("pos", { header: "col.pos", sortingFn: localeText }),
+  col.accessor("origin", { header: "col.origin", sortingFn: localeText }),
+  col.accessor((r) => r.nat ?? undefined, { id: "nat", header: "col.nat", sortingFn: localeText, sortUndefined: "last" }),
+  col.accessor("apps", { header: "col.apps", meta: { right: true } }),
+  col.accessor("mins", { header: "col.min", meta: { right: true } }),
+  col.accessor("goals", { header: "col.goals", meta: { right: true } }),
+  col.accessor((r) => r.assists ?? undefined, { id: "assists", header: "col.assists", sortUndefined: "last", meta: { right: true } }),
+  col.accessor((r) => r.rating ?? undefined, { id: "rating", header: "col.rating", sortUndefined: "last", meta: { right: true } }),
+  col.accessor("weeksInjured", { header: "col.wksOut", meta: { right: true } }),
+  col.accessor("status", { header: "col.status", enableSorting: false }),
 ];
 
-const STATUS: Record<RosterRow["status"], { label: string; variant: "sold" | "loan" | "default" } | null> = {
+const STATUS: Record<RosterRow["status"], { label: DictKey; variant: "sold" | "loan" | "default" } | null> = {
   stay: null,
-  sold: { label: "sold", variant: "sold" },
-  "loan-out": { label: "loan out", variant: "loan" },
-  "loan-in-ended": { label: "loan ended", variant: "loan" },
-  released: { label: "released", variant: "default" },
+  sold: { label: "status.sold", variant: "sold" },
+  "loan-out": { label: "status.loanOut", variant: "loan" },
+  "loan-in-ended": { label: "status.loanEnded", variant: "loan" },
+  released: { label: "status.released", variant: "default" },
 };
 
 type GroupFilter = "all" | PositionGroup;
@@ -67,6 +69,7 @@ export function RosterScreen({
   profiles: Record<string, PlayerProfile>;
   notes: Record<string, string>;
 }) {
+  const { t, f } = useI18n();
   const [group, setGroup] = useState<GroupFilter>("all");
   const [origin, setOrigin] = useState<OriginFilter>("all");
   const [minApps, setMinApps] = useState(0);
@@ -122,42 +125,40 @@ export function RosterScreen({
 
   return (
     <div>
-      <div className="kicker">Roster · {season}</div>
-      <h1 className="section-h">Every player who pulled on the shirt.</h1>
-      <p className="dek">
-        Sort by rating to find who carried, sort by minutes to see who actually played. Click any row for their full story.
-      </p>
+      <div className="kicker">{t("roster.kicker", { season })}</div>
+      <h1 className="section-h">{t("roster.title")}</h1>
+      <p className="dek">{t("roster.dek")}</p>
 
       <div className="mb-8 border border-border bg-background">
         <div className="flex flex-wrap items-center gap-3 border-b border-border bg-paper-2 px-4 py-3.5">
-          <span className="label-mono -mr-1">Filter</span>
+          <span className="label-mono -mr-1">{t("roster.filter")}</span>
           <Select value={group} onValueChange={(v) => setGroup(v as GroupFilter)}>
-            <SelectTrigger aria-label="Position group" className="w-[136px]">
+            <SelectTrigger aria-label={t("roster.groupAria")} className="w-[150px]">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All positions</SelectItem>
-              <SelectItem value="GK">Goalkeepers</SelectItem>
-              <SelectItem value="DEF">Defenders</SelectItem>
-              <SelectItem value="MID">Midfielders</SelectItem>
-              <SelectItem value="ATT">Attackers</SelectItem>
+              <SelectItem value="all">{t("roster.allPositions")}</SelectItem>
+              <SelectItem value="GK">{t("roster.gk")}</SelectItem>
+              <SelectItem value="DEF">{t("roster.def")}</SelectItem>
+              <SelectItem value="MID">{t("roster.mid")}</SelectItem>
+              <SelectItem value="ATT">{t("roster.att")}</SelectItem>
             </SelectContent>
           </Select>
           <Select value={origin} onValueChange={(v) => setOrigin(v as OriginFilter)}>
-            <SelectTrigger aria-label="Origin" className="w-[124px]">
+            <SelectTrigger aria-label={t("roster.originAria")} className="w-[150px]">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All origins</SelectItem>
-              <SelectItem value="academy">Academy</SelectItem>
-              <SelectItem value="signed">Signed</SelectItem>
+              <SelectItem value="all">{t("roster.allOrigins")}</SelectItem>
+              <SelectItem value="academy">{t("roster.academy")}</SelectItem>
+              <SelectItem value="signed">{t("roster.signed")}</SelectItem>
             </SelectContent>
           </Select>
           <label className="flex items-center gap-2 font-mono text-[11px] text-mute">
-            <span id="min-apps-label">MIN APPS</span>
+            <span id="min-apps-label">{t("roster.minApps")}</span>
             <Slider
               aria-labelledby="min-apps-label"
-              aria-label="Minimum appearances"
+              aria-label={t("roster.minAppsAria")}
               min={0}
               max={maxApps}
               step={1}
@@ -169,14 +170,14 @@ export function RosterScreen({
           </label>
           <Input
             type="search"
-            aria-label="Search player"
-            placeholder="Search player…"
+            aria-label={t("roster.searchAria")}
+            placeholder={t("roster.search")}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="max-sm:w-full"
           />
           <span className="ml-auto font-mono text-[11px] text-mute" aria-live="polite">
-            {sorted.length} of {rows.length} players
+            {t("roster.count", { n: sorted.length, total: rows.length })}
           </span>
         </div>
 
@@ -189,7 +190,7 @@ export function RosterScreen({
                     <SortHead
                       key={h.id}
                       column={h.column}
-                      label={String(h.column.columnDef.header)}
+                      label={t(h.column.columnDef.header as DictKey)}
                       right={(h.column.columnDef.meta as { right?: boolean } | undefined)?.right}
                     />
                   ))}
@@ -223,8 +224,8 @@ export function RosterScreen({
                           {p.weeksInjured > 0 && (
                             <span
                               className="mr-1.5 inline-block size-[7px] rounded-full bg-bad"
-                              title={`Injured ${p.weeksInjured} weeks`}
-                              aria-label={`Injured ${p.weeksInjured} weeks`}
+                              title={t("injured", { n: p.weeksInjured })}
+                              aria-label={t("injured", { n: p.weeksInjured })}
                             />
                           )}
                           {p.player}
@@ -234,12 +235,12 @@ export function RosterScreen({
                         <PosTag pos={p.pos} />
                       </TableCell>
                       <TableCell>
-                        <Badge variant={p.origin === "academy" ? "academy" : "default"}>{p.origin}</Badge>
+                        <Badge variant={p.origin === "academy" ? "academy" : "default"}>{t(`origin.${p.origin}`)}</Badge>
                       </TableCell>
                       <TableCell className="font-mono text-[12.5px] text-mute">{p.nat ?? DASH}</TableCell>
                       <TableCell className="tnum text-right font-mono text-[12.5px]">{p.apps}</TableCell>
                       <TableCell className="tnum text-right font-mono text-[12.5px]">
-                        {fmtMins(p.mins)}
+                        {f.mins(p.mins)}
                       </TableCell>
                       <TableCell className="tnum text-right font-mono text-[12.5px]">{p.goals || ""}</TableCell>
                       <TableCell className="tnum text-right font-mono text-[12.5px]">
@@ -253,7 +254,7 @@ export function RosterScreen({
                       </TableCell>
                       <TableCell>
                         {status ? (
-                          <Badge variant={status.variant}>{status.label}</Badge>
+                          <Badge variant={status.variant}>{t(status.label)}</Badge>
                         ) : (
                           <span className="font-mono text-[11px] text-mute">{DASH}</span>
                         )}
@@ -283,7 +284,7 @@ export function RosterScreen({
               {sorted.length === 0 && (
                 <tr>
                   <td colSpan={colCount} className="p-10 text-center text-mute">
-                    No players match these filters.
+                    {t("roster.empty")}
                   </td>
                 </tr>
               )}

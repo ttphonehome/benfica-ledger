@@ -1,4 +1,5 @@
 import type { Dataset, Season, Transfer } from "@/data/schema";
+import type { DictKey } from "@/i18n/dictionaries/en";
 
 export type Verdict = "good" | "neutral" | "bad";
 
@@ -74,7 +75,7 @@ export interface AuditSummary {
   avgOutRating: number | null;
   avgInRating: number | null;
   /** Only when both sides have ratings. */
-  tradeVerdict: { tone: Verdict; text: string } | null;
+  tradeVerdict: { tone: Verdict; key: DictKey } | null;
 }
 
 export function auditSummary(ins: AuditRow[], outs: AuditRow[]): AuditSummary {
@@ -91,14 +92,12 @@ export function auditSummary(ins: AuditRow[], outs: AuditRow[]): AuditSummary {
   if (avgInRating != null && avgOutRating != null) {
     const diff = avgOutRating - avgInRating;
     const outflow = Math.round(totalIn) - Math.round(totalOut);
-    if (diff > 0.4 && outflow > 0) tradeVerdict = { tone: "bad", text: "Bought weaker talent for more money. Bad trade." };
-    else if (diff > 0.2 && outflow > 0)
-      tradeVerdict = { tone: "bad", text: "Outflow rated higher than inflow, and the cheque flowed outward. Negative trade." };
-    else if (diff > 0 && outflow <= 0) tradeVerdict = { tone: "neutral", text: "Lost a touch of quality but recouped the cash." };
-    else if (diff < -0.2 && outflow < 0)
-      tradeVerdict = { tone: "good", text: "Upgraded the squad and broke even or better. Strong window." };
-    else if (diff < 0) tradeVerdict = { tone: "good", text: "Brought in higher-rated players than left. Quality up." };
-    else tradeVerdict = { tone: "neutral", text: "Largely a sideways window." };
+    if (diff > 0.4 && outflow > 0) tradeVerdict = { tone: "bad", key: "trade.badWeaker" };
+    else if (diff > 0.2 && outflow > 0) tradeVerdict = { tone: "bad", key: "trade.badOutflow" };
+    else if (diff > 0 && outflow <= 0) tradeVerdict = { tone: "neutral", key: "trade.recouped" };
+    else if (diff < -0.2 && outflow < 0) tradeVerdict = { tone: "good", key: "trade.strong" };
+    else if (diff < 0) tradeVerdict = { tone: "good", key: "trade.qualityUp" };
+    else tradeVerdict = { tone: "neutral", key: "trade.sideways" };
   }
   return { soldCount: permOut.length, boughtCount: permIn.length, totalOut, totalIn, undisclosedOut, undisclosedIn, avgOutRating, avgInRating, tradeVerdict };
 }

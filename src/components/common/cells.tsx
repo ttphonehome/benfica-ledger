@@ -1,9 +1,13 @@
+"use client";
+
 import type { Position } from "@/data/schema";
-import { DASH, ratingBand } from "@/lib/format";
-import { positionGroup } from "@/lib/stats/positions";
+import { DASH } from "@/i18n/format";
+import { useI18n } from "@/i18n/client";
+import { ratingBand } from "@/lib/stats/rating";
 import { cn } from "@/lib/utils";
 
 export function RatingChip({ r }: { r: number | null }) {
+  const { f } = useI18n();
   if (r == null) return <span className="font-mono text-mute">{DASH}</span>;
   const band = ratingBand(r);
   return (
@@ -15,17 +19,18 @@ export function RatingChip({ r }: { r: number | null }) {
         band === "lo" && "bg-bad-soft text-bad",
       )}
     >
-      {r.toFixed(1)}
+      {f.rating(r)}
     </span>
   );
 }
 
 export function PosTag({ pos }: { pos: Position | null }) {
+  const { f } = useI18n();
   if (pos == null) return <span className="font-mono text-[11px] text-mute">{DASH}</span>;
   return (
     <span className="font-mono text-[11px] tracking-[0.06em] text-mute">
-      <span className="text-foreground">{pos}</span>
-      <span className="ml-1.5 opacity-60">{positionGroup(pos)}</span>
+      <span className="text-foreground">{f.pos(pos)}</span>
+      {f.group(pos) !== f.pos(pos) && <span className="ml-1.5 opacity-60">{f.group(pos)}</span>}
     </span>
   );
 }

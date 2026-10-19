@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
+import { isLang } from "@/i18n/config";
+import { getI18n } from "@/i18n";
 import { getDataset } from "@/data/load";
 import { presidentAgg, presidentSeasons } from "@/lib/stats/presidents";
 import { PresidentsScreen, type PresidentView } from "@/screens/presidents/presidents-screen";
 
-export const metadata: Metadata = { title: "Presidency era · The Águia Ledger" };
+export async function generateMetadata({ params }: PageProps<"/[lang]/[season]/presidents">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!isLang(lang)) return {};
+  const { t } = getI18n(lang);
+  return { title: `${t("tab.presidents")} · ${t("site.name")}` };
+}
 
 export default async function PresidentsPage() {
   const data = await getDataset();

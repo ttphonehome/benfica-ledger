@@ -2,6 +2,7 @@
 
 import { axisPct } from "@/lib/dates";
 import { useScrollIntoViewX } from "@/hooks/use-scroll-into-view-x";
+import { useI18n } from "@/i18n/client";
 import { ScrollArea } from "@/components/data-table/scroll-area";
 import { cn } from "@/lib/utils";
 
@@ -32,6 +33,7 @@ export function TenureTimeline({
   onSelect: (id: string) => void;
 }) {
   const selectedRef = useScrollIntoViewX<HTMLButtonElement>(selected);
+  const { t } = useI18n();
   const x = (d: string) => axisPct(d < start ? start : d, start, asOf);
   const years: number[] = [];
   for (let y = Number(start.slice(0, 4)) + (start.slice(5) === "01-01" ? 0 : 1); y <= Number(asOf.slice(0, 4)); y++) years.push(y);
@@ -44,7 +46,7 @@ export function TenureTimeline({
             {years.map((y) => (
               <Tick key={y} left={x(`${y}-01-01`)} label={String(y)} />
             ))}
-            <Tick left={100} label="Now" now />
+            <Tick left={100} label={t("timeline.now")} now />
           </div>
           <div className="relative h-[46px] touch:h-[60px]">
             {bars.map((b) => {

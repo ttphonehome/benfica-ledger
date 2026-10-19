@@ -1,15 +1,17 @@
 import type { Dataset, Season } from "@/data/schema";
+import type { DictKey } from "@/i18n/dictionaries/en";
+import type { Lang } from "@/i18n/config";
 import { seasonsNewestFirst } from "./seasons";
 
 export type TabId = "overview" | "roster" | "transfers" | "spending" | "managers" | "presidents";
 
-export const TABS: { id: TabId; label: string; path: string }[] = [
-  { id: "overview", label: "Season Overview", path: "" },
-  { id: "roster", label: "Roster", path: "roster" },
-  { id: "transfers", label: "Transfer Audit", path: "transfers" },
-  { id: "spending", label: "Spending Trends", path: "spending" },
-  { id: "managers", label: "Manager Era", path: "managers" },
-  { id: "presidents", label: "Presidency Era", path: "presidents" },
+export const TABS: { id: TabId; label: DictKey; path: string }[] = [
+  { id: "overview", label: "tab.overview", path: "" },
+  { id: "roster", label: "tab.roster", path: "roster" },
+  { id: "transfers", label: "tab.transfers", path: "transfers" },
+  { id: "spending", label: "tab.spending", path: "spending" },
+  { id: "managers", label: "tab.managers", path: "managers" },
+  { id: "presidents", label: "tab.presidents", path: "presidents" },
 ];
 
 /** Badge counts on the nav tabs (Season Overview has none). */
@@ -23,7 +25,13 @@ export function tabCounts(d: Dataset, season: Season): Record<Exclude<TabId, "ov
   };
 }
 
-export function tabHref(season: Season, tab: TabId): string {
+export function tabHref(lang: Lang, season: Season, tab: TabId): string {
   const t = TABS.find((x) => x.id === tab)!;
-  return t.path ? `/${season}/${t.path}` : `/${season}`;
+  return t.path ? `/${lang}/${season}/${t.path}` : `/${lang}/${season}`;
+}
+
+/** The tab a pathname like /pt/2025-26/roster points at. */
+export function tabFromPath(pathname: string): TabId {
+  const seg = pathname.split("/")[3] ?? "";
+  return TABS.find((t) => t.path === seg)?.id ?? "overview";
 }

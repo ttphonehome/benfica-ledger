@@ -1,5 +1,6 @@
 import type { PlayerSeason } from "@/data/schema";
 import type { SeasonSpending } from "./spending";
+import type { DictKey } from "@/i18n/dictionaries/en";
 
 export interface SquadStats {
   squadSize: number;
@@ -26,7 +27,7 @@ export interface Performers {
   mode: "rating" | "fallback";
   top: PlayerSeason[];
   bottom: PlayerSeason[];
-  labels: { top: string; bottom: string; note: string };
+  labels: { top: DictKey; bottom: DictKey; note: DictKey };
 }
 
 // Top and bottom three by rating (10+ apps). With fewer than three rated
@@ -40,21 +41,21 @@ export function performers(rows: PlayerSeason[]): Performers {
       mode: "rating",
       top: rated.slice(0, 3),
       bottom: rated.slice(-3).reverse(),
-      labels: { top: "Top performers", bottom: "Bottom performers", note: "Min. 10 appearances" },
+      labels: { top: "overview.top", bottom: "overview.bottom", note: "overview.min10" },
     };
   }
   return {
     mode: "fallback",
     top: [...rows].sort((a, b) => b.goals - a.goals).slice(0, 3),
     bottom: [...rows].sort((a, b) => b.mins - a.mins).slice(0, 3),
-    labels: { top: "Top scorers", bottom: "Most minutes", note: "Ratings not yet available" },
+    labels: { top: "overview.topScorers", bottom: "overview.mostMinutes", note: "overview.noRatingsYet" },
   };
 }
 
-export function windowVerdict(s: Pick<SeasonSpending, "net">): string {
-  if (s.net < -60) return "A heavy-spend window. The board put real money down, and now the squad has to repay it.";
-  if (s.net < -20) return "Net spend tilted toward outgoing cash; a reinforcement window, not a rebuild.";
-  if (s.net > 50) return "A selling window. Talent walked out the door for a profit.";
-  if (s.net > 0) return "A neutral-to-positive window. Cashflow held the line.";
-  return "Modest movement. The squad was largely left alone.";
+export function windowVerdict(s: Pick<SeasonSpending, "net">): DictKey {
+  if (s.net < -60) return "window.heavy";
+  if (s.net < -20) return "window.reinforce";
+  if (s.net > 50) return "window.selling";
+  if (s.net > 0) return "window.positive";
+  return "window.modest";
 }

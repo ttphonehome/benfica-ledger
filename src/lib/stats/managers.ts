@@ -1,5 +1,12 @@
 import type { Dataset, Manager, ManagerSeason, PlayerSeason, Position } from "@/data/schema";
 import { monthsBetween } from "../dates";
+import type { DictKey } from "@/i18n/dictionaries/en";
+
+/** A sentence to render with t(key, vars); numbers are pre-rounded. */
+export interface Phrase {
+  key: DictKey;
+  vars: Record<string, string | number>;
+}
 
 export interface Record3 {
   w: number;
@@ -88,23 +95,23 @@ export function formationAgg(seasons: ManagerSeason[]): FormationAgg[] {
     .sort((a, b) => b.matches - a.matches);
 }
 
-export function tacticsVerdict(formations: FormationAgg[]): string | null {
+export function tacticsVerdict(formations: FormationAgg[]): Phrase | null {
   const top = formations[0];
   if (!top) return null;
-  const pct = top.sharePct.toFixed(0);
-  if (top.sharePct >= 70) return `Tactically rigid. The ${top.name} carried ${pct}% of his matches.`;
-  if (top.sharePct >= 50) return `A clear primary system (${top.name}, ${pct}%) with measured rotation into alternatives.`;
-  return `Flexible. No single formation dominated; the most used (${top.name}) covered just ${pct}%.`;
+  const vars = { name: top.name, pct: Math.round(top.sharePct) };
+  if (top.sharePct >= 70) return { key: "tactics.rigid", vars };
+  if (top.sharePct >= 50) return { key: "tactics.primary", vars };
+  return { key: "tactics.flexible", vars };
 }
 
-export function formationVerdict(byWinRate: FormationAgg[]): string | null {
+export function formationVerdict(byWinRate: FormationAgg[]): Phrase | null {
   if (byWinRate.length < 2) return null;
   const best = byWinRate[0], worst = byWinRate[byWinRate.length - 1];
   const gap = best.winPct - worst.winPct;
-  if (gap >= 15 && worst.matches >= 4)
-    return `${best.name} wins ${best.winPct.toFixed(0)}% of the time. ${worst.name} only ${worst.winPct.toFixed(0)}%. Why keep using the second?`;
-  if (gap >= 8) return `Marginal gap. ${best.name} is the better system but the alternatives aren't disasters.`;
-  return "Formations produce similar results. Personnel matters more than shape here.";
+  const vars = { best: best.name, worst: worst.name, bp: Math.round(best.winPct), wp: Math.round(worst.winPct) };
+  if (gap >= 15 && worst.matches >= 4) return { key: "formation.gap", vars };
+  if (gap >= 8) return { key: "formation.marginal", vars };
+  return { key: "formation.similar", vars };
 }
 
 export interface TrustedPlayer {

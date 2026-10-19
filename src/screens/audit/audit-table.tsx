@@ -8,7 +8,9 @@ import {
   useReactTable,
   type SortingState,
 } from "@tanstack/react-table";
-import { fmtMoney } from "@/lib/format";
+import { useI18n } from "@/i18n/client";
+import type { DictKey } from "@/i18n/dictionaries/en";
+import { feeLabel } from "@/components/player/player-card";
 import type { AuditRow } from "@/lib/stats/audit";
 import { Table, TableBody, TableCell, TableHeader, TableRow } from "@/components/ui/table";
 import { SortHead } from "@/components/data-table/sort-header";
@@ -19,28 +21,22 @@ import { cn } from "@/lib/utils";
 
 const col = createColumnHelper<AuditRow>();
 
-function feeText(r: AuditRow) {
-  if (r.type === "free") return "Free";
-  if (r.type === "loan-in" || r.type === "loan-out") return "Loan";
-  if (r.type === "academy-promo") return "Academy";
-  if (r.type === "loan-end") return "Loan ended";
-  return r.fee == null ? "Undisclosed" : fmtMoney(r.fee);
-}
-
-const VERDICT_LABEL = { good: "Value created", bad: "Value destroyed", neutral: "No verdict" } as const;
+const VERDICT_LABEL = { good: "verdict.good", bad: "verdict.bad", neutral: "verdict.neutral" } as const;
 
 export function AuditTable({ rows, kind }: { rows: AuditRow[]; kind: "in" | "out" }) {
+  const i18n = useI18n();
+  const { t } = i18n;
   const [sorting, setSorting] = useState<SortingState>([{ id: "fee", desc: true }]);
   const columns = useMemo(() => [
-    col.accessor("player", { header: "Player", sortingFn: localeText }),
-    col.accessor("pos", { header: "Pos", sortingFn: localeText }),
+    col.accessor("player", { header: "col.player", sortingFn: localeText }),
+    col.accessor("pos", { header: "col.pos", sortingFn: localeText }),
     ...(kind === "in"
-      ? [col.accessor((r) => r.age ?? undefined, { id: "age", header: "Age", sortUndefined: "last" as const, meta: { right: true } })]
+      ? [col.accessor((r) => r.age ?? undefined, { id: "age", header: "col.age", sortUndefined: "last" as const, meta: { right: true } })]
       : []),
-    col.accessor((r) => r.apps ?? undefined, { id: "apps", header: "Apps", sortUndefined: "last", meta: { right: true } }),
-    col.accessor((r) => r.rating ?? undefined, { id: "rating", header: "Rating", sortUndefined: "last", meta: { right: true } }),
-    col.accessor((r) => r.fee ?? undefined, { id: "fee", header: "Fee", sortUndefined: "last", meta: { right: true } }),
-    col.accessor("club", { header: kind === "in" ? "From" : "To", sortingFn: localeText }),
+    col.accessor((r) => r.apps ?? undefined, { id: "apps", header: "col.apps", sortUndefined: "last", meta: { right: true } }),
+    col.accessor((r) => r.rating ?? undefined, { id: "rating", header: "col.rating", sortUndefined: "last", meta: { right: true } }),
+    col.accessor((r) => r.fee ?? undefined, { id: "fee", header: "col.fee", sortUndefined: "last", meta: { right: true } }),
+    col.accessor("club", { header: kind === "in" ? "col.from" : "col.to", sortingFn: localeText }),
   ], [kind]);
 
   // TanStack's table object isn't memoizable; React Compiler skips this component, which is fine here.
@@ -69,7 +65,7 @@ export function AuditTable({ rows, kind }: { rows: AuditRow[]; kind: "in" | "out
                 <SortHead
                   key={h.id}
                   column={h.column}
-                  label={String(h.column.columnDef.header)}
+                  label={t(h.column.columnDef.header as DictKey)}
                   right={(h.column.columnDef.meta as { right?: boolean } | undefined)?.right}
                   className="bg-transparent"
                 />
@@ -83,8 +79,8 @@ export function AuditTable({ rows, kind }: { rows: AuditRow[]; kind: "in" | "out
               <TableCell className="text-sm font-medium tracking-[-0.012em]">
                 <span
                   role="img"
-                  aria-label={VERDICT_LABEL[r.verdict]}
-                  title={VERDICT_LABEL[r.verdict]}
+                  aria-label={t(VERDICT_LABEL[r.verdict])}
+                  title={t(VERDICT_LABEL[r.verdict])}
                   className={cn(
                     "mr-1.5 inline-block size-[7px] rounded-full align-[1px]",
                     r.verdict === "good" && "bg-good",
@@ -99,17 +95,17 @@ export function AuditTable({ rows, kind }: { rows: AuditRow[]; kind: "in" | "out
               </TableCell>
               {kind === "in" && <TableCell className={num}>{r.age ?? <Faint />}</TableCell>}
               <TableCell className={num}>{r.apps || <Faint />}</TableCell>
-              <TableCell className="text-right" title={r.statsSeason && r.statsSeason !== r.season ? `From ${r.statsSeason}` : undefined}>
+              <TableCell className="text-right" title={r.statsSeason && r.statsSeason !== r.season ? t("audit.fromSeason", { season: r.statsSeason }) : undefined}>
                 <RatingChip r={r.rating} />
               </TableCell>
-              <TableCell className={cn(num, kind === "out" ? "text-good" : "text-bad")}>{feeText(r)}</TableCell>
+              <TableCell className={cn(num, kind === "out" ? "text-good" : "text-bad")}>{feeLabel(r, i18n)}</TableCell>
               <TableCell className="max-w-40 truncate font-mono text-[12.5px] text-mute">{r.club}</TableCell>
             </TableRow>
           ))}
           {rows.length === 0 && (
             <tr>
               <td colSpan={columns.length} className="p-8 text-center text-mute">
-                No moves this window.
+                {t("audit.noMoves")}
               </td>
             </tr>
           )}

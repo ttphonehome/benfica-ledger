@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDataset } from "@/data/load";
+import { isLang } from "@/i18n/config";
 import { seasonsNewestFirst } from "@/lib/stats/seasons";
 import { tabCounts } from "@/lib/stats/nav";
 import { coverage } from "@/lib/stats/coverage";
@@ -13,8 +14,9 @@ export async function generateStaticParams() {
   return seasonsNewestFirst(await getDataset()).map((season) => ({ season }));
 }
 
-export default async function SeasonLayout({ children, params }: LayoutProps<"/[season]">) {
-  const { season } = await params;
+export default async function SeasonLayout({ children, params }: LayoutProps<"/[lang]/[season]">) {
+  const { lang, season } = await params;
+  if (!isLang(lang)) notFound();
   const data = await getDataset();
   const seasons = seasonsNewestFirst(data);
   if (!seasons.includes(season)) notFound();
@@ -31,9 +33,9 @@ export default async function SeasonLayout({ children, params }: LayoutProps<"/[
     <div className="flex min-h-screen flex-col">
       <Masthead />
       <Nav season={season} seasons={seasons} counts={tabCounts(data, season)} />
-      <DataNote meta={data.meta} season={season} />
+      <DataNote lang={lang} meta={data.meta} season={season} />
       <main className="mx-auto w-full max-w-[1480px] flex-1 px-(--pad) pt-8 pb-20">{children}</main>
-      <Colophon meta={data.meta} coverage={coverage(data)} />
+      <Colophon lang={lang} meta={data.meta} coverage={coverage(data)} />
       <PlayerHashRouter season={season} players={players} />
     </div>
   );

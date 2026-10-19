@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { getDataset } from "@/data/load";
+import { isLang } from "@/i18n/config";
+import { getI18n } from "@/i18n";
 import { playerHistory, rosterRows, type PlayerHistory } from "@/lib/stats/roster";
 import { RosterScreen } from "@/screens/roster/roster-screen";
 
-export async function generateMetadata({ params }: PageProps<"/[season]/roster">): Promise<Metadata> {
-  const { season } = await params;
-  return { title: `Roster ${season} · The Águia Ledger` };
+export async function generateMetadata({ params }: PageProps<"/[lang]/[season]/roster">): Promise<Metadata> {
+  const { lang, season } = await params;
+  if (!isLang(lang)) return {};
+  const { t } = getI18n(lang);
+  return { title: `${t("tab.roster")} ${season} · ${t("site.name")}` };
 }
 
-export default async function RosterPage({ params }: PageProps<"/[season]/roster">) {
-  const { season } = await params;
+export default async function RosterPage({ params }: PageProps<"/[lang]/[season]/roster">) {
+  const { lang, season } = await params;
+  if (!isLang(lang)) notFound();
   const data = await getDataset();
   const rows = rosterRows(data, season);
   const ids = rows.map((r) => r.playerId);

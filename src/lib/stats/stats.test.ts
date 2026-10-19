@@ -5,7 +5,8 @@ import type { Transfer } from "@/data/schema";
 import { seasonSpending } from "./spending";
 import { careerMetric, defaultRosterSort, playerHistory, rosterRows, latestSeasonFor } from "./roster";
 import { latestSeason, seasonsNewestFirst } from "./seasons";
-import { fmtMoney, fmtNet, fmtTotal } from "../format";
+import { getI18n } from "@/i18n";
+const { money: fmtMoney, net: fmtNet, total: fmtTotal } = getI18n("en").f;
 
 const placeholder = async () => {
   const src = jsonDirSource("data/placeholder");

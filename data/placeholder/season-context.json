@@ -1,7 +1,8 @@
 [
   {
     "season": "2025-26",
-    "finish": "3rd, Primeira Liga (unbeaten, 23W 11D)",
+    "leaguePosition": 3,
+    "leagueNote": "unbeaten, 23W 11D",
     "points": 80,
     "manager": "Bruno Lage → José Mourinho",
     "goalsFor": 74,
@@ -10,7 +11,8 @@
   },
   {
     "season": "2026-27",
-    "finish": "2nd, Primeira Liga (after 6 rounds)",
+    "leaguePosition": 2,
+    "leagueNote": "after 6 rounds",
     "points": 16,
     "manager": "Marco Silva",
     "goalsFor": 21,
@@ -19,7 +21,8 @@
   },
   {
     "season": "2024-25",
-    "finish": "2nd, Primeira Liga",
+    "leaguePosition": 2,
+    "leagueNote": null,
     "points": 80,
     "manager": "Roger Schmidt → Bruno Lage",
     "goalsFor": 84,
@@ -28,7 +31,8 @@
   },
   {
     "season": "2023-24",
-    "finish": "2nd, Primeira Liga",
+    "leaguePosition": 2,
+    "leagueNote": null,
     "points": 80,
     "manager": "Roger Schmidt",
     "goalsFor": 77,
@@ -37,7 +41,8 @@
   },
   {
     "season": "2022-23",
-    "finish": "1st, Primeira Liga",
+    "leaguePosition": 1,
+    "leagueNote": null,
     "points": 87,
     "manager": "Roger Schmidt",
     "goalsFor": 84,
@@ -46,7 +51,8 @@
   },
   {
     "season": "2021-22",
-    "finish": "3rd, Primeira Liga",
+    "leaguePosition": 3,
+    "leagueNote": null,
     "points": 74,
     "manager": "Nélson Veríssimo",
     "goalsFor": 70,

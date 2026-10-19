@@ -2,34 +2,27 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { PlayerProfile, Transfer } from "@/data/schema";
-import { DASH, fmtDay, fmtMins, fmtMoney, fmtRating } from "@/lib/format";
+import { DASH } from "@/i18n/format";
+import { useI18n } from "@/i18n/client";
+import type { I18n } from "@/i18n";
 import { careerMetric, type PlayerHistory } from "@/lib/stats/roster";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 
-const TYPE_LABEL: Record<Transfer["type"], string> = {
-  permanent: "Permanent",
-  "loan-in": "Loan in",
-  "loan-out": "Loan out",
-  free: "Free transfer",
-  "loan-end": "End of loan",
-  "academy-promo": "Academy promotion",
-};
-
-function feeLabel(t: Transfer): string {
-  switch (t.type) {
+export function feeLabel(tr: Transfer, { t, f }: I18n): string {
+  switch (tr.type) {
     case "free":
-      return "Free";
+      return t("fee.free");
     case "academy-promo":
-      return "Academy";
+      return t("fee.academy");
     case "loan-in":
     case "loan-out":
-      return "Loan";
+      return t("fee.loan");
     case "loan-end":
-      return "Loan ended";
+      return t("fee.loanEnded");
     default:
-      return t.fee == null ? "Undisclosed" : fmtMoney(t.fee);
+      return tr.fee == null ? t("fee.undisclosed") : f.money(tr.fee);
   }
 }
 
@@ -52,6 +45,8 @@ export function PlayerCard({
   note?: string;
   currentSeason: string;
 }) {
+  const i18n = useI18n();
+  const { t, f, lang } = i18n;
   const [copied, setCopied] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
   useEffect(() => () => clearTimeout(timer.current), []);
@@ -62,7 +57,7 @@ export function PlayerCard({
   const maxMins = Math.max(1, ...seasons.map((s) => s.mins));
 
   const share = async () => {
-    const url = `${location.origin}/${currentSeason}/roster#player=${encodeURIComponent(history.name)}`;
+    const url = `${location.origin}/${lang}/${currentSeason}/roster#player=${encodeURIComponent(history.name)}`;
     try {
       await navigator.clipboard.writeText(url);
     } catch {
@@ -76,8 +71,8 @@ export function PlayerCard({
 
   const meta = [
     profile
-      ? `${profile.role} · ${profile.primary}${profile.secondary ? ` / ${profile.secondary}` : ""} · ${profile.foot}-foot`
-      : last.pos,
+      ? `${profile.role} · ${f.pos(profile.primary)}${profile.secondary ? ` / ${f.pos(profile.secondary)}` : ""} · ${t(`card.foot.${profile.foot}`)}`
+      : f.pos(last.pos),
     last.nat,
   ].filter(Boolean);
 
@@ -87,28 +82,29 @@ export function PlayerCard({
         <div>
           <div className="text-[32px] leading-none font-semibold tracking-[-0.03em] whitespace-normal">{history.name}</div>
           <div className="mt-2 font-mono text-[11px] tracking-[0.1em] whitespace-normal text-mute uppercase">
-            {meta.join(" · ")} · <span className={last.origin === "academy" ? "text-good" : undefined}>{last.origin}</span>
+            {meta.join(" · ")} ·{" "}
+            <span className={last.origin === "academy" ? "text-good" : undefined}>{t(`origin.${last.origin}`)}</span>
           </div>
         </div>
         <div className="flex flex-wrap gap-2">
           <TabsList>
-            <TabsTrigger value="arc">Career Arc</TabsTrigger>
-            <TabsTrigger value="transfers">Transfers</TabsTrigger>
-            <TabsTrigger value="injuries">Injuries</TabsTrigger>
+            <TabsTrigger value="arc">{t("card.arc")}</TabsTrigger>
+            <TabsTrigger value="transfers">{t("card.transfers")}</TabsTrigger>
+            <TabsTrigger value="injuries">{t("card.injuries")}</TabsTrigger>
           </TabsList>
           <Button variant="default" onClick={share} aria-live="polite">
-            {copied ? "Copied ✓" : "Share"}
+            {copied ? t("card.copied") : t("card.share")}
           </Button>
         </div>
       </div>
 
       <TabsContent value="arc" className="contents">
         <section>
-          <H3>{metric === "rating" ? "Rating trajectory" : "Minutes per season"}</H3>
+          <H3>{metric === "rating" ? t("card.ratingTrajectory") : t("card.minsPerSeason")}</H3>
           <div className="mt-2.5 flex h-20 items-end gap-1 border-b border-border pb-1">
             {seasons.map((s) => {
               const h = metric === "rating" ? ((s.rating ?? 0) / 9) * 70 : (s.mins / maxMins) * 70;
-              const val = metric === "rating" ? fmtRating(s.rating) : fmtMins(s.mins);
+              const val = metric === "rating" ? f.rating(s.rating) : f.mins(s.mins);
               return (
                 <div key={s.season} className="flex max-w-14 flex-1 flex-col items-center gap-1">
                   <div className="font-mono text-[10px] text-foreground">{val}</div>
@@ -121,25 +117,23 @@ export function PlayerCard({
               );
             })}
           </div>
-          {metric === "mins" && (
-            <p className="mt-2 font-mono text-[11px] text-mute">No ratings on record, so minutes are shown instead.</p>
-          )}
+          {metric === "mins" && <p className="mt-2 font-mono text-[11px] text-mute">{t("card.noRatings")}</p>}
           {note && (
             <p className="mt-5 border-l-2 border-foreground pl-3.5 text-sm leading-relaxed whitespace-normal text-ink-2">{note}</p>
           )}
         </section>
         <section>
-          <H3>Season-by-season</H3>
+          <H3>{t("card.seasonBySeason")}</H3>
           <table className={detailTable}>
             <thead>
               <tr className={lbl}>
-                <td>Season</td>
-                <td>Apps</td>
-                <td>Min</td>
-                <td>G</td>
-                <td>A</td>
-                <td>Rating</td>
-                <td>Pos</td>
+                <td>{t("col.season")}</td>
+                <td>{t("col.apps")}</td>
+                <td>{t("col.min")}</td>
+                <td>{t("col.goals")}</td>
+                <td>{t("col.assists")}</td>
+                <td>{t("col.rating")}</td>
+                <td>{t("col.pos")}</td>
               </tr>
             </thead>
             <tbody>
@@ -148,54 +142,53 @@ export function PlayerCard({
                   <td>{s.season}</td>
                   <td>{s.apps}</td>
                   <td>
-                    {fmtMins(s.mins)}
-                    {s.minsEstimated && <span className="text-mute" title="Estimated from starts and sub appearances">*</span>}
+                    {f.mins(s.mins)}
+                    {s.minsEstimated && <span className="text-mute" title={t("card.estimatedTitle")}>*</span>}
                   </td>
                   <td>{s.goals}</td>
                   <td>{s.assists ?? DASH}</td>
-                  <td>{fmtRating(s.rating)}</td>
-                  <td>{s.pos}</td>
+                  <td>{f.rating(s.rating)}</td>
+                  <td>{f.pos(s.pos)}</td>
                 </tr>
               ))}
             </tbody>
           </table>
-          {seasons.some((s) => s.minsEstimated) && (
-            <p className="mt-2 font-mono text-[10px] text-mute">* Estimated: 85 per start, 25 per sub appearance.</p>
-          )}
+          {seasons.some((s) => s.minsEstimated) && <p className="mt-2 font-mono text-[10px] text-mute">{t("card.estimated")}</p>}
         </section>
       </TabsContent>
 
       <TabsContent value="transfers" className="contents">
         <section>
-          <H3>Arrived</H3>
-          <MoveList moves={arrivals} dir="in" empty="No record in this dataset." />
+          <H3>{t("card.arrived")}</H3>
+          <MoveList moves={arrivals} dir="in" empty={t("card.noArrival")} i18n={i18n} />
         </section>
         <section>
-          <H3>Departed</H3>
+          <H3>{t("card.departed")}</H3>
           <MoveList
             moves={departures}
             dir="out"
-            empty={last.status === "stay" ? "Still at the club." : "No departure on record in this dataset."}
+            empty={last.status === "stay" ? t("card.stillAtClub") : t("card.noDeparture")}
+            i18n={i18n}
           />
         </section>
       </TabsContent>
 
       <TabsContent value="injuries" className="col-span-full">
-        <H3>Injury history</H3>
+        <H3>{t("card.injuryHistory")}</H3>
         {injuries.length === 0 ? (
-          <p className="font-mono text-xs text-mute">No injuries on record across these seasons.</p>
+          <p className="font-mono text-xs text-mute">{t("card.noInjuries")}</p>
         ) : (
           <div className="no-scrollbar overflow-x-auto">
             <table className={detailTable}>
               <thead>
                 <tr className={lbl}>
-                  <td>Season</td>
-                  <td>Type</td>
-                  <td>Out</td>
-                  <td>Back</td>
-                  <td>Weeks</td>
-                  <td>Matches</td>
-                  <td>Notes</td>
+                  <td>{t("col.season")}</td>
+                  <td>{t("col.type")}</td>
+                  <td>{t("col.out")}</td>
+                  <td>{t("col.back")}</td>
+                  <td>{t("col.weeks")}</td>
+                  <td>{t("col.matchesShort")}</td>
+                  <td>{t("col.notes")}</td>
                 </tr>
               </thead>
               <tbody>
@@ -203,8 +196,8 @@ export function PlayerCard({
                   <tr key={i.id}>
                     <td>{i.season}</td>
                     <td>{i.type}</td>
-                    <td>{fmtDay(i.out)}</td>
-                    <td>{fmtDay(i.back)}</td>
+                    <td>{f.day(i.out)}</td>
+                    <td>{f.day(i.back)}</td>
                     <td className="text-bad">{i.weeks}</td>
                     <td>{i.matches}</td>
                     <td className="text-[11px] whitespace-normal text-mute">{i.notes ?? DASH}</td>
@@ -219,33 +212,34 @@ export function PlayerCard({
   );
 }
 
-function MoveList({ moves, dir, empty }: { moves: Transfer[]; dir: "in" | "out"; empty: string }) {
+function MoveList({ moves, dir, empty, i18n }: { moves: Transfer[]; dir: "in" | "out"; empty: string; i18n: I18n }) {
+  const { t } = i18n;
   if (!moves.length) return <p className="font-mono text-xs text-mute">{empty}</p>;
   return (
     <div className="space-y-5">
-      {moves.map((t) => (
-        <table key={t.id} className={detailTable}>
+      {moves.map((m) => (
+        <table key={m.id} className={detailTable}>
           <tbody>
             <tr>
-              <td className={lbl}>Season</td>
-              <td>{t.season}</td>
+              <td className={lbl}>{t("col.season")}</td>
+              <td>{m.season}</td>
             </tr>
             <tr>
-              <td className={lbl}>{dir === "in" ? "From" : "To"}</td>
-              <td>{t.club}</td>
+              <td className={lbl}>{dir === "in" ? t("col.from") : t("col.to")}</td>
+              <td>{m.club}</td>
             </tr>
             <tr>
-              <td className={lbl}>Fee</td>
-              <td>{feeLabel(t)}</td>
+              <td className={lbl}>{t("col.fee")}</td>
+              <td>{feeLabel(m, i18n)}</td>
             </tr>
             <tr>
-              <td className={lbl}>Type</td>
-              <td>{TYPE_LABEL[t.type]}</td>
+              <td className={lbl}>{t("col.type")}</td>
+              <td>{t(`type.${m.type}`)}</td>
             </tr>
             {dir === "in" && (
               <tr>
-                <td className={lbl}>Age</td>
-                <td>{t.age ?? DASH}</td>
+                <td className={lbl}>{t("col.age")}</td>
+                <td>{m.age ?? DASH}</td>
               </tr>
             )}
           </tbody>

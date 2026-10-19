@@ -84,7 +84,10 @@ export const transferDetailSchema = z.object({
 
 export const seasonContextSchema = z.object({
   season: seasonId,
-  finish: z.string(),
+  /** League position; null before the table is meaningful. */
+  leaguePosition: z.number().int().positive().nullable(),
+  /** Short qualifier shown after the position, e.g. "after 6 rounds". */
+  leagueNote: z.string().nullable(),
   points: count,
   manager: z.string(),
   goalsFor: count,

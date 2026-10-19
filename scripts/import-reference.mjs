@@ -58,7 +58,10 @@ const profiles = Object.entries(w.POSITIONS).map(([player, p]) => ({
 }));
 
 const seasonContext = Object.entries(w.SEASON_CONTEXT).map(([season, c]) => ({
-  season, finish: c.finish, points: c.points, manager: c.manager,
+  season,
+  leaguePosition: parseInt(c.finish, 10) || null,
+  leagueNote: /\(([^)]+)\)/.exec(c.finish)?.[1] ?? null,
+  points: c.points, manager: c.manager,
   goalsFor: c.goalsFor, goalsAgainst: c.goalsAgainst, competitions: c.cl,
 }));
 

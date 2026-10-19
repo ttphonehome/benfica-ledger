@@ -18,7 +18,8 @@ npm run build
 
 - Next.js (App Router) with TypeScript, Tailwind v4 and shadcn/ui components (`src/components/ui`, owned code; `components.json` is set up for `npx shadcn add`).
 - Dark theme only. Colour tokens live in `src/app/globals.css`. Red (`--brand`) is the accent; `--bad` (coral) marks money out, losses and injuries; `--good` (teal) marks money in and wins.
-- Each season and tab is its own static page: `/2026-27/roster`. `#player=<name>` on any URL opens that player's card.
+- Each language, season and tab is its own static page: `/pt/2026-27/roster`. `#player=<name>` on any URL opens that player's card.
+- Portuguese (Portugal) is the default language, with English at `/en`. Interface text lives in `src/i18n/dictionaries/{pt,en}.ts` (a test checks both have the same keys and placeholders); numbers, money (`12,5 M€` / `€12.5m`), dates and position codes are formatted per language in `src/i18n/format.ts`. Text that comes from the data (notes, competition names) is shown as entered.
 
 ## Data layer
 

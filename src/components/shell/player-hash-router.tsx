@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { useI18n } from "@/i18n/client";
 
 type PlayerIndex = { id: string; name: string; seasons: string[] }[];
 
@@ -21,6 +22,7 @@ export function parsePlayerHash(hash: string): string | null {
 export function PlayerHashRouter({ season, players }: { season: string; players: PlayerIndex }) {
   const pathname = usePathname();
   const router = useRouter();
+  const { lang } = useI18n();
 
   useEffect(() => {
     const go = () => {
@@ -29,13 +31,13 @@ export function PlayerHashRouter({ season, players }: { season: string; players:
       const p = players.find((x) => x.name === key || x.id === key);
       if (!p) return;
       const target = p.seasons.includes(season) ? season : [...p.seasons].sort().at(-1)!;
-      const path = `/${target}/roster`;
+      const path = `/${lang}/${target}/roster`;
       if (pathname !== path) router.replace(`${path}#player=${encodeURIComponent(p.name)}`);
     };
     go();
     window.addEventListener("hashchange", go);
     return () => window.removeEventListener("hashchange", go);
-  }, [pathname, players, router, season]);
+  }, [lang, pathname, players, router, season]);
 
   return null;
 }
