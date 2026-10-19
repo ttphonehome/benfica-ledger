@@ -20,7 +20,8 @@ export const en = {
   "note.label.partial": "Partly sourced data",
   "note.placeholder": "Invented placeholder figures for design purposes.",
   "note.unverified": "Written from memory and not verified. Minutes are estimated (85 per start, 25 per sub). Ratings and assists not sourced.",
-  "note.partial": "Some figures come from real sources and some are still placeholders.",
+  "note.partial": "Match stats come from API-Football. Profiles, manager and president dates and editorial notes are hand-entered and not yet checked.",
+  "note.wikipedia": "Appearances and goals from Wikipedia. Minutes are estimated (85 per start, 25 per sub). No ratings or assists.",
   "note.none": "No provenance recorded for this season.",
   "note.tail": "Not for citation until real data is loaded.",
   "footer.left": "The Águia Ledger · Fan tool · Not affiliated with SL Benfica",
@@ -30,6 +31,7 @@ export const en = {
   "footer.illustrative": "Data: illustrative",
   "footer.updated": " · updated {date}",
   "footer.notConnected": " · not yet connected to a live source",
+  "footer.credits": "Sources: API-Football · Wikipedia (CC BY-SA 4.0)",
 
   // Shared labels
   "col.player": "Player",

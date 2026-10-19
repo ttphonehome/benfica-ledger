@@ -1,0 +1,2 @@
+# Hand-entered corrections that win over the automatic sources. kind: fee (EUR millions, needs dir in/out), rating, assists, minutes. Always give a source (e.g. Transfermarkt, SofaScore, CMVM filing, Maisfutebol) and its URL.
+kind,player,season,dir,value,source_name,source_url,note

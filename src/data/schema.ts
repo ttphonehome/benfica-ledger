@@ -88,10 +88,10 @@ export const seasonContextSchema = z.object({
   leaguePosition: z.number().int().positive().nullable(),
   /** Short qualifier shown after the position, e.g. "after 6 rounds". */
   leagueNote: z.string().nullable(),
-  points: count,
+  points: count.nullable(),
   manager: z.string(),
-  goalsFor: count,
-  goalsAgainst: count,
+  goalsFor: count.nullable(),
+  goalsAgainst: count.nullable(),
   competitions: z.string(),
 });
 
@@ -192,7 +192,7 @@ export const metaSchema = z.object({
   seasons: z.record(
     seasonId,
     z.object({
-      status: z.enum(["placeholder", "unverified", "sourced"]),
+      status: z.enum(["placeholder", "unverified", "partial", "sourced"]),
       note: z.string(),
     }),
   ),

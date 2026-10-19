@@ -100,7 +100,7 @@ export function SpendingScreen({
                     <TableCell className={num}>{s.loansOut}</TableCell>
                     <TableCell className={num}>{s.avgFee == null ? DASH : f.money1(s.avgFee)}</TableCell>
                     <TableCell className="text-xs text-mute">
-                      {ctx?.leaguePosition != null ? t("spending.ctx", { finish: f.ordinal(ctx.leaguePosition), points: ctx.points }) : DASH}
+                      {ctx?.leaguePosition != null ? t("spending.ctx", { finish: f.ordinal(ctx.leaguePosition), points: ctx.points ?? DASH }) : DASH}
                     </TableCell>
                   </TableRow>
                 );

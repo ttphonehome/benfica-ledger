@@ -25,14 +25,16 @@ npm run build
 
 ```
 data/placeholder/   JSON per dataset, imported from the design handoff
-data/snapshot/      written by the data pipeline (not yet built); wins when present
+data/snapshot/      written by the data pipeline; wins when present (REPORT.md says what came from where)
+data/manual/        hand-kept CSVs: manager and president tenures, academy list, profiles, titles, overrides
+data/cache/         cached API and Wikipedia responses, committed so finished seasons are fetched once
 src/data/schema.ts  zod schemas for every model; types are inferred from them
 src/data/source.ts  DataSource interface: anything that returns the Dataset shape
 src/data/load.ts    picks a source (DATA_DIR env, else snapshot, else placeholder) and validates it
 src/lib/stats/      every number on screen is derived here, with tests
 ```
 
-Datasets: player seasons, transfers, injuries, positions (player profiles), transfer details, season context, managers, presidents, editorial notes. `data/placeholder/meta.json` records how trustworthy each dataset and season is (`illustrative`, `unverified`, `sourced`).
+Datasets: player seasons, transfers, injuries, positions (player profiles), transfer details, season context, managers, presidents, editorial notes. `data/placeholder/meta.json` records how trustworthy each dataset and season is (`illustrative`, `unverified`, `sourced`), and each season's status (`placeholder`, `unverified`, `partial`, `sourced`).
 
 To plug in another source (CSV import, an API), write a `DataSource` that returns the same shape and select it in `src/data/load.ts`. Rows are validated on load, and cross-row problems (duplicate ids, unknown managers) fail the build instead of rendering wrong numbers.
 
@@ -49,3 +51,16 @@ To plug in another source (CSV import, an API), write a `DataSource` that return
 ### Coverage
 
 `meta.coverageTarget` sets the goal: the last ten seasons (from 2016-17), and at minimum every season of Rui Costa's presidency (from 2021-22). The footer shows how many target seasons are covered and which are missing. The placeholder covers 2021-22 to 2026-27; managers and presidents go back to 2015-16.
+
+## Data pipeline
+
+`npm run pipeline` (`pipeline/run.ts`) rebuilds `data/snapshot`. The **Data refresh** workflow runs it daily at 05:17 UTC, on manual dispatch, and whenever `pipeline/`, `data/manual/` or `src/data/` change; it runs the tests and the build before committing anything. Scheduled runs only fire on the default branch.
+
+Per season, the first source that has data wins:
+
+1. `data/manual/overrides.csv`: hand-entered fees, ratings, assists or minutes. Every row needs `source_name` and `source_url` (Transfermarkt, SofaScore, Maisfutebol, a club statement). Values from those sites go here by hand; the pipeline does not scrape them.
+2. API-Football (secret `API_FOOTBALL_KEY`): appearances, minutes, goals, assists, ratings, injuries, results, standings, formations, coaches and their trophies. The free plan only allows seasons 2022-23 to 2024-25; transfers come back for every season.
+3. English Wikipedia season articles (CC BY-SA 4.0): appearances and goals. Minutes are estimated at 85 per start and 25 per sub, and there are no ratings or assists. These seasons are marked `partial`.
+4. The design-handoff placeholder, with a warning in the report.
+
+Manager and president records are computed from match results inside each tenure in `data/manual/managers.csv` and `presidents.csv`; no API keeps those dates reliably. Rows seeded from the design handoff are marked `verified=no` and must be checked. The free plan's quota is 100 requests a day: finished seasons are cached forever, the live season for 12 hours, plan refusals for a week, and lineups (one request per match) are filled in with whatever quota is left, so formations appear over a few days.

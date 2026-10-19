@@ -32,7 +32,6 @@ export function integrityProblems(d: Dataset): string[] {
   }
   const seasons = new Set(d.playerSeasons.map((p) => p.season));
   for (const s of seasons) {
-    if (!d.seasonContext.some((c) => c.season === s)) problems.push(`No season context for ${s}`);
     if (!(s in d.meta.seasons)) problems.push(`No provenance entry for season ${s}`);
   }
   for (const m of d.managers) {

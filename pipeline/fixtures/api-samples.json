@@ -1,0 +1,29 @@
+{
+  "player": {"player":{"id":206,"name":"João Mário","firstname":"João Mário","lastname":"Naval da Costa Eduardo","birth":{"date":"1993-01-19"},"nationality":"Portugal"},"statistics":[
+    {"team":{"id":211},"league":{"id":2,"name":"UEFA Champions League"},"games":{"appearences":0,"lineups":0,"minutes":0,"position":"Midfielder","rating":null},"goals":{"total":0,"assists":null}},
+    {"team":{"id":211},"league":{"id":94,"name":"Primeira Liga"},"games":{"appearences":2,"lineups":2,"minutes":155,"position":"Midfielder","rating":"7.300000"},"goals":{"total":null,"assists":0}},
+    {"team":{"id":211},"league":{"id":667,"name":"Friendlies Clubs"},"games":{"appearences":3,"lineups":3,"minutes":200,"position":"Midfielder","rating":"9.000000"},"goals":{"total":4,"assists":2}}]},
+  "injuries": [
+    {"player":{"id":158065,"name":"T. Gouveia","type":"Missing Fixture","reason":"Shoulder Injury"},"fixture":{"id":1,"date":"2024-09-19T16:45:00+00:00"},"league":{"id":2,"name":"UEFA Champions League"}},
+    {"player":{"id":158065,"name":"T. Gouveia","type":"Missing Fixture","reason":"Shoulder Injury"},"fixture":{"id":2,"date":"2024-09-28T18:00:00+00:00"},"league":{"id":94,"name":"Primeira Liga"}},
+    {"player":{"id":158065,"name":"T. Gouveia","type":"Missing Fixture","reason":"Shoulder Injury"},"fixture":{"id":3,"date":"2024-12-01T18:00:00+00:00"},"league":{"id":94,"name":"Primeira Liga"}},
+    {"player":{"id":513,"name":"R. Sanches","type":"Questionable","reason":"Muscle Injury"},"fixture":{"id":1,"date":"2024-09-19T16:45:00+00:00"},"league":{"id":2,"name":"UEFA Champions League"}},
+    {"player":{"id":9,"name":"N. Otamendi","type":"Missing Fixture","reason":"Red Card"},"fixture":{"id":2,"date":"2024-09-28T18:00:00+00:00"},"league":{"id":94,"name":"Primeira Liga"}}
+  ],
+  "fixtures": [
+    {"fixture":{"id":1210620,"date":"2024-10-30T20:15:00+00:00","status":{"short":"FT"}},"league":{"id":97,"name":"Taça da Liga","round":"Quarter-finals"},"teams":{"home":{"id":211,"name":"Benfica","winner":true},"away":{"id":227,"name":"Santa Clara","winner":false}},"goals":{"home":3,"away":0}},
+    {"fixture":{"id":5,"date":"2024-08-10T20:15:00+00:00","status":{"short":"FT"}},"league":{"id":94,"name":"Primeira Liga","round":"1"},"teams":{"home":{"id":228,"name":"Famalicão","winner":true},"away":{"id":211,"name":"Benfica","winner":false}},"goals":{"home":2,"away":0}},
+    {"fixture":{"id":6,"date":"2024-07-20T20:15:00+00:00","status":{"short":"FT"}},"league":{"id":667,"name":"Friendlies Clubs","round":"x"},"teams":{"home":{"id":211,"name":"Benfica","winner":true},"away":{"id":1,"name":"X","winner":false}},"goals":{"home":5,"away":0}},
+    {"fixture":{"id":7,"date":"2025-03-01T20:15:00+00:00","status":{"short":"PEN"}},"league":{"id":96,"name":"Taça de Portugal","round":"SF"},"teams":{"home":{"id":211,"name":"Benfica","winner":true},"away":{"id":2,"name":"Y","winner":false}},"goals":{"home":1,"away":1}}
+  ],
+  "transfers": [
+    {"player":{"id":1,"name":"Juan Bernat"},"transfers":[
+      {"date":"2024-07-01","type":"N/A","teams":{"in":{"id":85,"name":"Paris Saint Germain"},"out":{"id":211,"name":"Benfica"}}},
+      {"date":"2024-07-01","type":"N/A","teams":{"in":{"id":85,"name":"Paris Saint Germain"},"out":{"id":211,"name":"Benfica"}}},
+      {"date":"2023-08-30","type":"Loan","teams":{"in":{"id":211,"name":"Benfica"},"out":{"id":85,"name":"Paris Saint Germain"}}}]},
+    {"player":{"id":2,"name":"Darwin Núñez"},"transfers":[
+      {"date":"2022-06-14","type":"€ 75M","teams":{"in":{"id":40,"name":"Liverpool"},"out":{"id":211,"name":"Benfica"}}},
+      {"date":"2020-09-04","type":"€ 24M","teams":{"in":{"id":211,"name":"Benfica"},"out":{"id":723,"name":"Almería"}}},
+      {"date":"2019-01-01","type":"Loan","teams":{"in":{"id":723,"name":"Almería"},"out":{"id":99,"name":"Peñarol"}}}]}
+  ]
+}

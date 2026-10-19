@@ -1,0 +1,9 @@
+# Manager tenures (YYYY-MM-DD; leave departed empty for the current manager). Records are computed from match results.
+id,name,nick,appointed,departed,source,verified
+lage-2,Bruno Lage,Lage · 2nd stint,2024-06-15,,design handoff,no
+schmidt,Roger Schmidt,Schmidt,2022-07-01,2024-05-31,design handoff,no
+verissimo,Nélson Veríssimo,Veríssimo,2021-12-29,2022-06-30,design handoff,no
+jesus-2,Jorge Jesus,Jesus · 2nd stint,2020-07-15,2021-12-28,design handoff,no
+lage-1,Bruno Lage,Lage · 1st stint,2019-01-03,2020-06-30,design handoff,no
+rui-vitoria,Rui Vitória,Vitória,2015-06-22,2019-01-02,design handoff,no
+marco-silva,Marco Silva,Marco Silva,2026-07-01,,API-Football coaches,no

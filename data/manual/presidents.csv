@@ -1,0 +1,4 @@
+# Club presidents. No football API covers these, so this file is the source.
+id,name,nick,appointed,departed,notes,source,verified
+costa,Rui Costa,Costa,2021-10-09,,Took over after Vieira's resignation. Inherited a transitional squad mid-season.,design handoff,no
+vieira,Luís Filipe Vieira,Vieira,2003-10-31,2021-10-09,18 years in charge. Window shown: last 6 seasons of his tenure.,design handoff,no

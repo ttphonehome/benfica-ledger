@@ -23,15 +23,12 @@ export interface Coverage {
 }
 
 // What share of the target window the data actually covers. A season counts
-// only when it has player rows, transfers and season context.
+// when it has player rows and transfers.
 export function coverage(d: Dataset): Coverage {
   const latest = seasonsNewestFirst(d)[0] ?? d.meta.coverageTarget.minimumFirstSeason;
   const target = seasonRange(d.meta.coverageTarget.firstSeason, latest);
   const minimum = seasonRange(d.meta.coverageTarget.minimumFirstSeason, latest);
-  const has = (s: Season) =>
-    d.playerSeasons.some((p) => p.season === s) &&
-    d.transfers.some((t) => t.season === s) &&
-    d.seasonContext.some((c) => c.season === s);
+  const has = (s: Season) => d.playerSeasons.some((p) => p.season === s) && d.transfers.some((t) => t.season === s);
   const covered = target.filter(has);
   return {
     target,

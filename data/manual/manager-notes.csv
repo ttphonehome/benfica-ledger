@@ -1,0 +1,14 @@
+# Editorial notes and academy promotions per manager and season. youth_promoted is a ; separated list.
+manager_id,season,notes,youth_promoted,source
+lage-2,2024-25,Tactically consistent. Trusts youth more than predecessor.,Manu Silva; Samuel Soares; Tiago Gouveia,design handoff
+schmidt,2023-24,High-press philosophy. Squad fatigued in spring; lost title late.,Tomás Araújo,design handoff
+schmidt,2022-23,"Title-winning year. Press, transitions, Enzo as orchestrator.",António Silva; Henrique Araújo,design handoff
+verissimo,2021-22,Interim. Stabilised after Jesus exit. CL QF run was a high point.,Gonçalo Ramos,design handoff
+jesus-2,2021-22,Departed late December after winless run vs rivals.,,design handoff
+jesus-2,2020-21,Return year. Bottled the title chase. Heavy reliance on veterans.,,design handoff
+lage-1,2019-20,Followed up title with a 2nd-place finish. Squad turnover hurt continuity.,João Félix (prior year); Florentino Luís,design handoff
+lage-1,2018-19,"Came from B-team. Won league with a young, exciting squad. The breakout.",João Félix; Rúben Dias; Gedson Fernandes,design handoff
+rui-vitoria,2018-19,Sacked mid-season after derby loss. Lage promoted from B.,Rúben Dias,design handoff
+rui-vitoria,2017-18,Lost the tetra dream to Porto. Tactically conservative.,,design handoff
+rui-vitoria,2016-17,Won the tetra. Defensive solidity (19 GA). Peak Vitória.,Rúben Dias; Nélson Semedo,design handoff
+rui-vitoria,2015-16,Tri-campeão year. Inherited a strong squad and ran with it.,,design handoff

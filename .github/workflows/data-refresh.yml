@@ -1,0 +1,54 @@
+name: Data refresh
+
+# Daily refresh of data/snapshot from API-Football, Wikipedia and the
+# hand-kept CSVs in data/manual. API responses are cached in data/cache, so
+# finished seasons are fetched once and daily runs stay inside the free plan.
+# A run that fails validation, tests or the build commits nothing.
+on:
+  schedule:
+    - cron: "17 5 * * *" # 05:17 UTC, after the night's matches have settled
+  workflow_dispatch:
+  push:
+    paths:
+      - pipeline/**
+      - data/manual/**
+      - src/data/**
+      - .github/workflows/data-refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch, merge and validate
+        run: npm run pipeline
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - run: npm test
+      - name: Build the site against the new snapshot
+        run: npm run build
+      - name: Commit the snapshot and cache
+        run: |
+          git add data/snapshot data/cache
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Data refresh $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

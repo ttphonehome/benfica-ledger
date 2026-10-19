@@ -17,6 +17,7 @@ export function Colophon({ lang, meta, coverage }: { lang: Lang; meta: DatasetMe
       <div>
         {t(sourced ? "footer.sourced" : "footer.illustrative")}
         {meta.generatedAt ? t("footer.updated", { date: f.day(meta.generatedAt.slice(0, 10)) }) : t("footer.notConnected")}
+        {meta.generatedAt && <div className="mt-1">{t("footer.credits")}</div>}
       </div>
     </footer>
   );

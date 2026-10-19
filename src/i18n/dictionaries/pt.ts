@@ -21,7 +21,8 @@ export const pt: Dict = {
   "note.label.partial": "Dados parcialmente verificados",
   "note.placeholder": "Valores inventados apenas para efeitos de design.",
   "note.unverified": "Escrito de memória e não verificado. Os minutos são estimados (85 por titularidade, 25 por entrada como suplente). Notas e assistências sem fonte.",
-  "note.partial": "Alguns valores vêm de fontes reais e outros continuam provisórios.",
+  "note.partial": "Estatísticas de jogo do API-Football. Perfis, datas de treinadores e presidentes e notas editoriais foram introduzidos à mão e ainda não foram verificados.",
+  "note.wikipedia": "Jogos e golos da Wikipédia. Os minutos são estimados (85 por titularidade, 25 por entrada como suplente). Sem notas nem assistências.",
   "note.none": "Sem origem registada para esta época.",
   "note.tail": "Não citar até serem carregados dados reais.",
   "footer.left": "The Águia Ledger · Ferramenta de adeptos · Sem ligação ao SL Benfica",
@@ -31,6 +32,7 @@ export const pt: Dict = {
   "footer.illustrative": "Dados: ilustrativos",
   "footer.updated": " · atualizado a {date}",
   "footer.notConnected": " · ainda sem ligação a uma fonte em direto",
+  "footer.credits": "Fontes: API-Football · Wikipédia (CC BY-SA 4.0)",
 
   // Etiquetas comuns
   "col.player": "Jogador",

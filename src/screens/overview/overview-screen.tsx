@@ -45,9 +45,9 @@ export function OverviewScreen({
         <p className="dek">
           {t("overview.dek", {
             finish: finishText(ctx, i18n),
-            points: ctx.points,
-            gf: ctx.goalsFor,
-            ga: ctx.goalsAgainst,
+            points: ctx.points ?? DASH,
+            gf: ctx.goalsFor ?? DASH,
+            ga: ctx.goalsAgainst ?? DASH,
             competitions: ctx.competitions,
             manager: ctx.manager,
           })}

@@ -1,0 +1,21 @@
+# Player role profiles. Positions use GK CB LB RB LWB RWB DF DM CM AM LM RM MF LW RW ST FW; foot is L, R or B.
+player,primary,secondary,foot,role,source,verified
+Vangelis Pavlidis,ST,LW,R,Pressing Forward,design handoff,no
+Ángel Di María,RW,AM,L,Inverted Winger,design handoff,no
+Kerem Aktürkoğlu,LW,RW,R,Inside Forward,design handoff,no
+David Neres,RW,LW,L,Dribbler-Winger,design handoff,no
+Florentino Luís,DM,CM,R,Ball-Winning Mid,design handoff,no
+Orkun Kökçü,CM,AM,L,Deep-Lying Playmaker,design handoff,no
+Fredrik Aursnes,CM,RB,R,Box-to-Box Mid,design handoff,no
+Álvaro Carreras,LB,LWB,L,Attacking Full-Back,design handoff,no
+Alexander Bah,RB,RWB,R,Attacking Full-Back,design handoff,no
+Nicolás Otamendi,CB,DM,R,Stopper,design handoff,no
+António Silva,CB,RB,R,Ball-Playing CB,design handoff,no
+Tomás Araújo,CB,RB,R,Ball-Playing CB,design handoff,no
+Anatoliy Trubin,GK,,R,Sweeper-Keeper,design handoff,no
+João Neves,DM,CM,R,Box-to-Box Mid,design handoff,no
+Rafa Silva,AM,RW,R,Free 10,design handoff,no
+Gonçalo Ramos,ST,,R,Pressing Forward,design handoff,no
+Darwin Núñez,ST,LW,R,Target Forward,design handoff,no
+Enzo Fernández,CM,DM,R,Deep-Lying Playmaker,design handoff,no
+Álex Grimaldo,LB,LM,L,Attacking Full-Back,design handoff,no
