@@ -73,6 +73,16 @@
     "managerId": "verissimo",
     "verdict": "neutral",
     "note": "Inherited interim; promoted to full season. CL QF was the high point."
+   },
+   {
+    "managerId": "mourinho",
+    "verdict": "bad",
+    "note": ""
+   },
+   {
+    "managerId": "marco-silva",
+    "verdict": "neutral",
+    "note": ""
    }
   ]
  },
@@ -185,6 +195,11 @@
     "managerId": "rui-vitoria",
     "verdict": "good",
     "note": "Three straight titles, tetra-campeão. Sacked after dressing-room drift."
+   },
+   {
+    "managerId": "verissimo-2020",
+    "verdict": "neutral",
+    "note": ""
    }
   ]
  }

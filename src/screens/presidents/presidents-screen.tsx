@@ -316,7 +316,7 @@ function Record({ view }: { view: PresidentView }) {
 }
 
 function Hires({ agg }: { agg: PresidentAgg }) {
-  const { t, f } = useI18n();
+  const { t, tp, f } = useI18n();
   const hires = agg.hires;
   const good = hires.filter((h) => h.verdict === "good").length;
   const bad = hires.filter((h) => h.verdict === "bad").length;
@@ -326,7 +326,7 @@ function Hires({ agg }: { agg: PresidentAgg }) {
   return (
     <>
       <h3 className="mb-[18px] text-lg font-medium tracking-[-0.018em]">
-        {t("presidents.hiresHeader", { n: hires.length, g: good, b: bad })}
+        {t("presidents.hiresHeader", { n: tp("hires.appointments", hires.length), hits: tp("hires.hits", good), misses: tp("hires.misses", bad) })}
       </h3>
       <ScrollArea>
         <Table>
@@ -354,13 +354,19 @@ function Hires({ agg }: { agg: PresidentAgg }) {
                 <TableCell className="font-mono text-[12.5px] text-mute">{h.departed ? f.month(h.departed) : <span className="text-foreground">{t("presidents.active")}</span>}</TableCell>
                 <TableCell className={num}>{t("yrs", { n: f.num(h.years, 1) })}</TableCell>
                 <TableCell className="font-mono text-[12.5px]">
-                  {h.record.w}
-                  <span className="text-mute">–{h.record.d}–</span>
-                  <span className="text-bad">{h.record.l}</span>
+                  {h.record.w + h.record.d + h.record.l ? (
+                    <>
+                      {h.record.w}
+                      <span className="text-mute">–{h.record.d}–</span>
+                      <span className="text-bad">{h.record.l}</span>
+                    </>
+                  ) : (
+                    <Faint />
+                  )}
                 </TableCell>
-                <TableCell className={cn(num, "font-medium")}>{f.pct(h.winPct)}</TableCell>
+                <TableCell className={cn(num, "font-medium")}>{h.record.w + h.record.d + h.record.l ? f.pct(h.winPct) : <Faint />}</TableCell>
                 <TableCell className="text-xs">{h.titles.length ? <span className="text-good">★ {h.titles.join(" · ")}</span> : <Faint />}</TableCell>
-                <TableCell className="min-w-[260px] text-xs whitespace-normal text-mute">{h.note}</TableCell>
+                <TableCell className="min-w-[260px] text-xs whitespace-normal text-mute">{h.note || <Faint />}</TableCell>
               </TableRow>
             ))}
           </TableBody>
@@ -370,7 +376,7 @@ function Hires({ agg }: { agg: PresidentAgg }) {
         {hitRate >= 67
           ? t("hires.strong", { g: good, n: hires.length, t: trophies })
           : hitRate >= 50
-            ? t("hires.mixed", { g: good, b: bad })
+            ? t("hires.mixed", { hits: tp("hires.hits", good), misses: tp("hires.misses", bad) })
             : t("hires.weak", { g: good, n: hires.length })}
       </Aside>
     </>

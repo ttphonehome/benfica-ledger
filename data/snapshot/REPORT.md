@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-19. API requests this run: 1, 8 left today.
+As of 2026-10-19. API requests this run: 0.
 
 | Season | Source |
 | --- | --- |
@@ -31,16 +31,9 @@ Rows: playerSeasons 379, transfers 619, injuries 24, managers 9, presidents 2, u
 - Jorge Jesus 2021-22: no match results available; kept the design-handoff record
 - Nélson Veríssimo 2021-22: no match results available; kept the design-handoff record
 - President Costa 2021-22: no match results available; kept the design-handoff record
-- manager-hires.csv: no verdict for Rui Costa hiring José Mourinho (mourinho, 2025-09-18); not shown on the Presidency screen
-- manager-hires.csv: no verdict for Rui Costa hiring Marco Silva (marco-silva, 2026-07-01); not shown on the Presidency screen
 - President Vieira 2016-17: no match results available; kept the design-handoff record
 - President Vieira 2017-18: no match results available; kept the design-handoff record
 - President Vieira 2018-19: no match results available; kept the design-handoff record
 - President Vieira 2019-20: no match results available; kept the design-handoff record
 - President Vieira 2020-21: no match results available; kept the design-handoff record
 - President Vieira 2021-22: no match results available; kept the design-handoff record
-- manager-hires.csv: no verdict for Luís Filipe Vieira hiring Nélson Veríssimo (verissimo-2020, 2020-06-30); not shown on the Presidency screen
-
-### Log
-
-- Stopping with 8 requests left today; the rest comes from cache
