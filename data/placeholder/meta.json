@@ -1,0 +1,40 @@
+{
+  "generatedAt": null,
+  "datasets": {
+    "playerSeasons": "illustrative",
+    "transfers": "illustrative",
+    "injuries": "illustrative",
+    "profiles": "illustrative",
+    "transferDetails": "illustrative",
+    "seasonContext": "illustrative",
+    "managers": "illustrative",
+    "presidents": "illustrative",
+    "notes": "illustrative"
+  },
+  "seasons": {
+    "2026-27": {
+      "status": "unverified",
+      "note": "Written from memory and not verified. Minutes are estimated (85 per start, 25 per sub). Ratings and assists not sourced."
+    },
+    "2025-26": {
+      "status": "unverified",
+      "note": "Written from memory and not verified. Minutes are estimated (85 per start, 25 per sub). Ratings and assists not sourced."
+    },
+    "2024-25": {
+      "status": "unverified",
+      "note": "Written from memory and not verified. Minutes are estimated (85 per start, 25 per sub). Ratings and assists not sourced."
+    },
+    "2023-24": {
+      "status": "unverified",
+      "note": "Written from memory and not verified. Minutes are estimated (85 per start, 25 per sub). Ratings and assists not sourced."
+    },
+    "2022-23": {
+      "status": "placeholder",
+      "note": "Invented placeholder figures for design purposes."
+    },
+    "2021-22": {
+      "status": "placeholder",
+      "note": "Invented placeholder figures for design purposes."
+    }
+  }
+}

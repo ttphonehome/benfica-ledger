@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Dark only. The reference's "ink" theme, expressed as shadcn/ui tokens.
+   Palette rule: near-black, greys as white opacity, red, teal. Nothing else. */
+
+@custom-variant dark (&:is(.dark *));
+/* Touch screens get 44px tap targets; desktop keeps the reference spacing. */
+@custom-variant touch (@media (pointer: coarse));
+
+:root {
+  color-scheme: dark;
+
+  /* Reference names */
+  --paper: #0e0e0f;
+  --paper-2: rgba(255, 255, 255, 0.04);
+  --paper-edge: rgba(255, 255, 255, 0.08);
+  --ink: rgba(255, 255, 255, 0.94);
+  --ink-2: rgba(255, 255, 255, 0.74);
+  --mute: rgba(255, 255, 255, 0.5);
+  --mute-2: rgba(255, 255, 255, 0.32);
+  --rule: rgba(255, 255, 255, 0.1);
+  --rule-strong: rgba(255, 255, 255, 0.22);
+
+  /* Brand accent: Benfica red. A deep, saturated red used as a solid fill or
+     a 2px line on interface chrome (active tab, primary button, selection,
+     focus). Swap this one value for an exact club red. */
+  --brand: oklch(0.55 0.21 27);
+  --brand-foreground: #ffffff;
+
+  /* Money and results. "bad" (money out, losses, injuries) is a lighter coral
+     used only as text or a soft tint, always next to a sign or label, so it
+     never reads as the accent. "good" is teal. */
+  --good: oklch(0.72 0.1 195);
+  --good-soft: oklch(0.72 0.1 195 / 0.14);
+  --bad: oklch(0.72 0.15 30);
+  --bad-soft: oklch(0.68 0.18 28 / 0.16);
+  --warn: rgba(255, 255, 255, 0.55);
+  --warn-soft: rgba(255, 255, 255, 0.08);
+
+  /* shadcn/ui tokens */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: #19191a;
+  --popover-foreground: var(--ink);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: var(--paper-2);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-2);
+  --muted-foreground: var(--mute);
+  --accent: rgba(255, 255, 255, 0.07);
+  --accent-foreground: var(--ink);
+  --destructive: var(--bad);
+  --border: var(--rule);
+  --input: var(--rule-strong);
+  --ring: var(--brand);
+  --radius: 0px;
+
+  --row-h: 44px;
+  --pad: 24px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --pad: 16px;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-paper-2: var(--paper-2);
+  --color-ink-2: var(--ink-2);
+  --color-mute: var(--mute);
+  --color-mute-2: var(--mute-2);
+  --color-rule-strong: var(--rule-strong);
+  --color-brand: var(--brand);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --radius-xl: var(--radius);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/60;
+  }
+  html {
+    @apply bg-background;
+  }
+  /* 14px body text as in the reference; the root stays 16px so rem-based
+     sizes (h-8 = 32px, h-11 = 44px) mean what they say. */
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+/* Small type styles the reference repeats everywhere. */
+@utility tnum {
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--mute);
+}
+@utility kicker {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--mute);
+  margin-bottom: 10px;
+}
+@utility section-h {
+  font-size: clamp(24px, 2.6vw, 34px);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+@utility dek {
+  font-size: 15px;
+  color: var(--mute);
+  max-width: 62ch;
+  line-height: 1.5;
+  margin: 0 0 28px;
+  letter-spacing: -0.005em;
+}
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
