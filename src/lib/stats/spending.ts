@@ -43,3 +43,36 @@ export function seasonSpending(transfers: Transfer[], season: Season): SeasonSpe
     avgFee: permIn.length ? spent / permIn.length : null,
   };
 }
+
+export interface SpendingTotals {
+  seasons: SeasonSpending[];
+  /** Sums of each season's whole-€m figure, so columns add up on screen. */
+  spent: number;
+  received: number;
+  net: number;
+  avgNet: number;
+  bought: number;
+  /** Largest single bar, for scaling. */
+  max: number;
+}
+
+/** All seasons, oldest first, plus totals. */
+export function spendingTotals(transfers: Transfer[], seasonsNewestFirst: Season[]): SpendingTotals {
+  const seasons = [...seasonsNewestFirst].reverse().map((s) => seasonSpending(transfers, s));
+  const spent = seasons.reduce((a, s) => a + Math.round(s.spent), 0);
+  const received = seasons.reduce((a, s) => a + Math.round(s.received), 0);
+  return {
+    seasons,
+    spent,
+    received,
+    net: received - spent,
+    avgNet: seasons.length ? (received - spent) / seasons.length : 0,
+    bought: seasons.reduce((a, s) => a + s.bought, 0),
+    max: Math.max(1, ...seasons.map((s) => Math.max(Math.round(s.spent), Math.round(s.received)))),
+  };
+}
+
+/** Whether any transfer rows exist for a season (spend is unknown otherwise). */
+export function hasTransferData(transfers: Transfer[], season: Season): boolean {
+  return transfers.some((t) => t.season === season);
+}

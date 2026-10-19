@@ -113,6 +113,7 @@ export function RosterScreen({
     getRowId: (r) => r.playerId,
     sortDescFirst: true,
     enableSortingRemoval: false,
+    autoResetAll: false,
   });
 
   const sorted = table.getRowModel().rows;

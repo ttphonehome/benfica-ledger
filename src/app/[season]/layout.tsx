@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDataset } from "@/data/load";
 import { seasonsNewestFirst } from "@/lib/stats/seasons";
 import { tabCounts } from "@/lib/stats/nav";
+import { coverage } from "@/lib/stats/coverage";
 import { Masthead } from "@/components/shell/masthead";
 import { Nav } from "@/components/shell/nav";
 import { DataNote } from "@/components/shell/data-note";
@@ -32,7 +33,7 @@ export default async function SeasonLayout({ children, params }: LayoutProps<"/[
       <Nav season={season} seasons={seasons} counts={tabCounts(data, season)} />
       <DataNote meta={data.meta} season={season} />
       <main className="mx-auto w-full max-w-[1480px] flex-1 px-(--pad) pt-8 pb-20">{children}</main>
-      <Colophon meta={data.meta} />
+      <Colophon meta={data.meta} coverage={coverage(data)} />
       <PlayerHashRouter season={season} players={players} />
     </div>
   );

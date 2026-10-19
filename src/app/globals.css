@@ -33,10 +33,16 @@
      never reads as the accent. "good" is teal. */
   --good: oklch(0.72 0.1 195);
   --good-soft: oklch(0.72 0.1 195 / 0.14);
-  --bad: oklch(0.72 0.15 30);
+  --bad: oklch(0.68 0.18 28);
   --bad-soft: oklch(0.68 0.18 28 / 0.16);
   --warn: rgba(255, 255, 255, 0.55);
   --warn-soft: rgba(255, 255, 255, 0.08);
+
+  /* Ranked fills for formation bars (most used first). */
+  --ink-0: rgba(255, 255, 255, 0.92);
+  --ink-1: rgba(255, 255, 255, 0.55);
+  --ink-2-fill: rgba(255, 255, 255, 0.32);
+  --ink-3: rgba(255, 255, 255, 0.18);
 
   /* shadcn/ui tokens */
   --background: var(--paper);

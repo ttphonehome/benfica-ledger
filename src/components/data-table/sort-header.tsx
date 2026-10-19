@@ -8,18 +8,20 @@ export function SortHead<T>({
   column,
   label,
   right,
+  className,
 }: {
   column: Column<T, unknown>;
   label: string;
   right?: boolean;
+  className?: string;
 }) {
   const dir = column.getIsSorted();
   if (!column.getCanSort()) {
-    return <TableHead className={cn(right && "text-right")}>{label}</TableHead>;
+    return <TableHead className={cn(right && "text-right", className)}>{label}</TableHead>;
   }
   return (
     <TableHead
-      className="p-0"
+      className={cn("p-0", className)}
       aria-sort={dir === "asc" ? "ascending" : dir === "desc" ? "descending" : "none"}
     >
       <button

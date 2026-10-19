@@ -40,3 +40,11 @@ To plug in another source (CSV import, an API), write a `DataSource` that return
 - Fee totals count permanent transfers only (no loan fees, free transfers or academy promotions) and are shown in whole €m.
 - Net spend is computed from the rounded totals, so spent, received and net on screen always add up.
 - Ratings and assists can be missing: they show "—", and screens fall back to goals or minutes.
+- Win %, points per game, records, tenure and titles are derived from W-D-L rows and dates, never stored.
+- Transfer Audit judges a departure on the player's last season at the club (a summer sale has no row in the window season).
+- A season's transfer spend is credited to the president in office on 1 July. Seasons with no transfer rows show "—", not zero.
+- "Now" on timelines is `meta.asOf`, the date the data describes, so builds are reproducible.
+
+### Coverage
+
+`meta.coverageTarget` sets the goal: the last ten seasons (from 2016-17), and at minimum every season of Rui Costa's presidency (from 2021-22). The footer shows how many target seasons are covered and which are missing. The placeholder covers 2021-22 to 2026-27; managers and presidents go back to 2015-16.

@@ -99,6 +99,10 @@ const notes = Object.entries(w.NOTES).map(([player, text]) => ({ playerId: slug(
 
 const meta = {
   generatedAt: null,
+  // data.js describes 2026-27 "as of 13 Sep 2026".
+  asOf: "2026-09-13",
+  // Goal: the last ten seasons. Floor: every season of Rui Costa's presidency.
+  coverageTarget: { firstSeason: "2016-17", minimumFirstSeason: "2021-22" },
   datasets: {
     playerSeasons: "illustrative", transfers: "illustrative", injuries: "illustrative",
     profiles: "illustrative", transferDetails: "illustrative", seasonContext: "illustrative",

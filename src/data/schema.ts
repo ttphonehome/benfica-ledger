@@ -179,6 +179,10 @@ export const DATASET_KEYS = [
 
 export const metaSchema = z.object({
   generatedAt: z.iso.datetime().nullable(),
+  /** The date the data describes ("now" on timelines, tenure of people still in post). */
+  asOf: isoDate,
+  /** Seasons the data should cover: ideally from `firstSeason`, never less than from `minimumFirstSeason`. */
+  coverageTarget: z.object({ firstSeason: seasonId, minimumFirstSeason: seasonId }),
   datasets: z.record(z.enum(DATASET_KEYS), provenance),
   seasons: z.record(
     seasonId,

@@ -30,7 +30,7 @@ export function ScrollArea({ children, className }: { children: React.ReactNode;
 
   return (
     <div className="relative">
-      <div ref={ref} className={cn("no-scrollbar overflow-x-auto overflow-y-hidden", className)}>
+      <div ref={ref} data-scroll-area className={cn("no-scrollbar overflow-x-auto overflow-y-hidden", className)}>
         {children}
       </div>
       <div

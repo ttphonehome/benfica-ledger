@@ -1,5 +1,10 @@
 {
   "generatedAt": null,
+  "asOf": "2026-09-13",
+  "coverageTarget": {
+    "firstSeason": "2016-17",
+    "minimumFirstSeason": "2021-22"
+  },
   "datasets": {
     "playerSeasons": "illustrative",
     "transfers": "illustrative",
