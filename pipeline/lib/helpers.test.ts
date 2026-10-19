@@ -15,6 +15,14 @@ describe("pipeline helpers", () => {
     expect(parseTransferType("Free", "in")).toEqual({ type: "free", fee: 0 });
     expect(parseTransferType("N/A", "in")).toEqual({ type: "permanent", fee: null });
     expect(parseTransferType("£ 30M", "out")).toEqual({ type: "permanent", fee: null });
+    expect(parseTransferType("1.6M €", "in")).toEqual({ type: "permanent", fee: 1.6 });
+    expect(parseTransferType("750K", "out")).toEqual({ type: "permanent", fee: 0.75 });
+    expect(parseTransferType("€ 243.5K", "out")).toEqual({ type: "permanent", fee: 0.244 });
+    expect(parseTransferType("7M", "in")).toEqual({ type: "permanent", fee: 7 });
+    expect(parseTransferType("€ Free", "in")).toEqual({ type: "free", fee: 0 });
+    expect(parseTransferType("Free agent", "in")).toEqual({ type: "free", fee: 0 });
+    expect(parseTransferType("Return from loan", "in")).toEqual({ type: "loan-end", fee: null });
+    for (const x of ["€ N/A", "Transfer", "Swap", "Raise", "-", null]) expect(parseTransferType(x, "in")).toEqual({ type: "permanent", fee: null });
   });
 
   it("assigns dates to seasons and windows", () => {
