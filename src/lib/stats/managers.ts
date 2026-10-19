@@ -22,6 +22,8 @@ export function sumRecords(rs: Record3[]): Record3 {
   return rs.reduce((a, r) => ({ w: a.w + r.w, d: a.d + r.d, l: a.l + r.l }), { w: 0, d: 0, l: 0 });
 }
 
+const mean = (xs: number[]) => (xs.length ? xs.reduce((a, x) => a + x, 0) / xs.length : null);
+
 export interface ManagerAgg extends Record3 {
   id: string;
   name: string;
@@ -32,7 +34,8 @@ export interface ManagerAgg extends Record3 {
   ppg: number;
   titles: string[];
   avgFinish: number | null;
-  avgAcademy: number;
+  /** Mean of seasons with a value; null when none have one. */
+  avgAcademy: number | null;
   youthPromoted: string[];
   seasonCount: number;
   tenureMonths: number;
@@ -52,7 +55,7 @@ export function managerAgg(m: Manager, asOf: string): ManagerAgg {
     ppg: ppg(rec),
     titles: m.seasons.flatMap((s) => s.titles),
     avgFinish: finishes.length ? finishes.reduce((a, x) => a + x, 0) / finishes.length : null,
-    avgAcademy: m.seasons.length ? m.seasons.reduce((a, s) => a + s.academyMinutesPct, 0) / m.seasons.length : 0,
+    avgAcademy: mean(m.seasons.flatMap((s) => (s.academyMinutesPct == null ? [] : [s.academyMinutesPct]))),
     youthPromoted: [...new Set(m.seasons.flatMap((s) => s.youthPromoted))],
     seasonCount: m.seasons.length,
     tenureMonths: monthsBetween(m.appointed, m.departed ?? asOf),

@@ -40,10 +40,12 @@ export const transferSchema = z.object({
   player: z.string().min(1),
   season: seasonId,
   dir: z.enum(["in", "out"]),
+  /** Transfer date, when the source has one. */
+  date: isoDate.nullable().optional(),
   type: z.enum(TRANSFER_TYPES),
   fee: z.number().nonnegative().nullable(),
   club: z.string(),
-  pos: position,
+  pos: position.nullable(),
   age: z.number().int().positive().nullable(),
 });
 
@@ -111,9 +113,9 @@ export const managerSeasonSchema = z.object({
   leaguePoints: count,
   competitions: z.array(z.string()),
   formations: z.array(formationRecordSchema),
-  academyMinutesPct: z.number().min(0).max(100),
+  academyMinutesPct: z.number().min(0).max(100).nullable(),
   youthPromoted: z.array(z.string()),
-  avgStartXIAge: z.number().positive(),
+  avgStartXIAge: z.number().positive().nullable(),
   notes: z.string(),
   titles: z.array(z.string()),
 });

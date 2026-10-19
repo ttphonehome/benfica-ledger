@@ -103,6 +103,12 @@ export function SpendingScreen({
         </ScrollArea>
       </div>
 
+      {totals.seasons.some((s) => s.undisclosedIn || s.undisclosedOut) && (
+        <p className="-mt-5 mb-8 font-mono text-[11px] text-mute">
+          Totals exclude {totals.seasons.reduce((a, s) => a + s.undisclosedIn + s.undisclosedOut, 0)} permanent deals with undisclosed fees.
+        </p>
+      )}
+
       <VerdictLine className="mt-6">
         Over {n} seasons the club spent <span className="font-mono text-bad">€{totals.spent}m</span> and recouped{" "}
         <span className="font-mono text-good">€{totals.received}m</span>, a net of{" "}

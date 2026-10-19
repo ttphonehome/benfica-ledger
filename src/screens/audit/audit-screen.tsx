@@ -62,7 +62,7 @@ export function AuditScreen({
           label="Outgoings · Who left"
           total={fmtTotal(s.totalOut)}
           tone="good"
-          sub={`${s.soldCount} sold · ${count(outs, "loan-out")} loaned · ${count(outs, "free")} free`}
+          sub={`${s.soldCount} sold · ${count(outs, "loan-out")} loaned · ${count(outs, "free")} free${s.undisclosedOut ? ` · ${s.undisclosedOut} fee${s.undisclosedOut === 1 ? "" : "s"} undisclosed` : ""}`}
         >
           <AuditTable rows={outs} kind="out" />
         </AuditColumn>
@@ -70,7 +70,7 @@ export function AuditScreen({
           label="Incomings · Who arrived"
           total={fmtTotal(s.totalIn)}
           tone="bad"
-          sub={`${s.boughtCount} bought · ${count(ins, "loan-in")} loaned · ${count(ins, "free")} free`}
+          sub={`${s.boughtCount} bought · ${count(ins, "loan-in")} loaned · ${count(ins, "free")} free${s.undisclosedIn ? ` · ${s.undisclosedIn} fee${s.undisclosedIn === 1 ? "" : "s"} undisclosed` : ""}`}
           className="border-l border-border max-[880px]:border-t max-[880px]:border-l-0"
         >
           <AuditTable rows={ins} kind="in" />

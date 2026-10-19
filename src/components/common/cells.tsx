@@ -20,7 +20,8 @@ export function RatingChip({ r }: { r: number | null }) {
   );
 }
 
-export function PosTag({ pos }: { pos: Position }) {
+export function PosTag({ pos }: { pos: Position | null }) {
+  if (pos == null) return <span className="font-mono text-[11px] text-mute">{DASH}</span>;
   return (
     <span className="font-mono text-[11px] tracking-[0.06em] text-mute">
       <span className="text-foreground">{pos}</span>

@@ -24,8 +24,8 @@ function statsFor(d: Pick<Dataset, "playerSeasons">, t: Transfer) {
 // Editorial heuristics carried over from the design. They only fire when a
 // rating exists; without ratings every move is neutral.
 export function judgeOut(r: { rating: number | null; fee: number | null }): Verdict {
-  if (r.rating == null) return "neutral";
-  const fee = r.fee ?? 0;
+  if (r.rating == null || r.fee == null) return "neutral";
+  const fee = r.fee;
   if (r.rating >= 7.3 && fee < 15) return "bad";
   if (r.rating >= 7.0) return "good";
   if (r.rating < 6.5 && fee > 8) return "good";
@@ -34,7 +34,9 @@ export function judgeOut(r: { rating: number | null; fee: number | null }): Verd
 
 export function judgeIn(r: { rating: number | null; fee: number | null; type: Transfer["type"] }): Verdict {
   if (r.rating == null) return "neutral";
-  if (!r.fee || r.type !== "permanent") return r.rating >= 7.3 ? "good" : "neutral";
+  if (r.type !== "permanent") return r.rating >= 7.3 ? "good" : "neutral";
+  if (r.fee == null) return "neutral";
+  if (!r.fee) return r.rating >= 7.3 ? "good" : "neutral";
   if (r.rating >= 7.3) return "good";
   if (r.rating < 6.6 && r.fee >= 10) return "bad";
   return "neutral";
@@ -67,6 +69,8 @@ export interface AuditSummary {
   /** Exact permanent fees (€m). */
   totalOut: number;
   totalIn: number;
+  undisclosedOut: number;
+  undisclosedIn: number;
   avgOutRating: number | null;
   avgInRating: number | null;
   /** Only when both sides have ratings. */
@@ -78,6 +82,8 @@ export function auditSummary(ins: AuditRow[], outs: AuditRow[]): AuditSummary {
   const permOut = outs.filter((r) => r.type === "permanent");
   const totalIn = permIn.reduce((a, r) => a + (r.fee ?? 0), 0);
   const totalOut = permOut.reduce((a, r) => a + (r.fee ?? 0), 0);
+  const undisclosedIn = permIn.filter((r) => r.fee == null).length;
+  const undisclosedOut = permOut.filter((r) => r.fee == null).length;
   const avgInRating = mean(ins.flatMap((r) => (r.rating == null ? [] : [r.rating])));
   const avgOutRating = mean(outs.flatMap((r) => (r.rating == null ? [] : [r.rating])));
 
@@ -94,5 +100,5 @@ export function auditSummary(ins: AuditRow[], outs: AuditRow[]): AuditSummary {
     else if (diff < 0) tradeVerdict = { tone: "good", text: "Brought in higher-rated players than left. Quality up." };
     else tradeVerdict = { tone: "neutral", text: "Largely a sideways window." };
   }
-  return { soldCount: permOut.length, boughtCount: permIn.length, totalOut, totalIn, avgOutRating, avgInRating, tradeVerdict };
+  return { soldCount: permOut.length, boughtCount: permIn.length, totalOut, totalIn, undisclosedOut, undisclosedIn, avgOutRating, avgInRating, tradeVerdict };
 }

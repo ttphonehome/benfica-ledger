@@ -29,7 +29,7 @@ function feeLabel(t: Transfer): string {
     case "loan-end":
       return "Loan ended";
     default:
-      return fmtMoney(t.fee);
+      return t.fee == null ? "Undisclosed" : fmtMoney(t.fee);
   }
 }
 

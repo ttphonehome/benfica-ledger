@@ -13,10 +13,13 @@ export interface SeasonSpending {
   net: number;
   bought: number;
   sold: number;
+  /** Permanent deals with an undisclosed fee: excluded from the sums. */
+  undisclosedIn: number;
+  undisclosedOut: number;
   loansIn: number;
   loansOut: number;
   frees: number;
-  /** Mean permanent incoming fee (€m), or null with no permanent signings. */
+  /** Mean disclosed permanent incoming fee (€m), or null with none. */
   avgFee: number | null;
 }
 
@@ -28,8 +31,10 @@ export function seasonSpending(transfers: Transfer[], season: Season): SeasonSpe
   const rows = transfers.filter((t) => t.season === season);
   const permIn = rows.filter((t) => t.dir === "in" && t.type === "permanent");
   const permOut = rows.filter((t) => t.dir === "out" && t.type === "permanent");
-  const spent = sum(permIn.map((t) => t.fee ?? 0));
-  const received = sum(permOut.map((t) => t.fee ?? 0));
+  const knownIn = permIn.filter((t) => t.fee != null);
+  const knownOut = permOut.filter((t) => t.fee != null);
+  const spent = sum(knownIn.map((t) => t.fee!));
+  const received = sum(knownOut.map((t) => t.fee!));
   return {
     season,
     spent,
@@ -37,10 +42,12 @@ export function seasonSpending(transfers: Transfer[], season: Season): SeasonSpe
     net: Math.round(received) - Math.round(spent),
     bought: permIn.length,
     sold: permOut.length,
+    undisclosedIn: permIn.length - knownIn.length,
+    undisclosedOut: permOut.length - knownOut.length,
     loansIn: rows.filter((t) => t.dir === "in" && t.type === "loan-in").length,
     loansOut: rows.filter((t) => t.dir === "out" && t.type === "loan-out").length,
     frees: rows.filter((t) => t.type === "free").length,
-    avgFee: permIn.length ? spent / permIn.length : null,
+    avgFee: knownIn.length ? spent / knownIn.length : null,
   };
 }
 

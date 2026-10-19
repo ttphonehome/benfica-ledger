@@ -51,7 +51,7 @@ const columns = [
   col.accessor("ppg", { header: "Pts/g", meta: { right: true } }),
   col.accessor((r) => r.titles.length, { id: "titles", header: "Titles", meta: { right: true } }),
   col.accessor((r) => r.avgFinish ?? undefined, { id: "avgFinish", header: "Avg finish", sortUndefined: "last", meta: { right: true } }),
-  col.accessor("avgAcademy", { header: "Acad. mins %", meta: { right: true } }),
+  col.accessor((r) => r.avgAcademy ?? undefined, { id: "avgAcademy", header: "Acad. mins %", sortUndefined: "last", meta: { right: true } }),
 ];
 
 export function ManagersScreen({ managers, asOf }: { managers: ManagerView[]; asOf: string }) {
@@ -156,7 +156,7 @@ export function ManagersScreen({ managers, asOf }: { managers: ManagerView[]; as
                     {r.titles.length ? <span className="text-good" aria-label={`${r.titles.length} titles`}>{"★".repeat(r.titles.length)}</span> : <Faint />}
                   </TableCell>
                   <TableCell className={num}>{r.avgFinish != null ? r.avgFinish.toFixed(1) : <Faint />}</TableCell>
-                  <TableCell className={num}>{Math.round(r.avgAcademy)}%</TableCell>
+                  <TableCell className={num}>{r.avgAcademy == null ? <Faint /> : `${Math.round(r.avgAcademy)}%`}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
@@ -180,7 +180,7 @@ export function ManagersScreen({ managers, asOf }: { managers: ManagerView[]; as
           <StatCard label="Titles" big={<>{a.titles.length}<Suffix>won</Suffix></>} sub={a.titles.join(" · ") || "No titles in this tenure"} />
           <StatCard
             label="Youth"
-            big={<>{Math.round(a.avgAcademy)}<Suffix>% acad. mins</Suffix></>}
+            big={a.avgAcademy == null ? DASH : <>{Math.round(a.avgAcademy)}<Suffix>% acad. mins</Suffix></>}
             sub={`${a.youthPromoted.length} academy player${a.youthPromoted.length === 1 ? "" : "s"} promoted`}
           />
           <StatCard
@@ -395,11 +395,11 @@ function PlayerTrust({ view }: { view: ManagerView }) {
           {youth.map((s) => (
             <div key={s.season} className="grid grid-cols-[70px_1fr_110px] items-center gap-3">
               <div className="font-mono text-xs">{s.season}</div>
-              <div className="relative flex h-5 items-center bg-white/6" role="img" aria-label={`${s.academyMinutesPct}% academy minutes`}>
-                <div className="h-full bg-good" style={{ width: `${s.academyMinutesPct}%` }} />
-                <span className="absolute right-2 font-mono text-[11px]">{s.academyMinutesPct}%</span>
+              <div className="relative flex h-5 items-center bg-white/6" role="img" aria-label={s.academyMinutesPct == null ? "No data" : `${s.academyMinutesPct}% academy minutes`}>
+                <div className="h-full bg-good" style={{ width: `${s.academyMinutesPct ?? 0}%` }} />
+                <span className="absolute right-2 font-mono text-[11px]">{s.academyMinutesPct == null ? DASH : `${Math.round(s.academyMinutesPct)}%`}</span>
               </div>
-              <div className="font-mono text-[11px] text-mute">Avg XI age {s.avgStartXIAge}</div>
+              <div className="font-mono text-[11px] text-mute">{s.avgStartXIAge == null ? "Avg XI age —" : `Avg XI age ${s.avgStartXIAge.toFixed(1)}`}</div>
             </div>
           ))}
         </div>

@@ -24,7 +24,7 @@ function feeText(r: AuditRow) {
   if (r.type === "loan-in" || r.type === "loan-out") return "Loan";
   if (r.type === "academy-promo") return "Academy";
   if (r.type === "loan-end") return "Loan ended";
-  return fmtMoney(r.fee);
+  return r.fee == null ? "Undisclosed" : fmtMoney(r.fee);
 }
 
 const VERDICT_LABEL = { good: "Value created", bad: "Value destroyed", neutral: "No verdict" } as const;
