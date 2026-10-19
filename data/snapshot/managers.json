@@ -466,45 +466,31 @@
    },
    {
     "season": "2023-24",
-    "wins": 25,
-    "draws": 9,
-    "losses": 4,
-    "gf": 74,
-    "ga": 39,
-    "finish": 2,
+    "wins": 36,
+    "draws": 10,
+    "losses": 10,
+    "gf": 114,
+    "ga": 54,
+    "finish": null,
     "leaguePoints": 80,
     "competitions": [
+     "Super Cup",
      "Primeira Liga",
-     "Champions League R16",
-     "Europa League QF"
+     "UEFA Champions League",
+     "Taça de Portugal",
+     "Taça da Liga",
+     "UEFA Europa League"
     ],
-    "formations": [
-     {
-      "name": "4-2-3-1",
-      "matches": 30,
-      "w": 21,
-      "d": 6,
-      "l": 3,
-      "gf": 58,
-      "ga": 22
-     },
-     {
-      "name": "4-3-3",
-      "matches": 8,
-      "w": 4,
-      "d": 3,
-      "l": 1,
-      "gf": 16,
-      "ga": 17
-     }
-    ],
-    "academyMinutesPct": 21,
+    "formations": [],
+    "academyMinutesPct": 23.5,
     "youthPromoted": [
      "Tomás Araújo"
     ],
-    "avgStartXIAge": 26.8,
+    "avgStartXIAge": null,
     "notes": "High-press philosophy. Squad fatigued in spring; lost title late.",
-    "titles": []
+    "titles": [
+     "Supertaça 2023-24"
+    ]
    }
   ]
  },

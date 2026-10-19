@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-19. API requests this run: 0.
+As of 2026-10-19. API requests this run: 2, 10 left today.
 
 | Season | Source |
 | --- | --- |
@@ -16,7 +16,7 @@ As of 2026-10-19. API requests this run: 0.
 | 2025-26 | wikipedia |
 | 2026-27 | wikipedia |
 
-Rows: playerSeasons 379, transfers 619, injuries 15, managers 7, presidents 2, undisclosedFees 233. Formations known for 53 of 56 matches.
+Rows: playerSeasons 379, transfers 619, injuries 24, managers 7, presidents 2, undisclosedFees 233. Formations known for 53 of 112 matches.
 
 ### Warnings
 
@@ -31,13 +31,15 @@ Rows: playerSeasons 379, transfers 619, injuries 15, managers 7, presidents 2, u
 - Jorge Jesus 2021-22: no match results available; kept the design-handoff record
 - Nélson Veríssimo 2021-22: no match results available; kept the design-handoff record
 - Roger Schmidt 2022-23: no match results available; kept the design-handoff record
-- Roger Schmidt 2023-24: no match results available; kept the design-handoff record
 - President Costa 2021-22: no match results available; kept the design-handoff record
 - President Costa 2022-23: no match results available; kept the design-handoff record
-- President Costa 2023-24: no match results available; kept the design-handoff record
 - President Vieira 2016-17: no match results available; kept the design-handoff record
 - President Vieira 2017-18: no match results available; kept the design-handoff record
 - President Vieira 2018-19: no match results available; kept the design-handoff record
 - President Vieira 2019-20: no match results available; kept the design-handoff record
 - President Vieira 2020-21: no match results available; kept the design-handoff record
 - President Vieira 2021-22: no match results available; kept the design-handoff record
+
+### Log
+
+- Stopping with 10 requests left today; the rest comes from cache

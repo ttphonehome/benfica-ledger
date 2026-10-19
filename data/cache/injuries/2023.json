@@ -1,0 +1,593 @@
+{
+ "fetchedAt": "2026-10-19T18:48:25.226Z",
+ "data": [
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126158,
+    "timezone": "UTC",
+    "date": "2023-09-20T19:00:00+00:00",
+    "timestamp": 1695236400
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 925,
+    "name": "G. Guedes",
+    "photo": "https://media.api-sports.io/football/players/925.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126158,
+    "timezone": "UTC",
+    "date": "2023-09-20T19:00:00+00:00",
+    "timestamp": 1695236400
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 331832,
+    "name": "Antonio Silva",
+    "photo": "https://media.api-sports.io/football/players/331832.png",
+    "type": "Missing Fixture",
+    "reason": "Red Card"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126167,
+    "timezone": "UTC",
+    "date": "2023-10-03T19:00:00+00:00",
+    "timestamp": 1696359600
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 10225,
+    "name": "Joao Victor",
+    "photo": "https://media.api-sports.io/football/players/10225.png",
+    "type": "Missing Fixture",
+    "reason": "Coach's decision"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126167,
+    "timezone": "UTC",
+    "date": "2023-10-03T19:00:00+00:00",
+    "timestamp": 1696359600
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 266,
+    "name": "A. Di Maria",
+    "photo": "https://media.api-sports.io/football/players/266.png",
+    "type": "Questionable",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126183,
+    "timezone": "UTC",
+    "date": "2023-10-24T19:00:00+00:00",
+    "timestamp": 1698174000
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Foot Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126201,
+    "timezone": "UTC",
+    "date": "2023-11-08T17:45:00+00:00",
+    "timestamp": 1699465500
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126201,
+    "timezone": "UTC",
+    "date": "2023-11-08T17:45:00+00:00",
+    "timestamp": 1699465500
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 552,
+    "name": "David Neres",
+    "photo": "https://media.api-sports.io/football/players/552.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126201,
+    "timezone": "UTC",
+    "date": "2023-11-08T17:45:00+00:00",
+    "timestamp": 1699465500
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 37155,
+    "name": "O. Kokcu",
+    "photo": "https://media.api-sports.io/football/players/37155.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126201,
+    "timezone": "UTC",
+    "date": "2023-11-08T17:45:00+00:00",
+    "timestamp": 1699465500
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Foot Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126222,
+    "timezone": "UTC",
+    "date": "2023-11-29T20:00:00+00:00",
+    "timestamp": 1701288000
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126222,
+    "timezone": "UTC",
+    "date": "2023-11-29T20:00:00+00:00",
+    "timestamp": 1701288000
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 552,
+    "name": "David Neres",
+    "photo": "https://media.api-sports.io/football/players/552.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126222,
+    "timezone": "UTC",
+    "date": "2023-11-29T20:00:00+00:00",
+    "timestamp": 1701288000
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 331832,
+    "name": "Antonio Silva",
+    "photo": "https://media.api-sports.io/football/players/331832.png",
+    "type": "Missing Fixture",
+    "reason": "Red Card"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126231,
+    "timezone": "UTC",
+    "date": "2023-12-12T20:00:00+00:00",
+    "timestamp": 1702411200
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Foot Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126231,
+    "timezone": "UTC",
+    "date": "2023-12-12T20:00:00+00:00",
+    "timestamp": 1702411200
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126231,
+    "timezone": "UTC",
+    "date": "2023-12-12T20:00:00+00:00",
+    "timestamp": 1702411200
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 552,
+    "name": "David Neres",
+    "photo": "https://media.api-sports.io/football/players/552.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1126231,
+    "timezone": "UTC",
+    "date": "2023-12-12T20:00:00+00:00",
+    "timestamp": 1702411200
+   },
+   "league": {
+    "id": 2,
+    "season": 2023,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1149554,
+    "timezone": "UTC",
+    "date": "2024-02-15T20:00:00+00:00",
+    "timestamp": 1708027200
+   },
+   "league": {
+    "id": 3,
+    "season": 2023,
+    "name": "UEFA Europa League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/3.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1149555,
+    "timezone": "UTC",
+    "date": "2024-02-22T17:45:00+00:00",
+    "timestamp": 1708623900
+   },
+   "league": {
+    "id": 3,
+    "season": 2023,
+    "name": "UEFA Europa League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/3.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1175855,
+    "timezone": "UTC",
+    "date": "2024-03-07T20:00:00+00:00",
+    "timestamp": 1709841600
+   },
+   "league": {
+    "id": 3,
+    "season": 2023,
+    "name": "UEFA Europa League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/3.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 258,
+    "name": "J. Bernat",
+    "photo": "https://media.api-sports.io/football/players/258.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1175856,
+    "timezone": "UTC",
+    "date": "2024-03-14T17:45:00+00:00",
+    "timestamp": 1710438300
+   },
+   "league": {
+    "id": 3,
+    "season": 2023,
+    "name": "UEFA Europa League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/3.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 161939,
+    "name": "T. Araujo",
+    "photo": "https://media.api-sports.io/football/players/161939.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1184831,
+    "timezone": "UTC",
+    "date": "2024-04-18T19:00:00+00:00",
+    "timestamp": 1713466800
+   },
+   "league": {
+    "id": 3,
+    "season": 2023,
+    "name": "UEFA Europa League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/3.png",
+    "flag": null
+   }
+  }
+ ]
+}
