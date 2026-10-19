@@ -1,0 +1,733 @@
+{
+ "fetchedAt": "2026-10-19T20:43:48.728Z",
+ "data": [
+  {
+   "player": {
+    "id": 10225,
+    "name": "Joao Victor",
+    "photo": "https://media.api-sports.io/football/players/10225.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946856,
+    "timezone": "UTC",
+    "date": "2022-09-06T19:00:00+00:00",
+    "timestamp": 1662490800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 9991,
+    "name": "Lucas Verissimo",
+    "photo": "https://media.api-sports.io/football/players/9991.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946856,
+    "timezone": "UTC",
+    "date": "2022-09-06T19:00:00+00:00",
+    "timestamp": 1662490800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946856,
+    "timezone": "UTC",
+    "date": "2022-09-06T19:00:00+00:00",
+    "timestamp": 1662490800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 41576,
+    "name": "T. Tavares",
+    "photo": "https://media.api-sports.io/football/players/41576.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946856,
+    "timezone": "UTC",
+    "date": "2022-09-06T19:00:00+00:00",
+    "timestamp": 1662490800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 10225,
+    "name": "Joao Victor",
+    "photo": "https://media.api-sports.io/football/players/10225.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946879,
+    "timezone": "UTC",
+    "date": "2022-09-14T19:00:00+00:00",
+    "timestamp": 1663182000
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 9991,
+    "name": "Lucas Verissimo",
+    "photo": "https://media.api-sports.io/football/players/9991.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946879,
+    "timezone": "UTC",
+    "date": "2022-09-14T19:00:00+00:00",
+    "timestamp": 1663182000
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946879,
+    "timezone": "UTC",
+    "date": "2022-09-14T19:00:00+00:00",
+    "timestamp": 1663182000
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 41576,
+    "name": "T. Tavares",
+    "photo": "https://media.api-sports.io/football/players/41576.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946879,
+    "timezone": "UTC",
+    "date": "2022-09-14T19:00:00+00:00",
+    "timestamp": 1663182000
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 9991,
+    "name": "Lucas Verissimo",
+    "photo": "https://media.api-sports.io/football/players/9991.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946896,
+    "timezone": "UTC",
+    "date": "2022-10-05T19:00:00+00:00",
+    "timestamp": 1664996400
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946896,
+    "timezone": "UTC",
+    "date": "2022-10-05T19:00:00+00:00",
+    "timestamp": 1664996400
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 9991,
+    "name": "Lucas Verissimo",
+    "photo": "https://media.api-sports.io/football/players/9991.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946904,
+    "timezone": "UTC",
+    "date": "2022-10-11T19:00:00+00:00",
+    "timestamp": 1665514800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946904,
+    "timezone": "UTC",
+    "date": "2022-10-11T19:00:00+00:00",
+    "timestamp": 1665514800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 552,
+    "name": "D. Neres",
+    "photo": "https://media.api-sports.io/football/players/552.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946904,
+    "timezone": "UTC",
+    "date": "2022-10-11T19:00:00+00:00",
+    "timestamp": 1665514800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 267,
+    "name": "J. Draxler",
+    "photo": "https://media.api-sports.io/football/players/267.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946920,
+    "timezone": "UTC",
+    "date": "2022-10-25T19:00:00+00:00",
+    "timestamp": 1666724400
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946920,
+    "timezone": "UTC",
+    "date": "2022-10-25T19:00:00+00:00",
+    "timestamp": 1666724400
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 267,
+    "name": "J. Draxler",
+    "photo": "https://media.api-sports.io/football/players/267.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946944,
+    "timezone": "UTC",
+    "date": "2022-11-02T20:00:00+00:00",
+    "timestamp": 1667419200
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 5996,
+    "name": "E. Fernandez",
+    "photo": "https://media.api-sports.io/football/players/5996.png",
+    "type": "Missing Fixture",
+    "reason": "Yellow Cards"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946944,
+    "timezone": "UTC",
+    "date": "2022-11-02T20:00:00+00:00",
+    "timestamp": 1667419200
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 67943,
+    "name": "Morato",
+    "photo": "https://media.api-sports.io/football/players/67943.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 946944,
+    "timezone": "UTC",
+    "date": "2022-11-02T20:00:00+00:00",
+    "timestamp": 1667419200
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 267,
+    "name": "J. Draxler",
+    "photo": "https://media.api-sports.io/football/players/267.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 971798,
+    "timezone": "UTC",
+    "date": "2023-03-07T20:00:00+00:00",
+    "timestamp": 1678219200
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 21584,
+    "name": "M. Ristic",
+    "photo": "https://media.api-sports.io/football/players/21584.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 971798,
+    "timezone": "UTC",
+    "date": "2023-03-07T20:00:00+00:00",
+    "timestamp": 1678219200
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016055,
+    "timezone": "UTC",
+    "date": "2023-04-11T19:00:00+00:00",
+    "timestamp": 1681239600
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 267,
+    "name": "J. Draxler",
+    "photo": "https://media.api-sports.io/football/players/267.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016055,
+    "timezone": "UTC",
+    "date": "2023-04-11T19:00:00+00:00",
+    "timestamp": 1681239600
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 624,
+    "name": "N. Otamendi",
+    "photo": "https://media.api-sports.io/football/players/624.png",
+    "type": "Missing Fixture",
+    "reason": "Yellow Cards"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016055,
+    "timezone": "UTC",
+    "date": "2023-04-11T19:00:00+00:00",
+    "timestamp": 1681239600
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 21584,
+    "name": "M. Ristic",
+    "photo": "https://media.api-sports.io/football/players/21584.png",
+    "type": "Questionable",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016055,
+    "timezone": "UTC",
+    "date": "2023-04-11T19:00:00+00:00",
+    "timestamp": 1681239600
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016056,
+    "timezone": "UTC",
+    "date": "2023-04-19T19:00:00+00:00",
+    "timestamp": 1681930800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 267,
+    "name": "J. Draxler",
+    "photo": "https://media.api-sports.io/football/players/267.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1016056,
+    "timezone": "UTC",
+    "date": "2023-04-19T19:00:00+00:00",
+    "timestamp": 1681930800
+   },
+   "league": {
+    "id": 2,
+    "season": 2022,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  }
+ ]
+}
