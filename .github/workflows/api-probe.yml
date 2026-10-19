@@ -1,8 +1,13 @@
 name: API probe
 
-# Manual, read-only check of the API-Football account and response shapes.
+# Read-only check of the API-Football account and response shapes. Runs on
+# demand, and when the probe itself changes.
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - pipeline/probe.mjs
+      - .github/workflows/api-probe.yml
 
 permissions:
   contents: read
