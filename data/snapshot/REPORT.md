@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-19. API requests this run: 1, 7 left today.
+As of 2026-10-19. API requests this run: 1, 4 left today.
 
 | Season | Source |
 | --- | --- |
@@ -37,7 +37,3 @@ Rows: playerSeasons 379, transfers 619, injuries 36, managers 9, presidents 2, u
 - President Vieira 2019-20: no match results available; kept the design-handoff record
 - President Vieira 2020-21: no match results available; kept the design-handoff record
 - President Vieira 2021-22: no match results available; kept the design-handoff record
-
-### Log
-
-- Stopping with 7 requests left today; the rest comes from cache
