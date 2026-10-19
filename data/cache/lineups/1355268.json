@@ -1,0 +1,401 @@
+{
+ "fetchedAt": "2026-10-19T18:39:29.901Z",
+ "data": [
+  {
+   "team": {
+    "id": 15128,
+    "name": "Tirsense",
+    "logo": "https://media.api-sports.io/football/teams/15128.png",
+    "colors": null
+   },
+   "coach": {
+    "id": 11787,
+    "name": "Emanuel Simões",
+    "photo": "https://media.api-sports.io/football/coachs/11787.png"
+   },
+   "formation": null,
+   "startXI": [
+    {
+     "player": {
+      "id": 278732,
+      "name": "Tiago Gonçalves",
+      "number": 16,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 279659,
+      "name": "João Pedro",
+      "number": 13,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1848,
+      "name": "Jorge Silva",
+      "number": 33,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 279662,
+      "name": "Gonçalo Cardoso",
+      "number": 4,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 279667,
+      "name": "João Martins",
+      "number": 27,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 381258,
+      "name": "José Pereira",
+      "number": 7,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 125350,
+      "name": "Júnior Franco",
+      "number": 14,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 141608,
+      "name": "Bruno Carvalho",
+      "number": 18,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 363975,
+      "name": "Daniel Rodrigues",
+      "number": 8,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 425226,
+      "name": "Bernardo Mesquita",
+      "number": 10,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 280755,
+      "name": "Alex Reis",
+      "number": 19,
+      "pos": null,
+      "grid": null
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 279252,
+      "name": "Fontini",
+      "number": 17,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41949,
+      "name": "Júlio Alves",
+      "number": 9,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 199253,
+      "name": "Túlio",
+      "number": 25,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 398080,
+      "name": "Rui Maia",
+      "number": 5,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 279010,
+      "name": "Giovanny Morais",
+      "number": 21,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 141954,
+      "name": "João Matos",
+      "number": 99,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 475482,
+      "name": "Óscar Monteiro",
+      "number": 31,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 330890,
+      "name": "Diogo Gonçalves",
+      "number": 88,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 429438,
+      "name": "Francisco Alves",
+      "number": 74,
+      "pos": null,
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": null
+   },
+   "coach": {
+    "id": 2213,
+    "name": "Bruno Lage",
+    "photo": "https://media.api-sports.io/football/coachs/2213.png"
+   },
+   "formation": null,
+   "startXI": [
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 180320,
+      "name": "A. Bajrami",
+      "number": 81,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 135505,
+      "name": "S. Dahl",
+      "number": 26,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 331832,
+      "name": "António Silva",
+      "number": 4,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 474842,
+      "name": "Leandro Santos",
+      "number": 71,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 25918,
+      "name": "L. Barreiro",
+      "number": 18,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 345427,
+      "name": "João Rêgo",
+      "number": 84,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 30509,
+      "name": "A. Belotti",
+      "number": 19,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 123469,
+      "name": "Z. Amdouni",
+      "number": 7,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 301528,
+      "name": "A. Schjelderup",
+      "number": 21,
+      "pos": null,
+      "grid": null
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 158065,
+      "name": "Tiago Gouveia",
+      "number": 47,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 362755,
+      "name": "G. Prestianni",
+      "number": 25,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 9938,
+      "name": "Arthur Cabral",
+      "number": 9,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 335050,
+      "name": "Nuno Félix",
+      "number": 60,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 312164,
+      "name": "J. Wynder",
+      "number": 66,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 37155,
+      "name": "O. Kökçü",
+      "number": 10,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 142959,
+      "name": "K. Aktürkoğlu",
+      "number": 17,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 284300,
+      "name": "Álvaro Fernández",
+      "number": 3,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 675,
+      "name": "A. Trubin",
+      "number": 1,
+      "pos": null,
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}

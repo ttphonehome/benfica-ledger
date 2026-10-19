@@ -1,0 +1,236 @@
+{
+ "fetchedAt": "2026-10-19T18:35:48.824Z",
+ "data": [
+  {
+   "id": 10,
+   "name": "Marco Silva",
+   "firstname": null,
+   "lastname": null,
+   "age": null,
+   "birth": {
+    "date": null,
+    "place": null,
+    "country": null
+   },
+   "nationality": null,
+   "height": null,
+   "weight": null,
+   "photo": "https://media.api-sports.io/football/coachs/10.png",
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "career": [
+    {
+     "team": {
+      "id": 211,
+      "name": "Benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+     },
+     "start": "2026-07-01",
+     "end": null
+    },
+    {
+     "team": {
+      "id": 36,
+      "name": "Fulham",
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+     },
+     "start": "2021-08-01",
+     "end": "2026-05-01"
+    },
+    {
+     "team": {
+      "id": 45,
+      "name": "Everton",
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+     },
+     "start": "2018-08-01",
+     "end": "2019-12-01"
+    },
+    {
+     "team": {
+      "id": 38,
+      "name": "Watford",
+      "logo": "https://media.api-sports.io/football/teams/38.png"
+     },
+     "start": "2017-08-01",
+     "end": "2018-01-01"
+    },
+    {
+     "team": {
+      "id": 64,
+      "name": "Hull City",
+      "logo": "https://media.api-sports.io/football/teams/64.png"
+     },
+     "start": "2017-01-01",
+     "end": "2017-05-01"
+    },
+    {
+     "team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+     },
+     "start": "2015-10-01",
+     "end": "2016-05-01"
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "R. Schmidt",
+   "firstname": "Roger",
+   "lastname": "Schmidt",
+   "age": 58,
+   "birth": {
+    "date": "1967-03-13",
+    "place": "Kierspe",
+    "country": "Germany"
+   },
+   "nationality": "Germany",
+   "height": null,
+   "weight": null,
+   "photo": "https://media.api-sports.io/football/coachs/57.png",
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "career": [
+    {
+     "team": {
+      "id": 211,
+      "name": "Benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+     },
+     "start": "2022-07-01",
+     "end": "2024-08-01"
+    },
+    {
+     "team": {
+      "id": 197,
+      "name": "PSV",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+     },
+     "start": "2020-07-01",
+     "end": "2022-05-01"
+    },
+    {
+     "team": {
+      "id": 830,
+      "name": "Beijing Guoan",
+      "logo": "https://media.api-sports.io/football/teams/830.png"
+     },
+     "start": "2017-07-01",
+     "end": "2019-07-01"
+    },
+    {
+     "team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+     },
+     "start": "2014-07-01",
+     "end": "2017-03-01"
+    },
+    {
+     "team": {
+      "id": 571,
+      "name": "Salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+     },
+     "start": "2012-06-01",
+     "end": "2014-06-01"
+    },
+    {
+     "team": {
+      "id": 185,
+      "name": "Paderborn",
+      "logo": "https://media.api-sports.io/football/teams/185.png"
+     },
+     "start": "2011-07-01",
+     "end": "2012-06-01"
+    }
+   ]
+  },
+  {
+   "id": 2213,
+   "name": "Bruno Lage",
+   "firstname": "Bruno Miguel",
+   "lastname": "Silva do Nascimento",
+   "age": 49,
+   "birth": {
+    "date": "1976-05-12",
+    "place": "Setúbal",
+    "country": "Portugal"
+   },
+   "nationality": "Portugal",
+   "height": null,
+   "weight": null,
+   "photo": "https://media.api-sports.io/football/coachs/2213.png",
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "career": [
+    {
+     "team": {
+      "id": 211,
+      "name": "Benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+     },
+     "start": "2024-09-01",
+     "end": null
+    },
+    {
+     "team": {
+      "id": 120,
+      "name": "Botafogo",
+      "logo": "https://media.api-sports.io/football/teams/120.png"
+     },
+     "start": "2023-07-01",
+     "end": "2023-10-01"
+    },
+    {
+     "team": {
+      "id": 39,
+      "name": "Wolverhampton Wanderers",
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+     },
+     "start": "2021-06-01",
+     "end": "2022-10-01"
+    },
+    {
+     "team": {
+      "id": 211,
+      "name": "Benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+     },
+     "start": "2019-01-01",
+     "end": "2020-06-01"
+    },
+    {
+     "team": {
+      "id": 229,
+      "name": "Benfica II",
+      "logo": "https://media.api-sports.io/football/teams/229.png"
+     },
+     "start": "2018-08-01",
+     "end": "2019-01-01"
+    },
+    {
+     "team": {
+      "id": 15460,
+      "name": "Benfica U23",
+      "logo": "https://media.api-sports.io/football/teams/15460.png"
+     },
+     "start": "2018-07-01",
+     "end": "2019-01-01"
+    }
+   ]
+  }
+ ]
+}

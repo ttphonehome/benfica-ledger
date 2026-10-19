@@ -1,0 +1,206 @@
+[
+ {
+  "id": "costa",
+  "name": "Rui Costa",
+  "nick": "Costa",
+  "appointed": "2021-10-09",
+  "departed": null,
+  "notes": "Took over after Vieira's resignation. Inherited a transitional squad mid-season.",
+  "seasons": [
+   {
+    "season": "2021-22",
+    "manager": "Veríssimo (after Oct)",
+    "wins": 13,
+    "draws": 5,
+    "losses": 4,
+    "finish": 3,
+    "leaguePoints": 44,
+    "titles": [],
+    "notes": "Partial. Inherited mid-season; oversaw winter window and CL QF run."
+   },
+   {
+    "season": "2022-23",
+    "manager": "Roger Schmidt",
+    "wins": 42,
+    "draws": 9,
+    "losses": 4,
+    "finish": null,
+    "leaguePoints": 87,
+    "titles": [
+     "Primeira Liga"
+    ],
+    "notes": "Title-winning year. Profitable window thanks to Enzo / Núñez sales tailwind."
+   },
+   {
+    "season": "2023-24",
+    "manager": "Roger Schmidt",
+    "wins": 36,
+    "draws": 10,
+    "losses": 10,
+    "finish": 2,
+    "leaguePoints": 80,
+    "titles": [
+     "Supertaça"
+    ],
+    "notes": "Cup win, but lost title late. Schmidt dismissed at season end."
+   },
+   {
+    "season": "2024-25",
+    "manager": "Roger Schmidt → Bruno Lage",
+    "wins": 38,
+    "draws": 8,
+    "losses": 10,
+    "finish": 2,
+    "leaguePoints": 80,
+    "titles": [
+     "Taça da Liga"
+    ],
+    "notes": "Highest net spend of the era. Title chase fell short late."
+   }
+  ],
+  "managersHired": [
+   {
+    "managerId": "lage-2",
+    "verdict": "good",
+    "note": "Year one. Title chase fell short; project continues."
+   },
+   {
+    "managerId": "schmidt",
+    "verdict": "good",
+    "note": "Two seasons, two trophies. Sacked after fading title race."
+   },
+   {
+    "managerId": "verissimo",
+    "verdict": "neutral",
+    "note": "Inherited interim; promoted to full season. CL QF was the high point."
+   },
+   {
+    "managerId": "mourinho",
+    "verdict": "bad",
+    "note": ""
+   },
+   {
+    "managerId": "marco-silva",
+    "verdict": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "vieira",
+  "name": "Luís Filipe Vieira",
+  "nick": "Vieira",
+  "appointed": "2003-10-31",
+  "departed": "2021-10-09",
+  "notes": "18 years in charge. Window shown: last 6 seasons of his tenure.",
+  "seasons": [
+   {
+    "season": "2015-16",
+    "manager": "Rui Vitória",
+    "wins": 26,
+    "draws": 6,
+    "losses": 2,
+    "finish": 1,
+    "leaguePoints": 84,
+    "titles": [
+     "Primeira Liga",
+     "Taça da Liga"
+    ],
+    "notes": "Tri-campeão. Inherited squad ran riot."
+   },
+   {
+    "season": "2016-17",
+    "manager": "Rui Vitória",
+    "wins": 27,
+    "draws": 4,
+    "losses": 3,
+    "finish": 1,
+    "leaguePoints": 82,
+    "titles": [
+     "Primeira Liga",
+     "Taça de Portugal"
+    ],
+    "notes": "Tetra-campeão year. Title #4 in a row."
+   },
+   {
+    "season": "2017-18",
+    "manager": "Rui Vitória",
+    "wins": 23,
+    "draws": 6,
+    "losses": 5,
+    "finish": 2,
+    "leaguePoints": 75,
+    "titles": [],
+    "notes": "Lost the 'tetra' bid to Porto. Profitable window."
+   },
+   {
+    "season": "2018-19",
+    "manager": "Vitória → Lage",
+    "wins": 34,
+    "draws": 11,
+    "losses": 7,
+    "finish": 1,
+    "leaguePoints": 75,
+    "titles": [
+     "Primeira Liga"
+    ],
+    "notes": "Vitória sacked in January, Lage promoted, won the league."
+   },
+   {
+    "season": "2019-20",
+    "manager": "Bruno Lage",
+    "wins": 22,
+    "draws": 8,
+    "losses": 4,
+    "finish": 2,
+    "leaguePoints": 77,
+    "titles": [],
+    "notes": "Big squad turnover. Lost continuity from title year."
+   },
+   {
+    "season": "2020-21",
+    "manager": "Jorge Jesus",
+    "wins": 23,
+    "draws": 8,
+    "losses": 3,
+    "finish": 3,
+    "leaguePoints": 77,
+    "titles": [],
+    "notes": "Title lost late. Heavy investment, modest return."
+   },
+   {
+    "season": "2021-22",
+    "manager": "Jorge Jesus (until Dec)",
+    "wins": 11,
+    "draws": 4,
+    "losses": 3,
+    "finish": null,
+    "leaguePoints": 37,
+    "titles": [],
+    "notes": "Partial. Resigned in October; Jesus continued briefly."
+   }
+  ],
+  "managersHired": [
+   {
+    "managerId": "jesus-2",
+    "verdict": "bad",
+    "note": "High-profile return. Zero trophies, expensive squad rebuild."
+   },
+   {
+    "managerId": "lage-1",
+    "verdict": "good",
+    "note": "Promoted from B team. Won the league months later."
+   },
+   {
+    "managerId": "rui-vitoria",
+    "verdict": "good",
+    "note": "Three straight titles, tetra-campeão. Sacked after dressing-room drift."
+   },
+   {
+    "managerId": "verissimo-2020",
+    "verdict": "neutral",
+    "note": ""
+   }
+  ]
+ }
+]

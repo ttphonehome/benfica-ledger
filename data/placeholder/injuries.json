@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2022-23-jan-vertonghen-0",
+    "playerId": "jan-vertonghen",
+    "player": "Jan Vertonghen",
+    "season": "2022-23",
+    "type": "Calf",
+    "out": "2023-01-09",
+    "back": "2023-02-18",
+    "weeks": 6,
+    "matches": 8,
+    "notes": null
+  },
+  {
+    "id": "2022-23-petar-musa-1",
+    "playerId": "petar-musa",
+    "player": "Petar Musa",
+    "season": "2022-23",
+    "type": "Foot fracture",
+    "out": "2023-02-04",
+    "back": "2023-04-22",
+    "weeks": 11,
+    "matches": 12,
+    "notes": null
+  },
+  {
+    "id": "2022-23-henrique-araujo-2",
+    "playerId": "henrique-araujo",
+    "player": "Henrique Araújo",
+    "season": "2022-23",
+    "type": "Hamstring",
+    "out": "2022-11-12",
+    "back": "2023-01-14",
+    "weeks": 9,
+    "matches": 10,
+    "notes": null
+  },
+  {
+    "id": "2021-22-lucas-verissimo-3",
+    "playerId": "lucas-verissimo",
+    "player": "Lucas Veríssimo",
+    "season": "2021-22",
+    "type": "ACL rupture",
+    "out": "2021-12-15",
+    "back": "2022-06-30",
+    "weeks": 28,
+    "matches": 24,
+    "notes": "Season-ending. Never the same after."
+  },
+  {
+    "id": "2021-22-rafa-silva-4",
+    "playerId": "rafa-silva",
+    "player": "Rafa Silva",
+    "season": "2021-22",
+    "type": "Thigh",
+    "out": "2021-10-17",
+    "back": "2021-11-06",
+    "weeks": 3,
+    "matches": 4,
+    "notes": null
+  },
+  {
+    "id": "2021-22-goncalo-ramos-5",
+    "playerId": "goncalo-ramos",
+    "player": "Gonçalo Ramos",
+    "season": "2021-22",
+    "type": "Ankle",
+    "out": "2022-01-22",
+    "back": "2022-03-04",
+    "weeks": 6,
+    "matches": 7,
+    "notes": null
+  }
+]

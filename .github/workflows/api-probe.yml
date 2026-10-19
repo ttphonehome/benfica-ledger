@@ -1,0 +1,26 @@
+name: API probe
+
+# Read-only check of the API-Football account and response shapes. Runs on
+# demand, and when the probe itself changes.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - pipeline/probe.mjs
+      - .github/workflows/api-probe.yml
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node pipeline/probe.mjs
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}

@@ -1,0 +1,35 @@
+{
+ "fetchedAt": "2026-10-19T18:38:31.393Z",
+ "data": [
+  {
+   "league": "Primeira Liga",
+   "country": "Portugal",
+   "season": "2024/2025",
+   "place": "2nd Place"
+  },
+  {
+   "league": "Taça da Liga",
+   "country": "Portugal",
+   "season": "2024/2025",
+   "place": "Winner"
+  },
+  {
+   "league": "Super Cup",
+   "country": "Portugal",
+   "season": "2019/2020",
+   "place": "Winner"
+  },
+  {
+   "league": "International Champions Cup",
+   "country": "World",
+   "season": "2019",
+   "place": "Winner"
+  },
+  {
+   "league": "Primeira Liga",
+   "country": "Portugal",
+   "season": "2018/2019",
+   "place": "Winner"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+===Appearances and goals===
+{{Updated|15 October 2026}}
+{{Efs start |[[2026–27 Primeira Liga|Primeira Liga]]|[[2026–27 Taça de Portugal|Taça de Portugal]]|[[2026–27 Taça da Liga|Taça da Liga]]|[[2026–27 UEFA Europa League|Europa League]]}}
+|-
+! colspan=18 style=background:#dcdcdc; text-align:center|Goalkeepers
+{{Efs player|no=1 |name=[[Anatoliy Trubin]]|pos=GK|nat=UKR                                           |0    |0 |0    |0 |0    |0 |4    |0 }}
+{{Efs player|no=24|name=[[Samuel Soares]]|pos=GK|nat=POR                                             |8    |0 |0    |0 |0    |0 |4    |0 }}
+|-
+! colspan=18 style=background:#dcdcdc; text-align:center|Defenders
+{{Efs player|no=2 |name=[[Clément Lenglet]]|pos=DF|nat=FRA                                           |7    |1 |0    |0 |0    |0 |7    |1 }}
+{{Efs player|no=62|name=[[José Neto (footballer, born 2008)|José Neto]]|pos=DF|nat=POR               |0    |0 |0    |0 |0    |0 |1    |0 }}
+|-
+! colspan=18 style=background:#dcdcdc; text-align:center|Midfielders
+{{Efs player|no=61|name=[[Florentino Luís|Florentino]]|pos=MF|nat=POR                                |0+3  |0 |0    |0 |0    |0 |0+1  |0 |1+2  |1 }}
+|-
+! colspan="15" style="background:#dcdcdc; text-align:center;"| Players transferred out during the season
+{{Efs player|no=17|name=[[Amar Dedić]]|pos=DF|nat=BIH                                                |0+1  |0 |0    |0 |0    |0 |1+1  |0 }}
+{{Efs player|no=12|pos=GK|nat=BRA|name=[[Júlio César (football goalkeeper, born 1979)|Júlio César]]|7+1|-4|5|-6|1|0|1|-4}}
+|}
