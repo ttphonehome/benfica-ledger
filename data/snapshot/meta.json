@@ -1,0 +1,61 @@
+{
+ "generatedAt": "2026-10-19T18:44:50.112Z",
+ "asOf": "2026-10-19",
+ "coverageTarget": {
+  "firstSeason": "2016-17",
+  "minimumFirstSeason": "2021-22"
+ },
+ "datasets": {
+  "playerSeasons": "sourced",
+  "transfers": "sourced",
+  "injuries": "sourced",
+  "profiles": "unverified",
+  "transferDetails": "sourced",
+  "seasonContext": "sourced",
+  "managers": "unverified",
+  "presidents": "unverified",
+  "notes": "unverified"
+ },
+ "seasons": {
+  "2016-17": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2018-19": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2019-20": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2020-21": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2021-22": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2022-23": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2023-24": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2024-25": {
+   "status": "sourced",
+   "note": "API-Football: appearances, minutes, goals, assists, ratings, injuries and results."
+  },
+  "2025-26": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  },
+  "2026-27": {
+   "status": "partial",
+   "note": "Wikipedia: appearances and goals. Minutes estimated; no ratings or assists."
+  }
+ }
+}

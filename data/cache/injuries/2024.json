@@ -1,0 +1,1321 @@
+{
+ "fetchedAt": "2026-10-19T18:36:34.347Z",
+ "data": [
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1298996,
+    "timezone": "UTC",
+    "date": "2024-09-19T16:45:00+00:00",
+    "timestamp": 1726764300
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Questionable",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1298996,
+    "timezone": "UTC",
+    "date": "2024-09-19T16:45:00+00:00",
+    "timestamp": 1726764300
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299014,
+    "timezone": "UTC",
+    "date": "2024-10-02T19:00:00+00:00",
+    "timestamp": 1727895600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299014,
+    "timezone": "UTC",
+    "date": "2024-10-02T19:00:00+00:00",
+    "timestamp": 1727895600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299033,
+    "timezone": "UTC",
+    "date": "2024-10-23T19:00:00+00:00",
+    "timestamp": 1729710000
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 362755,
+    "name": "G. Prestianni",
+    "photo": "https://media.api-sports.io/football/players/362755.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299033,
+    "timezone": "UTC",
+    "date": "2024-10-23T19:00:00+00:00",
+    "timestamp": 1729710000
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 25918,
+    "name": "L. Barreiro",
+    "photo": "https://media.api-sports.io/football/players/25918.png",
+    "type": "Questionable",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299033,
+    "timezone": "UTC",
+    "date": "2024-10-23T19:00:00+00:00",
+    "timestamp": 1729710000
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299050,
+    "timezone": "UTC",
+    "date": "2024-11-06T20:00:00+00:00",
+    "timestamp": 1730923200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 25918,
+    "name": "L. Barreiro",
+    "photo": "https://media.api-sports.io/football/players/25918.png",
+    "type": "Missing Fixture",
+    "reason": "Thigh Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299050,
+    "timezone": "UTC",
+    "date": "2024-11-06T20:00:00+00:00",
+    "timestamp": 1730923200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299050,
+    "timezone": "UTC",
+    "date": "2024-11-06T20:00:00+00:00",
+    "timestamp": 1730923200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 362755,
+    "name": "G. Prestianni",
+    "photo": "https://media.api-sports.io/football/players/362755.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299050,
+    "timezone": "UTC",
+    "date": "2024-11-06T20:00:00+00:00",
+    "timestamp": 1730923200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 25313,
+    "name": "J. Beste",
+    "photo": "https://media.api-sports.io/football/players/25313.png",
+    "type": "Missing Fixture",
+    "reason": "Achilles Tendon Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299072,
+    "timezone": "UTC",
+    "date": "2024-11-27T20:00:00+00:00",
+    "timestamp": 1732737600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299072,
+    "timezone": "UTC",
+    "date": "2024-11-27T20:00:00+00:00",
+    "timestamp": 1732737600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 362755,
+    "name": "G. Prestianni",
+    "photo": "https://media.api-sports.io/football/players/362755.png",
+    "type": "Missing Fixture",
+    "reason": "Ankle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299072,
+    "timezone": "UTC",
+    "date": "2024-11-27T20:00:00+00:00",
+    "timestamp": 1732737600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299072,
+    "timezone": "UTC",
+    "date": "2024-11-27T20:00:00+00:00",
+    "timestamp": 1732737600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299085,
+    "timezone": "UTC",
+    "date": "2024-12-11T20:00:00+00:00",
+    "timestamp": 1733947200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299085,
+    "timezone": "UTC",
+    "date": "2024-12-11T20:00:00+00:00",
+    "timestamp": 1733947200
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299095,
+    "timezone": "UTC",
+    "date": "2025-01-21T20:00:00+00:00",
+    "timestamp": 1737489600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299095,
+    "timezone": "UTC",
+    "date": "2025-01-21T20:00:00+00:00",
+    "timestamp": 1737489600
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 9938,
+    "name": "A. Cabral",
+    "photo": "https://media.api-sports.io/football/players/9938.png",
+    "type": "Missing Fixture",
+    "reason": "Red Card"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299120,
+    "timezone": "UTC",
+    "date": "2025-01-29T20:00:00+00:00",
+    "timestamp": 1738180800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 284300,
+    "name": "A. Carreras",
+    "photo": "https://media.api-sports.io/football/players/284300.png",
+    "type": "Missing Fixture",
+    "reason": "Yellow Cards"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299120,
+    "timezone": "UTC",
+    "date": "2025-01-29T20:00:00+00:00",
+    "timestamp": 1738180800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299120,
+    "timezone": "UTC",
+    "date": "2025-01-29T20:00:00+00:00",
+    "timestamp": 1738180800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299120,
+    "timezone": "UTC",
+    "date": "2025-01-29T20:00:00+00:00",
+    "timestamp": 1738180800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 25313,
+    "name": "J. Beste",
+    "photo": "https://media.api-sports.io/football/players/25313.png",
+    "type": "Questionable",
+    "reason": "Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1299120,
+    "timezone": "UTC",
+    "date": "2025-01-29T20:00:00+00:00",
+    "timestamp": 1738180800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345749,
+    "timezone": "UTC",
+    "date": "2025-02-12T20:00:00+00:00",
+    "timestamp": 1739390400
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345749,
+    "timezone": "UTC",
+    "date": "2025-02-12T20:00:00+00:00",
+    "timestamp": 1739390400
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 287592,
+    "name": "Manu",
+    "photo": "https://media.api-sports.io/football/players/287592.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345749,
+    "timezone": "UTC",
+    "date": "2025-02-12T20:00:00+00:00",
+    "timestamp": 1739390400
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345749,
+    "timezone": "UTC",
+    "date": "2025-02-12T20:00:00+00:00",
+    "timestamp": 1739390400
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 1163,
+    "name": "Bruma",
+    "photo": "https://media.api-sports.io/football/players/1163.png",
+    "type": "Missing Fixture",
+    "reason": "Inactive"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 266,
+    "name": "A. Di Maria",
+    "photo": "https://media.api-sports.io/football/players/266.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 575,
+    "name": "Florentino",
+    "photo": "https://media.api-sports.io/football/players/575.png",
+    "type": "Missing Fixture",
+    "reason": "Yellow Cards"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 287592,
+    "name": "Manu",
+    "photo": "https://media.api-sports.io/football/players/287592.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 513,
+    "name": "R. Sanches",
+    "photo": "https://media.api-sports.io/football/players/513.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1345750,
+    "timezone": "UTC",
+    "date": "2025-02-18T20:00:00+00:00",
+    "timestamp": 1739908800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 1163,
+    "name": "Bruma",
+    "photo": "https://media.api-sports.io/football/players/1163.png",
+    "type": "Missing Fixture",
+    "reason": "Inactive"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 266,
+    "name": "A. Di Maria",
+    "photo": "https://media.api-sports.io/football/players/266.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 575,
+    "name": "Florentino",
+    "photo": "https://media.api-sports.io/football/players/575.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Shoulder Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 287592,
+    "name": "Manu",
+    "photo": "https://media.api-sports.io/football/players/287592.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353176,
+    "timezone": "UTC",
+    "date": "2025-03-05T20:00:00+00:00",
+    "timestamp": 1741204800
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 15623,
+    "name": "A. Bah",
+    "photo": "https://media.api-sports.io/football/players/15623.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 1163,
+    "name": "Bruma",
+    "photo": "https://media.api-sports.io/football/players/1163.png",
+    "type": "Missing Fixture",
+    "reason": "Inactive"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 284300,
+    "name": "A. Carreras",
+    "photo": "https://media.api-sports.io/football/players/284300.png",
+    "type": "Missing Fixture",
+    "reason": "Yellow Cards"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 266,
+    "name": "A. Di Maria",
+    "photo": "https://media.api-sports.io/football/players/266.png",
+    "type": "Missing Fixture",
+    "reason": "Muscle Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 158065,
+    "name": "T. Gouveia",
+    "photo": "https://media.api-sports.io/football/players/158065.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  },
+  {
+   "player": {
+    "id": 287592,
+    "name": "Manu",
+    "photo": "https://media.api-sports.io/football/players/287592.png",
+    "type": "Missing Fixture",
+    "reason": "Knee Injury"
+   },
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+   },
+   "fixture": {
+    "id": 1353177,
+    "timezone": "UTC",
+    "date": "2025-03-11T17:45:00+00:00",
+    "timestamp": 1741715100
+   },
+   "league": {
+    "id": 2,
+    "season": 2024,
+    "name": "UEFA Champions League",
+    "country": "World",
+    "logo": "https://media.api-sports.io/football/leagues/2.png",
+    "flag": null
+   }
+  }
+ ]
+}

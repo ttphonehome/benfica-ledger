@@ -1,0 +1,450 @@
+{
+ "fetchedAt": "2026-10-19T18:43:04.477Z",
+ "data": [
+  {
+   "team": {
+    "id": 157,
+    "name": "Bayern München",
+    "logo": "https://media.api-sports.io/football/teams/157.png",
+    "colors": {
+     "player": {
+      "primary": "face9a",
+      "number": "000000",
+      "border": "face9a"
+     },
+     "goalkeeper": {
+      "primary": "05db0d",
+      "number": "eee9e7",
+      "border": "05db0d"
+     }
+    }
+   },
+   "coach": {
+    "id": 12590,
+    "name": "V. Kompany",
+    "photo": "https://media.api-sports.io/football/coachs/12590.png"
+   },
+   "formation": "4-2-3-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 497,
+      "name": "M. Neuer",
+      "number": 1,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 1157,
+      "name": "K. Laimer",
+      "number": 27,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 1149,
+      "name": "D. Upamecano",
+      "number": 2,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 2897,
+      "name": "Kim Min-Jae",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 509,
+      "name": "A. Davies",
+      "number": 19,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 502,
+      "name": "J. Kimmich",
+      "number": 6,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41104,
+      "name": "João Palhinha",
+      "number": 16,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 19617,
+      "name": "M. Olise",
+      "number": 17,
+      "pos": "M",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 181812,
+      "name": "J. Musiala",
+      "number": 42,
+      "pos": "M",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 510,
+      "name": "S. Gnabry",
+      "number": 7,
+      "pos": "M",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 184,
+      "name": "H. Kane",
+      "number": 9,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 644,
+      "name": "L. Sané",
+      "number": 10,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 508,
+      "name": "K. Coman",
+      "number": 11,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 522,
+      "name": "T. Müller",
+      "number": 25,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 175,
+      "name": "E. Dier",
+      "number": 15,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 126530,
+      "name": "D. Peretz",
+      "number": 18,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 511,
+      "name": "L. Goretzka",
+      "number": 8,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 327897,
+      "name": "A. Ibrahimović",
+      "number": 20,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 270510,
+      "name": "M. Tel",
+      "number": 39,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 344290,
+      "name": "M. Schmitt",
+      "number": 35,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 8,
+      "name": "Raphaël Guerreiro",
+      "number": 22,
+      "pos": "D",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "ff0000",
+      "number": "ffffff",
+      "border": "ff0000"
+     },
+     "goalkeeper": {
+      "primary": "feff65",
+      "number": "ffffff",
+      "border": "feff65"
+     }
+    }
+   },
+   "coach": {
+    "id": 2213,
+    "name": "Bruno Lage",
+    "photo": "https://media.api-sports.io/football/coachs/2213.png"
+   },
+   "formation": "5-3-2",
+   "startXI": [
+    {
+     "player": {
+      "id": 675,
+      "name": "A. Trubin",
+      "number": 1,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 140947,
+      "name": "I. Kaboré",
+      "number": 28,
+      "pos": "D",
+      "grid": "2:5"
+     }
+    },
+    {
+     "player": {
+      "id": 161939,
+      "name": "Tomás Araújo",
+      "number": 44,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 624,
+      "name": "N. Otamendi",
+      "number": 30,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 331832,
+      "name": "António Silva",
+      "number": 4,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 284300,
+      "name": "Álvaro Fernández",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 513,
+      "name": "Renato Sanches",
+      "number": 85,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 39043,
+      "name": "F. Aursnes",
+      "number": 8,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 37155,
+      "name": "O. Kökçü",
+      "number": 10,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 123469,
+      "name": "Z. Amdouni",
+      "number": 7,
+      "pos": "F",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 142959,
+      "name": "K. Aktürkoğlu",
+      "number": 17,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 36798,
+      "name": "V. Pavlidis",
+      "number": 14,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 25313,
+      "name": "J. Beste",
+      "number": 37,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 266,
+      "name": "Á. Di María",
+      "number": 11,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 9938,
+      "name": "Arthur Cabral",
+      "number": 9,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 119485,
+      "name": "B. Rollheiser",
+      "number": 32,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 180320,
+      "name": "A. Bajrami",
+      "number": 81,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 350337,
+      "name": "André Gomes",
+      "number": 75,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 474842,
+      "name": "Leandro Santos",
+      "number": 71,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 301528,
+      "name": "A. Schjelderup",
+      "number": 21,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": "G",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}

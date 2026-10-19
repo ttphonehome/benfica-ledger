@@ -1,0 +1,71 @@
+{
+ "fetchedAt": "2026-10-19T18:38:24.900Z",
+ "data": [
+  {
+   "league": "Primeira Liga",
+   "country": "Portugal",
+   "season": "2023/2024",
+   "place": "2nd Place"
+  },
+  {
+   "league": "Super Cup",
+   "country": "Portugal",
+   "season": "2023/2024",
+   "place": "Winner"
+  },
+  {
+   "league": "Primeira Liga",
+   "country": "Portugal",
+   "season": "2022/2023",
+   "place": "Winner"
+  },
+  {
+   "league": "KNVB Beker",
+   "country": "Holland",
+   "season": "2021/2022",
+   "place": "Winner"
+  },
+  {
+   "league": "Super Cup",
+   "country": "Holland",
+   "season": "2021/2022",
+   "place": "Winner"
+  },
+  {
+   "league": "Eredivisie",
+   "country": "Holland",
+   "season": "2020/2021",
+   "place": "2nd Place"
+  },
+  {
+   "league": "Super Cup",
+   "country": "China-Pr",
+   "season": "2019",
+   "place": "2nd Place"
+  },
+  {
+   "league": "FA Cup",
+   "country": "China-Pr",
+   "season": "2018",
+   "place": "Winner"
+  },
+  {
+   "league": "Bundesliga",
+   "country": "Austria",
+   "season": "2013/2014",
+   "place": "Winner"
+  },
+  {
+   "league": "Cup",
+   "country": "Austria",
+   "season": "2013/2014",
+   "place": "Winner"
+  },
+  {
+   "league": "Bundesliga",
+   "country": "Austria",
+   "season": "2012/2013",
+   "place": "2nd Place"
+  }
+ ]
+}

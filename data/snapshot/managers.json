@@ -1,0 +1,556 @@
+[
+ {
+  "id": "rui-vitoria",
+  "name": "Rui Vitória",
+  "nick": "Vitória",
+  "appointed": "2015-06-22",
+  "departed": "2019-01-02",
+  "seasons": [
+   {
+    "season": "2015-16",
+    "wins": 26,
+    "draws": 6,
+    "losses": 2,
+    "gf": 88,
+    "ga": 29,
+    "finish": 1,
+    "leaguePoints": 84,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League QF"
+    ],
+    "formations": [
+     {
+      "name": "4-3-3",
+      "matches": 21,
+      "w": 16,
+      "d": 4,
+      "l": 1,
+      "gf": 56,
+      "ga": 16
+     },
+     {
+      "name": "4-4-2",
+      "matches": 13,
+      "w": 10,
+      "d": 2,
+      "l": 1,
+      "gf": 32,
+      "ga": 13
+     }
+    ],
+    "academyMinutesPct": 14,
+    "youthPromoted": [],
+    "avgStartXIAge": 26.4,
+    "notes": "Tri-campeão year. Inherited a strong squad and ran with it.",
+    "titles": [
+     "Primeira Liga 2015-16"
+    ]
+   },
+   {
+    "season": "2016-17",
+    "wins": 27,
+    "draws": 4,
+    "losses": 3,
+    "gf": 70,
+    "ga": 19,
+    "finish": 1,
+    "leaguePoints": 82,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League R16"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 28,
+      "w": 23,
+      "d": 3,
+      "l": 2,
+      "gf": 58,
+      "ga": 13
+     },
+     {
+      "name": "4-3-3",
+      "matches": 6,
+      "w": 4,
+      "d": 1,
+      "l": 1,
+      "gf": 12,
+      "ga": 6
+     }
+    ],
+    "academyMinutesPct": 22,
+    "youthPromoted": [
+     "Rúben Dias",
+     "Nélson Semedo"
+    ],
+    "avgStartXIAge": 26.8,
+    "notes": "Won the tetra. Defensive solidity (19 GA). Peak Vitória.",
+    "titles": [
+     "Primeira Liga 2016-17"
+    ]
+   },
+   {
+    "season": "2017-18",
+    "wins": 23,
+    "draws": 6,
+    "losses": 5,
+    "gf": 73,
+    "ga": 33,
+    "finish": 2,
+    "leaguePoints": 75,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League Group"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 26,
+      "w": 17,
+      "d": 5,
+      "l": 4,
+      "gf": 56,
+      "ga": 24
+     },
+     {
+      "name": "4-3-3",
+      "matches": 8,
+      "w": 6,
+      "d": 1,
+      "l": 1,
+      "gf": 17,
+      "ga": 9
+     }
+    ],
+    "academyMinutesPct": 17,
+    "youthPromoted": [],
+    "avgStartXIAge": 27.1,
+    "notes": "Lost the tetra dream to Porto. Tactically conservative.",
+    "titles": []
+   },
+   {
+    "season": "2018-19",
+    "wins": 11,
+    "draws": 5,
+    "losses": 2,
+    "gf": 36,
+    "ga": 18,
+    "finish": null,
+    "leaguePoints": 38,
+    "competitions": [
+     "Primeira Liga (partial)"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 13,
+      "w": 7,
+      "d": 4,
+      "l": 2,
+      "gf": 22,
+      "ga": 11
+     },
+     {
+      "name": "4-3-3",
+      "matches": 5,
+      "w": 4,
+      "d": 1,
+      "l": 0,
+      "gf": 14,
+      "ga": 7
+     }
+    ],
+    "academyMinutesPct": 18,
+    "youthPromoted": [
+     "Rúben Dias"
+    ],
+    "avgStartXIAge": 27.4,
+    "notes": "Sacked mid-season after derby loss. Lage promoted from B.",
+    "titles": []
+   }
+  ]
+ },
+ {
+  "id": "lage-1",
+  "name": "Bruno Lage",
+  "nick": "Lage · 1st stint",
+  "appointed": "2019-01-03",
+  "departed": "2020-06-30",
+  "seasons": [
+   {
+    "season": "2018-19",
+    "wins": 23,
+    "draws": 6,
+    "losses": 5,
+    "gf": 80,
+    "ga": 36,
+    "finish": 1,
+    "leaguePoints": 75,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League Group"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 29,
+      "w": 21,
+      "d": 5,
+      "l": 3,
+      "gf": 67,
+      "ga": 25
+     },
+     {
+      "name": "4-3-3",
+      "matches": 5,
+      "w": 2,
+      "d": 1,
+      "l": 2,
+      "gf": 13,
+      "ga": 11
+     }
+    ],
+    "academyMinutesPct": 31,
+    "youthPromoted": [
+     "João Félix",
+     "Rúben Dias",
+     "Gedson Fernandes"
+    ],
+    "avgStartXIAge": 24.3,
+    "notes": "Came from B-team. Won league with a young, exciting squad. The breakout.",
+    "titles": [
+     "Primeira Liga 2018-19"
+    ]
+   },
+   {
+    "season": "2019-20",
+    "wins": 22,
+    "draws": 8,
+    "losses": 4,
+    "gf": 75,
+    "ga": 36,
+    "finish": 2,
+    "leaguePoints": 77,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League Group"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 24,
+      "w": 17,
+      "d": 5,
+      "l": 2,
+      "gf": 53,
+      "ga": 21
+     },
+     {
+      "name": "4-3-3",
+      "matches": 10,
+      "w": 5,
+      "d": 3,
+      "l": 2,
+      "gf": 22,
+      "ga": 15
+     }
+    ],
+    "academyMinutesPct": 24,
+    "youthPromoted": [
+     "João Félix (prior year)",
+     "Florentino Luís"
+    ],
+    "avgStartXIAge": 25.7,
+    "notes": "Followed up title with a 2nd-place finish. Squad turnover hurt continuity.",
+    "titles": []
+   }
+  ]
+ },
+ {
+  "id": "jesus-2",
+  "name": "Jorge Jesus",
+  "nick": "Jesus · 2nd stint",
+  "appointed": "2020-07-15",
+  "departed": "2021-12-28",
+  "seasons": [
+   {
+    "season": "2020-21",
+    "wins": 23,
+    "draws": 8,
+    "losses": 3,
+    "gf": 73,
+    "ga": 38,
+    "finish": 3,
+    "leaguePoints": 77,
+    "competitions": [
+     "Primeira Liga",
+     "Europa League R16"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 21,
+      "w": 14,
+      "d": 5,
+      "l": 2,
+      "gf": 44,
+      "ga": 21
+     },
+     {
+      "name": "4-3-3",
+      "matches": 13,
+      "w": 9,
+      "d": 3,
+      "l": 1,
+      "gf": 29,
+      "ga": 17
+     }
+    ],
+    "academyMinutesPct": 12,
+    "youthPromoted": [],
+    "avgStartXIAge": 28.9,
+    "notes": "Return year. Bottled the title chase. Heavy reliance on veterans.",
+    "titles": []
+   },
+   {
+    "season": "2021-22",
+    "wins": 11,
+    "draws": 4,
+    "losses": 3,
+    "gf": 36,
+    "ga": 22,
+    "finish": null,
+    "leaguePoints": 37,
+    "competitions": [
+     "Primeira Liga (partial)"
+    ],
+    "formations": [
+     {
+      "name": "4-4-2",
+      "matches": 13,
+      "w": 8,
+      "d": 3,
+      "l": 2,
+      "gf": 24,
+      "ga": 14
+     },
+     {
+      "name": "4-3-3",
+      "matches": 5,
+      "w": 3,
+      "d": 1,
+      "l": 1,
+      "gf": 12,
+      "ga": 8
+     }
+    ],
+    "academyMinutesPct": 14,
+    "youthPromoted": [],
+    "avgStartXIAge": 28.4,
+    "notes": "Departed late December after winless run vs rivals.",
+    "titles": []
+   }
+  ]
+ },
+ {
+  "id": "verissimo",
+  "name": "Nélson Veríssimo",
+  "nick": "Veríssimo",
+  "appointed": "2021-12-29",
+  "departed": "2022-06-30",
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 22,
+    "draws": 8,
+    "losses": 8,
+    "gf": 70,
+    "ga": 41,
+    "finish": 3,
+    "leaguePoints": 74,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League QF"
+    ],
+    "formations": [
+     {
+      "name": "4-3-3",
+      "matches": 22,
+      "w": 13,
+      "d": 5,
+      "l": 4,
+      "gf": 41,
+      "ga": 22
+     },
+     {
+      "name": "4-2-3-1",
+      "matches": 12,
+      "w": 7,
+      "d": 2,
+      "l": 3,
+      "gf": 21,
+      "ga": 14
+     },
+     {
+      "name": "3-5-2",
+      "matches": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 8,
+      "ga": 5
+     }
+    ],
+    "academyMinutesPct": 19,
+    "youthPromoted": [
+     "Gonçalo Ramos"
+    ],
+    "avgStartXIAge": 27.6,
+    "notes": "Interim. Stabilised after Jesus exit. CL QF run was a high point.",
+    "titles": []
+   }
+  ]
+ },
+ {
+  "id": "schmidt",
+  "name": "Roger Schmidt",
+  "nick": "Schmidt",
+  "appointed": "2022-07-01",
+  "departed": "2024-05-31",
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 29,
+    "draws": 5,
+    "losses": 4,
+    "gf": 84,
+    "ga": 25,
+    "finish": 1,
+    "leaguePoints": 87,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League QF"
+    ],
+    "formations": [
+     {
+      "name": "4-2-3-1",
+      "matches": 31,
+      "w": 24,
+      "d": 4,
+      "l": 3,
+      "gf": 71,
+      "ga": 18
+     },
+     {
+      "name": "4-3-3",
+      "matches": 7,
+      "w": 5,
+      "d": 1,
+      "l": 1,
+      "gf": 13,
+      "ga": 7
+     }
+    ],
+    "academyMinutesPct": 28,
+    "youthPromoted": [
+     "António Silva",
+     "Henrique Araújo"
+    ],
+    "avgStartXIAge": 26.1,
+    "notes": "Title-winning year. Press, transitions, Enzo as orchestrator.",
+    "titles": [
+     "Primeira Liga 2022-23"
+    ]
+   },
+   {
+    "season": "2023-24",
+    "wins": 25,
+    "draws": 9,
+    "losses": 4,
+    "gf": 74,
+    "ga": 39,
+    "finish": 2,
+    "leaguePoints": 80,
+    "competitions": [
+     "Primeira Liga",
+     "Champions League R16",
+     "Europa League QF"
+    ],
+    "formations": [
+     {
+      "name": "4-2-3-1",
+      "matches": 30,
+      "w": 21,
+      "d": 6,
+      "l": 3,
+      "gf": 58,
+      "ga": 22
+     },
+     {
+      "name": "4-3-3",
+      "matches": 8,
+      "w": 4,
+      "d": 3,
+      "l": 1,
+      "gf": 16,
+      "ga": 17
+     }
+    ],
+    "academyMinutesPct": 21,
+    "youthPromoted": [
+     "Tomás Araújo"
+    ],
+    "avgStartXIAge": 26.8,
+    "notes": "High-press philosophy. Squad fatigued in spring; lost title late.",
+    "titles": []
+   }
+  ]
+ },
+ {
+  "id": "lage-2",
+  "name": "Bruno Lage",
+  "nick": "Lage · 2nd stint",
+  "appointed": "2024-06-15",
+  "departed": "2026-06-30",
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 38,
+    "draws": 8,
+    "losses": 10,
+    "gf": 135,
+    "ga": 52,
+    "finish": 2,
+    "leaguePoints": 80,
+    "competitions": [
+     "Primeira Liga",
+     "UEFA Champions League",
+     "Taça de Portugal",
+     "Taça da Liga"
+    ],
+    "formations": [],
+    "academyMinutesPct": 20.9,
+    "youthPromoted": [
+     "Manu Silva",
+     "Samuel Soares",
+     "Tiago Gouveia"
+    ],
+    "avgStartXIAge": null,
+    "notes": "Tactically consistent. Trusts youth more than predecessor.",
+    "titles": [
+     "Taça da Liga 2024-25"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "marco-silva",
+  "name": "Marco Silva",
+  "nick": "Marco Silva",
+  "appointed": "2026-07-01",
+  "departed": null,
+  "seasons": []
+ }
+]

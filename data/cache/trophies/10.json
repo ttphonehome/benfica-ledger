@@ -1,0 +1,29 @@
+{
+ "fetchedAt": "2026-10-19T18:38:18.372Z",
+ "data": [
+  {
+   "league": "Championship",
+   "country": "England",
+   "season": "2021/2022",
+   "place": "Winner"
+  },
+  {
+   "league": "Super League 1",
+   "country": "Greece",
+   "season": "2015/2016",
+   "place": "Winner"
+  },
+  {
+   "league": "Cup",
+   "country": "Greece",
+   "season": "2015/2016",
+   "place": "2nd Place"
+  },
+  {
+   "league": "Taça de Portugal",
+   "country": "Portugal",
+   "season": "2014/2015",
+   "place": "Winner"
+  }
+ ]
+}

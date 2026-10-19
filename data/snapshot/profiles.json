@@ -1,0 +1,154 @@
+[
+ {
+  "playerId": "vangelis-pavlidis",
+  "player": "Vangelis Pavlidis",
+  "primary": "ST",
+  "secondary": "LW",
+  "foot": "R",
+  "role": "Pressing Forward"
+ },
+ {
+  "playerId": "angel-di-maria",
+  "player": "Ángel Di María",
+  "primary": "RW",
+  "secondary": "AM",
+  "foot": "L",
+  "role": "Inverted Winger"
+ },
+ {
+  "playerId": "kerem-akturkoglu",
+  "player": "Kerem Aktürkoğlu",
+  "primary": "LW",
+  "secondary": "RW",
+  "foot": "R",
+  "role": "Inside Forward"
+ },
+ {
+  "playerId": "david-neres",
+  "player": "David Neres",
+  "primary": "RW",
+  "secondary": "LW",
+  "foot": "L",
+  "role": "Dribbler-Winger"
+ },
+ {
+  "playerId": "florentino-luis",
+  "player": "Florentino Luís",
+  "primary": "DM",
+  "secondary": "CM",
+  "foot": "R",
+  "role": "Ball-Winning Mid"
+ },
+ {
+  "playerId": "orkun-kokcu",
+  "player": "Orkun Kökçü",
+  "primary": "CM",
+  "secondary": "AM",
+  "foot": "L",
+  "role": "Deep-Lying Playmaker"
+ },
+ {
+  "playerId": "fredrik-aursnes",
+  "player": "Fredrik Aursnes",
+  "primary": "CM",
+  "secondary": "RB",
+  "foot": "R",
+  "role": "Box-to-Box Mid"
+ },
+ {
+  "playerId": "alvaro-carreras",
+  "player": "Álvaro Carreras",
+  "primary": "LB",
+  "secondary": "LWB",
+  "foot": "L",
+  "role": "Attacking Full-Back"
+ },
+ {
+  "playerId": "alexander-bah",
+  "player": "Alexander Bah",
+  "primary": "RB",
+  "secondary": "RWB",
+  "foot": "R",
+  "role": "Attacking Full-Back"
+ },
+ {
+  "playerId": "nicolas-otamendi",
+  "player": "Nicolás Otamendi",
+  "primary": "CB",
+  "secondary": "DM",
+  "foot": "R",
+  "role": "Stopper"
+ },
+ {
+  "playerId": "antonio-silva",
+  "player": "António Silva",
+  "primary": "CB",
+  "secondary": "RB",
+  "foot": "R",
+  "role": "Ball-Playing CB"
+ },
+ {
+  "playerId": "tomas-araujo",
+  "player": "Tomás Araújo",
+  "primary": "CB",
+  "secondary": "RB",
+  "foot": "R",
+  "role": "Ball-Playing CB"
+ },
+ {
+  "playerId": "anatoliy-trubin",
+  "player": "Anatoliy Trubin",
+  "primary": "GK",
+  "secondary": null,
+  "foot": "R",
+  "role": "Sweeper-Keeper"
+ },
+ {
+  "playerId": "joao-neves",
+  "player": "João Neves",
+  "primary": "DM",
+  "secondary": "CM",
+  "foot": "R",
+  "role": "Box-to-Box Mid"
+ },
+ {
+  "playerId": "rafa-silva",
+  "player": "Rafa Silva",
+  "primary": "AM",
+  "secondary": "RW",
+  "foot": "R",
+  "role": "Free 10"
+ },
+ {
+  "playerId": "goncalo-ramos",
+  "player": "Gonçalo Ramos",
+  "primary": "ST",
+  "secondary": null,
+  "foot": "R",
+  "role": "Pressing Forward"
+ },
+ {
+  "playerId": "darwin-nunez",
+  "player": "Darwin Núñez",
+  "primary": "ST",
+  "secondary": "LW",
+  "foot": "R",
+  "role": "Target Forward"
+ },
+ {
+  "playerId": "enzo-fernandez",
+  "player": "Enzo Fernández",
+  "primary": "CM",
+  "secondary": "DM",
+  "foot": "R",
+  "role": "Deep-Lying Playmaker"
+ },
+ {
+  "playerId": "alex-grimaldo",
+  "player": "Álex Grimaldo",
+  "primary": "LB",
+  "secondary": "LM",
+  "foot": "L",
+  "role": "Attacking Full-Back"
+ }
+]

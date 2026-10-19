@@ -1,0 +1,477 @@
+{
+ "fetchedAt": "2026-10-19T18:43:43.492Z",
+ "data": [
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "ff0000",
+      "number": "ffffff",
+      "border": "ff0000"
+     },
+     "goalkeeper": {
+      "primary": "feff65",
+      "number": "ffffff",
+      "border": "feff65"
+     }
+    }
+   },
+   "coach": {
+    "id": 2213,
+    "name": "Bruno Lage",
+    "photo": "https://media.api-sports.io/football/coachs/2213.png"
+   },
+   "formation": "4-3-3",
+   "startXI": [
+    {
+     "player": {
+      "id": 675,
+      "name": "A. Trubin",
+      "number": 1,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 15623,
+      "name": "A. Bah",
+      "number": 6,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 161939,
+      "name": "Tomás Araújo",
+      "number": 44,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 624,
+      "name": "N. Otamendi",
+      "number": 30,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 284300,
+      "name": "Álvaro Fernández",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 39043,
+      "name": "F. Aursnes",
+      "number": 8,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 37155,
+      "name": "O. Kökçü",
+      "number": 10,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 266,
+      "name": "Á. Di María",
+      "number": 11,
+      "pos": "F",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 36798,
+      "name": "V. Pavlidis",
+      "number": 14,
+      "pos": "F",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 142959,
+      "name": "K. Aktürkoğlu",
+      "number": 17,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 123469,
+      "name": "Z. Amdouni",
+      "number": 7,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 119485,
+      "name": "B. Rollheiser",
+      "number": 32,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 25313,
+      "name": "J. Beste",
+      "number": 37,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 331832,
+      "name": "António Silva",
+      "number": 4,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 25918,
+      "name": "L. Barreiro",
+      "number": 18,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 180320,
+      "name": "A. Bajrami",
+      "number": 81,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 9938,
+      "name": "Arthur Cabral",
+      "number": 9,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 362755,
+      "name": "G. Prestianni",
+      "number": 25,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 350337,
+      "name": "André Gomes",
+      "number": 75,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 301528,
+      "name": "A. Schjelderup",
+      "number": 21,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 140947,
+      "name": "I. Kaboré",
+      "number": 28,
+      "pos": "D",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 530,
+    "name": "Atletico Madrid",
+    "logo": "https://media.api-sports.io/football/teams/530.png",
+    "colors": {
+     "player": {
+      "primary": "bccacb",
+      "number": "ffffff",
+      "border": "bccacb"
+     },
+     "goalkeeper": {
+      "primary": "3cda42",
+      "number": "ffffff",
+      "border": "3cda42"
+     }
+    }
+   },
+   "coach": {
+    "id": 1595,
+    "name": "D. Simeone",
+    "photo": "https://media.api-sports.io/football/coachs/1595.png"
+   },
+   "formation": "3-4-2-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 29,
+      "name": "J. Oblak",
+      "number": 13,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 20,
+      "name": "A. Witsel",
+      "number": 20,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 31,
+      "name": "J. Giménez",
+      "number": 2,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 22225,
+      "name": "Reinildo",
+      "number": 23,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 753,
+      "name": "Marcos Llorente",
+      "number": 14,
+      "pos": "M",
+      "grid": "3:4"
+     }
+    },
+    {
+     "player": {
+      "id": 2472,
+      "name": "R. De Paul",
+      "number": 5,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 50,
+      "name": "Koke",
+      "number": 6,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 126936,
+      "name": "Samuel Lino",
+      "number": 12,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 53,
+      "name": "Á. Correa",
+      "number": 10,
+      "pos": "F",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 6009,
+      "name": "J. Alvarez",
+      "number": 19,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 56,
+      "name": "A. Griezmann",
+      "number": 7,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 6503,
+      "name": "N. Molina",
+      "number": 16,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 303378,
+      "name": "Javi Serrano",
+      "number": 29,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 67972,
+      "name": "C. Gallagher",
+      "number": 4,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 8492,
+      "name": "A. Sørloth",
+      "number": 9,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 323935,
+      "name": "G. Simeone",
+      "number": 22,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 2465,
+      "name": "J. Musso",
+      "number": 1,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 441280,
+      "name": "G. Spina",
+      "number": 43,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 133,
+      "name": "C. Lenglet",
+      "number": 15,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 333379,
+      "name": "Antonio Gomis",
+      "number": 31,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 47566,
+      "name": "Javi Galán",
+      "number": 21,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 136117,
+      "name": "Rodrigo Riquelme",
+      "number": 17,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 45,
+      "name": "T. Lemar",
+      "number": 11,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}
