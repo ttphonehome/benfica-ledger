@@ -73,11 +73,11 @@
   "season": "2023-24",
   "leaguePosition": 2,
   "leagueNote": null,
-  "points": null,
+  "points": 80,
   "manager": "Roger Schmidt",
-  "goalsFor": null,
-  "goalsAgainst": null,
-  "competitions": "Primeira Liga · Taça de Portugal · Taça da Liga · Supertaça · Champions League · Europa League"
+  "goalsFor": 77,
+  "goalsAgainst": 28,
+  "competitions": "Super Cup · Primeira Liga · UEFA Champions League · Taça de Portugal · Taça da Liga · UEFA Europa League"
  },
  {
   "season": "2024-25",
