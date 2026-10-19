@@ -219,7 +219,15 @@ export function merge(input: MergeInput): { dataset: Dataset; report: MergeRepor
     transfers = input.moves
       .filter((m) => inTarget.has(m.season))
       .map((m) => {
-        const name = apiName.get(m.apiId) ?? canon(m.apiName);
+        // Seasons without the API player list: take the spelling from the Wikipedia
+        // squads around the move (arrivals play the window season, departures the one before).
+        const near = [m.season, seasonOfYear(startYear(m.season) - 1), nextSeason(m.season)].flatMap(
+          (x) => input.wiki.get(x)?.squad?.players ?? [],
+        ).filter((r, i, all) => all.findIndex((o) => o.name === r.name) === i);
+        const w = apiName.has(m.apiId)
+          ? null
+          : matchWikiName({ apiName: m.apiName, firstname: null, lastname: null } as ApiPlayerSeason, near);
+        const name = apiName.get(m.apiId) ?? canon(w ? w.name : m.apiName);
         const id = slug(name);
         const birth = apiBirth.get(m.apiId);
         return {
@@ -292,7 +300,11 @@ export function merge(input: MergeInput): { dataset: Dataset; report: MergeRepor
       continue;
     }
     for (const sp of api.injuries) {
-      const name = apiName.get(sp.apiId) ?? canon(sp.apiName);
+      // Without the API player list, align the spelling with Wikipedia's squad.
+      const w = apiName.has(sp.apiId)
+        ? null
+        : matchWikiName({ apiName: sp.apiName, firstname: null, lastname: null } as ApiPlayerSeason, input.wiki.get(s)?.squad?.players ?? []);
+      const name = apiName.get(sp.apiId) ?? canon(w ? w.name : sp.apiName);
       const id = slug(name);
       injuries.push({
         id: `${s}-${id}-${sp.out}`,

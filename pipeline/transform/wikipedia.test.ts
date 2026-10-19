@@ -36,3 +36,15 @@ describe("wikipedia squad stats", () => {
     expect(parseInfobox(box)).toEqual({ leaguePosition: 1, managers: ["Rui Vitória"] });
   });
 });
+
+describe("plain wikitable squad stats (older articles)", () => {
+  const table = readFileSync(new URL("../fixtures/wiki-table.txt", import.meta.url), "utf8");
+  it("reads the Total columns, competitions and the left-during-season block", () => {
+    const r = parseSquadStats(table);
+    expect(r.competitions).toEqual(["Primeira Liga", "Taça de Portugal", "Taça da Liga", "Supertaça", "Champions League"]);
+    expect(r.players).toEqual([
+      { name: "Mile Svilar", display: "Mile Svilar", pos: "GK", nat: "BEL", starts: 9, subs: 0, goals: 0, leftDuringSeason: false, onLoan: false },
+      { name: "Lisandro López", display: "Lisandro López", pos: "DF", nat: "ARG", starts: 6, subs: 2, goals: 1, leftDuringSeason: true, onLoan: false },
+    ]);
+  });
+});

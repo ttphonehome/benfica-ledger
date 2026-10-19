@@ -105,14 +105,20 @@ async function apiSeason(s: string): Promise<ApiSeasonData | null> {
   const players = await apiCached<ApiPlayerEntry[]>("players", String(y), age, (a) =>
     a.getAll("/players", { team: TEAM_ID, season: y }),
   );
-  if (!players) return null;
+  if (!players) {
+    // A season outside the plan blocks every endpoint, so don't spend requests on it.
+    // The free plan's page cap only blocks the player list: results, injuries and
+    // standings still come through and feed manager records.
+    const blocked = await readCache<{ message: string }>("plan-blocked", `players-${y}`);
+    if (!blocked || /access to this season/i.test(blocked.data.message)) return null;
+  }
   const fixtures = (await apiCached<ApiFixture[]>("fixtures", String(y), age, (a) => a.get("/fixtures", { team: TEAM_ID, season: y }))) ?? [];
   const injuries = (await apiCached<ApiInjury[]>("injuries", String(y), age, (a) => a.get("/injuries", { team: TEAM_ID, season: y }))) ?? [];
   const standings = await apiCached<{ league: { standings: ApiStandingRow[][] } }[]>("standings", String(y), age, (a) =>
     a.get("/standings", { league: LEAGUE_ID, season: y }),
   );
   const standing = standings?.[0]?.league.standings.flat().find((r) => r.team.id === TEAM_ID) ?? null;
-  return { season: s, players: playerSeasons(players), injuries: injurySpells(injuries), results: toResults(fixtures), standing };
+  return { season: s, players: players ? playerSeasons(players) : [], injuries: injurySpells(injuries), results: toResults(fixtures), standing };
 }
 
 // --- Wikipedia through the cache ---------------------------------------------

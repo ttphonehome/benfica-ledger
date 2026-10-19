@@ -169,16 +169,16 @@
   "age": null
  },
  {
-  "id": "2016-17-in-a-carrillo-free-2016-07-01",
-  "playerId": "a-carrillo",
-  "player": "A. Carrillo",
+  "id": "2016-17-in-andre-carrillo-free-2016-07-01",
+  "playerId": "andre-carrillo",
+  "player": "André Carrillo",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-07-01",
   "type": "free",
   "fee": 0,
   "club": "Sporting CP",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -221,29 +221,29 @@
   "age": null
  },
  {
-  "id": "2016-17-in-f-cervi-permanent-2016-07-01",
-  "playerId": "f-cervi",
-  "player": "F. Cervi",
+  "id": "2016-17-in-franco-cervi-permanent-2016-07-01",
+  "playerId": "franco-cervi",
+  "player": "Franco Cervi",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-07-01",
   "type": "permanent",
   "fee": 4.7,
   "club": "Rosario Central",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2016-17-in-b-kalaica-free-2016-07-01",
-  "playerId": "b-kalaica",
-  "player": "B. Kalaica",
+  "id": "2016-17-in-branimir-kalaica-free-2016-07-01",
+  "playerId": "branimir-kalaica",
+  "player": "Branimir Kalaica",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-07-01",
   "type": "free",
   "fee": 0,
   "club": "Dinamo Zagreb",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -286,16 +286,16 @@
   "age": null
  },
  {
-  "id": "2016-17-in-g-celis-permanent-2016-07-02",
-  "playerId": "g-celis",
-  "player": "G. Celis",
+  "id": "2016-17-in-guillermo-celis-permanent-2016-07-02",
+  "playerId": "guillermo-celis",
+  "player": "Guillermo Celis",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-07-02",
   "type": "permanent",
   "fee": null,
   "club": "Junior",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -308,20 +308,20 @@
   "type": "free",
   "fee": 0,
   "club": "Vitoria Setubal",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
-  "id": "2016-17-in-a-zivkovic-free-2016-07-05",
-  "playerId": "a-zivkovic",
-  "player": "A. Živković",
+  "id": "2016-17-in-andrija-zivkovic-free-2016-07-05",
+  "playerId": "andrija-zivkovic",
+  "player": "Andrija Živković",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-07-05",
   "type": "free",
   "fee": 0,
   "club": "FK Partizan",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -650,16 +650,16 @@
   "age": null
  },
  {
-  "id": "2016-17-in-rafa-permanent-2016-08-31",
-  "playerId": "rafa",
-  "player": "Rafa",
+  "id": "2016-17-in-rafa-silva-permanent-2016-08-31",
+  "playerId": "rafa-silva",
+  "player": "Rafa Silva",
   "season": "2016-17",
   "dir": "in",
   "date": "2016-08-31",
   "type": "permanent",
   "fee": 16.4,
   "club": "SC Braga",
-  "pos": null,
+  "pos": "AM",
   "age": null
  },
  {
@@ -893,7 +893,7 @@
   "type": "loan-out",
   "fee": null,
   "club": "Vitoria Setubal",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -936,16 +936,16 @@
   "age": null
  },
  {
-  "id": "2016-17-out-g-celis-loan-out-2017-01-31",
-  "playerId": "g-celis",
-  "player": "G. Celis",
+  "id": "2016-17-out-guillermo-celis-loan-out-2017-01-31",
+  "playerId": "guillermo-celis",
+  "player": "Guillermo Celis",
   "season": "2016-17",
   "dir": "out",
   "date": "2017-01-31",
   "type": "loan-out",
   "fee": null,
   "club": "Guimaraes",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -988,16 +988,16 @@
   "age": null
  },
  {
-  "id": "2017-18-out-v-lindelof-permanent-2017-06-14",
-  "playerId": "v-lindelof",
-  "player": "V. Lindelöf",
+  "id": "2017-18-out-victor-lindelof-permanent-2017-06-14",
+  "playerId": "victor-lindelof",
+  "player": "Victor Lindelöf",
   "season": "2017-18",
   "dir": "out",
   "date": "2017-06-14",
   "type": "permanent",
   "fee": 35,
   "club": "Manchester United",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -1053,29 +1053,29 @@
   "age": null
  },
  {
-  "id": "2017-18-in-m-chrien-permanent-2017-07-01",
-  "playerId": "m-chrien",
-  "player": "M. Chrien",
+  "id": "2017-18-in-martin-chrien-permanent-2017-07-01",
+  "playerId": "martin-chrien",
+  "player": "Martin Chrien",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Plzen",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2017-18-in-h-seferovic-free-2017-07-01",
-  "playerId": "h-seferovic",
-  "player": "H. Seferović",
+  "id": "2017-18-in-haris-seferovic-free-2017-07-01",
+  "playerId": "haris-seferovic",
+  "player": "Haris Seferovic",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-07-01",
   "type": "free",
   "fee": 0,
   "club": "Eintracht Frankfurt",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -1183,22 +1183,22 @@
   "age": null
  },
  {
-  "id": "2017-18-out-l-jovic-loan-out-2017-07-01",
-  "playerId": "l-jovic",
-  "player": "L. Jović",
+  "id": "2017-18-out-luka-jovic-loan-out-2017-07-01",
+  "playerId": "luka-jovic",
+  "player": "Luka Jović",
   "season": "2017-18",
   "dir": "out",
   "date": "2017-07-01",
   "type": "loan-out",
   "fee": null,
   "club": "Eintracht Frankfurt",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2017-18-in-c-willock-free-2017-07-01",
-  "playerId": "c-willock",
-  "player": "C. Willock",
+  "id": "2017-18-in-chris-willock-free-2017-07-01",
+  "playerId": "chris-willock",
+  "player": "Chris Willock",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-07-01",
@@ -1296,20 +1296,20 @@
   "type": "permanent",
   "fee": null,
   "club": "Vitoria Setubal",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2017-18-in-k-parks-free-2017-07-01",
-  "playerId": "k-parks",
-  "player": "K. Parks",
+  "id": "2017-18-in-keaton-parks-free-2017-07-01",
+  "playerId": "keaton-parks",
+  "player": "Keaton Parks",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-07-01",
   "type": "free",
   "fee": 0,
   "club": "Varzim",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -1374,7 +1374,7 @@
   "type": "permanent",
   "fee": null,
   "club": "Vitoria Setubal",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -1404,16 +1404,16 @@
   "age": null
  },
  {
-  "id": "2017-18-in-f-krovinovic-permanent-2017-07-03",
-  "playerId": "f-krovinovic",
-  "player": "F. Krovinović",
+  "id": "2017-18-in-filip-krovinovic-permanent-2017-07-03",
+  "playerId": "filip-krovinovic",
+  "player": "Filip Krovinović",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-07-03",
   "type": "permanent",
   "fee": 3,
   "club": "Rio Ave",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -1469,16 +1469,16 @@
   "age": null
  },
  {
-  "id": "2017-18-out-g-celis-permanent-2017-07-18",
-  "playerId": "g-celis",
-  "player": "G. Celis",
+  "id": "2017-18-out-guillermo-celis-permanent-2017-07-18",
+  "playerId": "guillermo-celis",
+  "player": "Guillermo Celis",
   "season": "2017-18",
   "dir": "out",
   "date": "2017-07-18",
   "type": "permanent",
   "fee": 1,
   "club": "Guimaraes",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -1599,29 +1599,29 @@
   "age": null
  },
  {
-  "id": "2017-18-out-a-carrillo-loan-out-2017-08-24",
-  "playerId": "a-carrillo",
-  "player": "A. Carrillo",
+  "id": "2017-18-out-andre-carrillo-loan-out-2017-08-24",
+  "playerId": "andre-carrillo",
+  "player": "André Carrillo",
   "season": "2017-18",
   "dir": "out",
   "date": "2017-08-24",
   "type": "loan-out",
   "fee": null,
   "club": "Watford",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2017-18-in-m-svilar-permanent-2017-08-28",
-  "playerId": "m-svilar",
-  "player": "M. Svilar",
+  "id": "2017-18-in-mile-svilar-permanent-2017-08-28",
+  "playerId": "mile-svilar",
+  "player": "Mile Svilar",
   "season": "2017-18",
   "dir": "in",
   "date": "2017-08-28",
   "type": "permanent",
   "fee": 2.5,
   "club": "Anderlecht",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -1712,7 +1712,7 @@
   "type": "loan-in",
   "fee": null,
   "club": "Inter",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -1946,20 +1946,20 @@
   "type": "permanent",
   "fee": null,
   "club": "Nottingham Forest",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2018-19-in-c-lema-free-2018-06-22",
-  "playerId": "c-lema",
-  "player": "C. Lema",
+  "id": "2018-19-in-cristian-lema-free-2018-06-22",
+  "playerId": "cristian-lema",
+  "player": "Cristian Lema",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-06-22",
   "type": "free",
   "fee": 0,
   "club": "Belgrano Cordoba",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -2002,16 +2002,16 @@
   "age": null
  },
  {
-  "id": "2018-19-in-a-taarabt-permanent-2018-07-01",
-  "playerId": "a-taarabt",
-  "player": "A. Taarabt",
+  "id": "2018-19-in-adel-taarabt-permanent-2018-07-01",
+  "playerId": "adel-taarabt",
+  "player": "Adel Taarabt",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Genoa",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2028,9 +2028,9 @@
   "age": null
  },
  {
-  "id": "2018-19-in-t-ebuehi-free-2018-07-01",
-  "playerId": "t-ebuehi",
-  "player": "T. Ebuehi",
+  "id": "2018-19-in-tyronne-ebuehi-free-2018-07-01",
+  "playerId": "tyronne-ebuehi",
+  "player": "Tyronne Ebuehi",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-07-01",
@@ -2067,16 +2067,16 @@
   "age": null
  },
  {
-  "id": "2018-19-in-g-conti-permanent-2018-07-01",
-  "playerId": "g-conti",
-  "player": "G. Conti",
+  "id": "2018-19-in-german-conti-permanent-2018-07-01",
+  "playerId": "german-conti",
+  "player": "Germán Conti",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-07-01",
   "type": "permanent",
   "fee": 3.5,
   "club": "Colon Santa Fe",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -2093,16 +2093,16 @@
   "age": null
  },
  {
-  "id": "2018-19-out-r-jimenez-loan-out-2018-07-01",
-  "playerId": "r-jimenez",
-  "player": "R. Jiménez",
+  "id": "2018-19-out-raul-jimenez-loan-out-2018-07-01",
+  "playerId": "raul-jimenez",
+  "player": "Raúl Jiménez",
   "season": "2018-19",
   "dir": "out",
   "date": "2018-07-01",
   "type": "loan-out",
   "fee": null,
   "club": "Wolves",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -2132,16 +2132,16 @@
   "age": null
  },
  {
-  "id": "2018-19-in-f-ferreyra-free-2018-07-02",
-  "playerId": "f-ferreyra",
-  "player": "F. Ferreyra",
+  "id": "2018-19-in-facundo-ferreyra-free-2018-07-02",
+  "playerId": "facundo-ferreyra",
+  "player": "Facundo Ferreyra",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-07-02",
   "type": "free",
   "fee": 0,
   "club": "Shakhtar Donetsk",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -2184,16 +2184,16 @@
   "age": null
  },
  {
-  "id": "2018-19-in-o-vlachodimos-permanent-2018-07-02",
-  "playerId": "o-vlachodimos",
-  "player": "O. Vlachodimos",
+  "id": "2018-19-in-odisseas-vlachodimos-permanent-2018-07-02",
+  "playerId": "odisseas-vlachodimos",
+  "player": "Odisseas Vlachodimos",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-07-02",
   "type": "permanent",
   "fee": 2.2,
   "club": "Panathinaikos",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -2327,42 +2327,42 @@
   "age": null
  },
  {
-  "id": "2018-19-out-m-chrien-loan-out-2018-08-16",
-  "playerId": "m-chrien",
-  "player": "M. Chrien",
+  "id": "2018-19-out-martin-chrien-loan-out-2018-08-16",
+  "playerId": "martin-chrien",
+  "player": "Martin Chrien",
   "season": "2018-19",
   "dir": "out",
   "date": "2018-08-16",
   "type": "loan-out",
   "fee": null,
   "club": "Santa Clara",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2018-19-in-s-corchia-loan-in-2018-08-19",
-  "playerId": "s-corchia",
-  "player": "S. Corchia",
+  "id": "2018-19-in-sebastien-corchia-loan-in-2018-08-19",
+  "playerId": "sebastien-corchia",
+  "player": "Sébastien Corchia",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-08-19",
   "type": "loan-in",
   "fee": null,
   "club": "Sevilla",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2018-19-in-gabriel-pires-permanent-2018-08-27",
-  "playerId": "gabriel-pires",
-  "player": "Gabriel Pires",
+  "id": "2018-19-in-gabriel-appelt-pires-permanent-2018-08-27",
+  "playerId": "gabriel-appelt-pires",
+  "player": "Gabriel Appelt Pires",
   "season": "2018-19",
   "dir": "in",
   "date": "2018-08-27",
   "type": "permanent",
   "fee": 8,
   "club": "Leganes",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2414,7 +2414,7 @@
   "type": "loan-out",
   "fee": null,
   "club": "Ajax",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -2431,16 +2431,16 @@
   "age": null
  },
  {
-  "id": "2018-19-out-f-ferreyra-loan-out-2019-01-31",
-  "playerId": "f-ferreyra",
-  "player": "F. Ferreyra",
+  "id": "2018-19-out-facundo-ferreyra-loan-out-2019-01-31",
+  "playerId": "facundo-ferreyra",
+  "player": "Facundo Ferreyra",
   "season": "2018-19",
   "dir": "out",
   "date": "2019-01-31",
   "type": "loan-out",
   "fee": null,
   "club": "Espanyol",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -2470,29 +2470,29 @@
   "age": null
  },
  {
-  "id": "2018-19-out-c-lema-loan-out-2019-02-05",
-  "playerId": "c-lema",
-  "player": "C. Lema",
+  "id": "2018-19-out-cristian-lema-loan-out-2019-02-05",
+  "playerId": "cristian-lema",
+  "player": "Cristian Lema",
   "season": "2018-19",
   "dir": "out",
   "date": "2019-02-05",
   "type": "loan-out",
   "fee": null,
   "club": "Penarol",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2018-19-out-k-parks-loan-out-2019-02-13",
-  "playerId": "k-parks",
-  "player": "K. Parks",
+  "id": "2018-19-out-keaton-parks-loan-out-2019-02-13",
+  "playerId": "keaton-parks",
+  "player": "Keaton Parks",
   "season": "2018-19",
   "dir": "out",
   "date": "2019-02-13",
   "type": "loan-out",
   "fee": null,
   "club": "New York City FC",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2548,16 +2548,16 @@
   "age": null
  },
  {
-  "id": "2019-20-in-caio-lucas-permanent-2019-07-01",
-  "playerId": "caio-lucas",
-  "player": "Caio Lucas",
+  "id": "2019-20-in-caio-lucas-fernandes-permanent-2019-07-01",
+  "playerId": "caio-lucas-fernandes",
+  "player": "Caio Lucas Fernandes",
   "season": "2019-20",
   "dir": "in",
   "date": "2019-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Al Ain",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2587,16 +2587,16 @@
   "age": null
  },
  {
-  "id": "2019-20-out-s-corchia-permanent-2019-07-01",
-  "playerId": "s-corchia",
-  "player": "S. Corchia",
+  "id": "2019-20-out-sebastien-corchia-permanent-2019-07-01",
+  "playerId": "sebastien-corchia",
+  "player": "Sébastien Corchia",
   "season": "2019-20",
   "dir": "out",
   "date": "2019-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Sevilla",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -2626,9 +2626,9 @@
   "age": null
  },
  {
-  "id": "2019-20-in-j-cadiz-permanent-2019-07-01",
-  "playerId": "j-cadiz",
-  "player": "J. Cádiz",
+  "id": "2019-20-in-jhonder-cadiz-permanent-2019-07-01",
+  "playerId": "jhonder-cadiz",
+  "player": "Jhonder Cádiz",
   "season": "2019-20",
   "dir": "in",
   "date": "2019-07-01",
@@ -2730,16 +2730,16 @@
   "age": null
  },
  {
-  "id": "2019-20-out-f-krovinovic-loan-out-2019-07-05",
-  "playerId": "f-krovinovic",
-  "player": "F. Krovinović",
+  "id": "2019-20-out-filip-krovinovic-loan-out-2019-07-05",
+  "playerId": "filip-krovinovic",
+  "player": "Filip Krovinović",
   "season": "2019-20",
   "dir": "out",
   "date": "2019-07-05",
   "type": "loan-out",
   "fee": null,
   "club": "West Brom",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2795,29 +2795,29 @@
   "age": null
  },
  {
-  "id": "2019-20-out-c-lema-loan-out-2019-07-10",
-  "playerId": "c-lema",
-  "player": "C. Lema",
+  "id": "2019-20-out-cristian-lema-loan-out-2019-07-10",
+  "playerId": "cristian-lema",
+  "player": "Cristian Lema",
   "season": "2019-20",
   "dir": "out",
   "date": "2019-07-10",
   "type": "loan-out",
   "fee": null,
   "club": "Newells Old Boys",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2019-20-out-e-salvio-permanent-2019-07-18",
-  "playerId": "e-salvio",
-  "player": "E. Salvio",
+  "id": "2019-20-out-eduardo-salvio-permanent-2019-07-18",
+  "playerId": "eduardo-salvio",
+  "player": "Eduardo Salvio",
   "season": "2019-20",
   "dir": "out",
   "date": "2019-07-18",
   "type": "permanent",
   "fee": 7,
   "club": "Boca Juniors",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -2886,9 +2886,9 @@
   "age": null
  },
  {
-  "id": "2019-20-out-j-cadiz-loan-out-2019-08-30",
-  "playerId": "j-cadiz",
-  "player": "J. Cádiz",
+  "id": "2019-20-out-jhonder-cadiz-loan-out-2019-08-30",
+  "playerId": "jhonder-cadiz",
+  "player": "Jhonder Cádiz",
   "season": "2019-20",
   "dir": "out",
   "date": "2019-08-30",
@@ -2912,16 +2912,16 @@
   "age": null
  },
  {
-  "id": "2019-20-out-g-conti-loan-out-2020-01-01",
-  "playerId": "g-conti",
-  "player": "G. Conti",
+  "id": "2019-20-out-german-conti-loan-out-2020-01-01",
+  "playerId": "german-conti",
+  "player": "Germán Conti",
   "season": "2019-20",
   "dir": "out",
   "date": "2020-01-01",
   "type": "loan-out",
   "fee": null,
   "club": "Atlas",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -2951,16 +2951,16 @@
   "age": null
  },
  {
-  "id": "2019-20-in-j-weigl-permanent-2020-01-03",
-  "playerId": "j-weigl",
-  "player": "J. Weigl",
+  "id": "2019-20-in-julian-weigl-permanent-2020-01-03",
+  "playerId": "julian-weigl",
+  "player": "Julian Weigl",
   "season": "2019-20",
   "dir": "in",
   "date": "2020-01-03",
   "type": "permanent",
   "fee": 20,
   "club": "Borussia Dortmund",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -3016,29 +3016,29 @@
   "age": null
  },
  {
-  "id": "2019-20-out-caio-lucas-permanent-2020-01-23",
-  "playerId": "caio-lucas",
-  "player": "Caio Lucas",
+  "id": "2019-20-out-caio-lucas-fernandes-permanent-2020-01-23",
+  "playerId": "caio-lucas-fernandes",
+  "player": "Caio Lucas Fernandes",
   "season": "2019-20",
   "dir": "out",
   "date": "2020-01-23",
   "type": "permanent",
   "fee": null,
   "club": "Sharjah FC",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2019-20-out-l-fejsa-loan-out-2020-01-29",
-  "playerId": "l-fejsa",
-  "player": "L. Fejsa",
+  "id": "2019-20-out-ljubomir-fejsa-loan-out-2020-01-29",
+  "playerId": "ljubomir-fejsa",
+  "player": "Ljubomir Fejsa",
   "season": "2019-20",
   "dir": "out",
   "date": "2020-01-29",
   "type": "loan-out",
   "fee": null,
   "club": "Alaves",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -3094,9 +3094,9 @@
   "age": null
  },
  {
-  "id": "2020-21-in-j-cadiz-permanent-2020-07-01",
-  "playerId": "j-cadiz",
-  "player": "J. Cádiz",
+  "id": "2020-21-in-jhonder-cadiz-permanent-2020-07-01",
+  "playerId": "jhonder-cadiz",
+  "player": "Jhonder Cádiz",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-07-01",
@@ -3129,7 +3129,7 @@
   "type": "permanent",
   "fee": null,
   "club": "Ajax",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -3198,29 +3198,29 @@
   "age": null
  },
  {
-  "id": "2020-21-in-l-fejsa-permanent-2020-08-04",
-  "playerId": "l-fejsa",
-  "player": "L. Fejsa",
+  "id": "2020-21-in-ljubomir-fejsa-permanent-2020-08-04",
+  "playerId": "ljubomir-fejsa",
+  "player": "Ljubomir Fejsa",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-08-04",
   "type": "permanent",
   "fee": null,
   "club": "Alaves",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2020-21-in-f-ferreyra-permanent-2020-08-04",
-  "playerId": "f-ferreyra",
-  "player": "F. Ferreyra",
+  "id": "2020-21-in-facundo-ferreyra-permanent-2020-08-04",
+  "playerId": "facundo-ferreyra",
+  "player": "Facundo Ferreyra",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-08-04",
   "type": "permanent",
   "fee": null,
   "club": "Espanyol",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -3237,29 +3237,29 @@
   "age": null
  },
  {
-  "id": "2020-21-in-j-vertonghen-free-2020-08-14",
-  "playerId": "j-vertonghen",
-  "player": "J. Vertonghen",
+  "id": "2020-21-in-jan-vertonghen-free-2020-08-14",
+  "playerId": "jan-vertonghen",
+  "player": "Jan Vertonghen",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-08-14",
   "type": "free",
   "fee": 0,
   "club": "Tottenham",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2020-21-in-l-waldschmidt-permanent-2020-08-14",
-  "playerId": "l-waldschmidt",
-  "player": "L. Waldschmidt",
+  "id": "2020-21-in-luca-waldschmidt-permanent-2020-08-14",
+  "playerId": "luca-waldschmidt",
+  "player": "Luca Waldschmidt",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-08-14",
   "type": "permanent",
   "fee": 15,
   "club": "SC Freiburg",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -3285,20 +3285,20 @@
   "type": "free",
   "fee": 0,
   "club": "Guimaraes",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
-  "id": "2020-21-in-d-nunez-permanent-2020-09-04",
-  "playerId": "d-nunez",
-  "player": "D. Núñez",
+  "id": "2020-21-in-darwin-nunez-permanent-2020-09-04",
+  "playerId": "darwin-nunez",
+  "player": "Darwin Núñez",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-09-04",
   "type": "permanent",
   "fee": 25,
   "club": "Almeria",
-  "pos": null,
+  "pos": "ST",
   "age": null
  },
  {
@@ -3315,22 +3315,22 @@
   "age": null
  },
  {
-  "id": "2020-21-out-a-zivkovic-free-2020-09-07",
-  "playerId": "a-zivkovic",
-  "player": "A. Živković",
+  "id": "2020-21-out-andrija-zivkovic-free-2020-09-07",
+  "playerId": "andrija-zivkovic",
+  "player": "Andrija Živković",
   "season": "2020-21",
   "dir": "out",
   "date": "2020-09-07",
   "type": "free",
   "fee": 0,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2020-21-out-j-cadiz-loan-out-2020-09-09",
-  "playerId": "j-cadiz",
-  "player": "J. Cádiz",
+  "id": "2020-21-out-jhonder-cadiz-loan-out-2020-09-09",
+  "playerId": "jhonder-cadiz",
+  "player": "Jhonder Cádiz",
   "season": "2020-21",
   "dir": "out",
   "date": "2020-09-09",
@@ -3367,16 +3367,16 @@
   "age": null
  },
  {
-  "id": "2020-21-out-l-fejsa-free-2020-09-24",
-  "playerId": "l-fejsa",
-  "player": "L. Fejsa",
+  "id": "2020-21-out-ljubomir-fejsa-free-2020-09-24",
+  "playerId": "ljubomir-fejsa",
+  "player": "Ljubomir Fejsa",
   "season": "2020-21",
   "dir": "out",
   "date": "2020-09-24",
   "type": "free",
   "fee": 0,
   "club": "Al-Ahli Jeddah",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -3471,16 +3471,16 @@
   "age": null
  },
  {
-  "id": "2020-21-in-j-todibo-loan-in-2020-10-05",
-  "playerId": "j-todibo",
-  "player": "J. Todibo",
+  "id": "2020-21-in-jean-clair-todibo-loan-in-2020-10-05",
+  "playerId": "jean-clair-todibo",
+  "player": "Jean-Clair Todibo",
   "season": "2020-21",
   "dir": "in",
   "date": "2020-10-05",
   "type": "loan-in",
   "fee": null,
   "club": "Barcelona",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -3601,16 +3601,16 @@
   "age": null
  },
  {
-  "id": "2020-21-out-f-ferreyra-free-2021-02-01",
-  "playerId": "f-ferreyra",
-  "player": "F. Ferreyra",
+  "id": "2020-21-out-facundo-ferreyra-free-2021-02-01",
+  "playerId": "facundo-ferreyra",
+  "player": "Facundo Ferreyra",
   "season": "2020-21",
   "dir": "out",
   "date": "2021-02-01",
   "type": "free",
   "fee": 0,
   "club": "Celta Vigo",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -3653,16 +3653,16 @@
   "age": null
  },
  {
-  "id": "2020-21-out-g-conti-loan-out-2021-03-01",
-  "playerId": "g-conti",
-  "player": "G. Conti",
+  "id": "2020-21-out-german-conti-loan-out-2021-03-01",
+  "playerId": "german-conti",
+  "player": "Germán Conti",
   "season": "2020-21",
   "dir": "out",
   "date": "2021-03-01",
   "type": "loan-out",
   "fee": null,
   "club": "Bahia",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -3822,16 +3822,16 @@
   "age": null
  },
  {
-  "id": "2021-22-out-f-cervi-permanent-2021-07-05",
-  "playerId": "f-cervi",
-  "player": "F. Cervi",
+  "id": "2021-22-out-franco-cervi-permanent-2021-07-05",
+  "playerId": "franco-cervi",
+  "player": "Franco Cervi",
   "season": "2021-22",
   "dir": "out",
   "date": "2021-07-05",
   "type": "permanent",
   "fee": null,
   "club": "Celta Vigo",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -3900,16 +3900,16 @@
   "age": null
  },
  {
-  "id": "2021-22-in-s-meite-permanent-2021-07-23",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2021-22-in-soualiho-meite-permanent-2021-07-23",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2021-22",
   "dir": "in",
   "date": "2021-07-23",
   "type": "permanent",
   "fee": 7,
   "club": "Torino",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -3926,16 +3926,16 @@
   "age": null
  },
  {
-  "id": "2021-22-in-r-yaremchuk-permanent-2021-07-31",
-  "playerId": "r-yaremchuk",
-  "player": "R. Yaremchuk",
+  "id": "2021-22-in-roman-yaremchuk-permanent-2021-07-31",
+  "playerId": "roman-yaremchuk",
+  "player": "Roman Yaremchuk",
   "season": "2021-22",
   "dir": "in",
   "date": "2021-07-31",
   "type": "permanent",
   "fee": 17,
   "club": "Gent",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -3952,29 +3952,29 @@
   "age": null
  },
  {
-  "id": "2021-22-in-n-radonjic-loan-in-2021-08-22",
-  "playerId": "n-radonjic",
-  "player": "N. Radonjić",
+  "id": "2021-22-in-nemanja-radonjic-loan-in-2021-08-22",
+  "playerId": "nemanja-radonjic",
+  "player": "Nemanja Radonjić",
   "season": "2021-22",
   "dir": "in",
   "date": "2021-08-22",
   "type": "loan-in",
   "fee": null,
   "club": "Marseille",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2021-22-out-l-waldschmidt-permanent-2021-08-22",
-  "playerId": "l-waldschmidt",
-  "player": "L. Waldschmidt",
+  "id": "2021-22-out-luca-waldschmidt-permanent-2021-08-22",
+  "playerId": "luca-waldschmidt",
+  "player": "Luca Waldschmidt",
   "season": "2021-22",
   "dir": "out",
   "date": "2021-08-22",
   "type": "permanent",
   "fee": 12,
   "club": "VfL Wolfsburg",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -4030,16 +4030,16 @@
   "age": null
  },
  {
-  "id": "2021-22-in-v-lazaro-loan-in-2021-08-31",
-  "playerId": "v-lazaro",
-  "player": "V. Lazaro",
+  "id": "2021-22-in-valentino-lazaro-loan-in-2021-08-31",
+  "playerId": "valentino-lazaro",
+  "player": "Valentino Lazaro",
   "season": "2021-22",
   "dir": "in",
   "date": "2021-08-31",
   "type": "loan-in",
   "fee": null,
   "club": "Inter",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -4069,29 +4069,29 @@
   "age": 22
  },
  {
-  "id": "2021-22-out-gabriel-pires-loan-out-2021-09-29",
-  "playerId": "gabriel-pires",
-  "player": "Gabriel Pires",
+  "id": "2021-22-out-gabriel-appelt-pires-loan-out-2021-09-29",
+  "playerId": "gabriel-appelt-pires",
+  "player": "Gabriel Appelt Pires",
   "season": "2021-22",
   "dir": "out",
   "date": "2021-09-29",
   "type": "loan-out",
   "fee": null,
   "club": "Al-Gharafa",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2021-22-out-a-samaris-free-2021-11-26",
-  "playerId": "a-samaris",
-  "player": "A. Samaris",
+  "id": "2021-22-out-andreas-samaris-free-2021-11-26",
+  "playerId": "andreas-samaris",
+  "player": "Andreas Samaris",
   "season": "2021-22",
   "dir": "out",
   "date": "2021-11-26",
   "type": "free",
   "fee": 0,
   "club": "Fortuna Sittard",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -4199,16 +4199,16 @@
   "age": null
  },
  {
-  "id": "2022-23-out-d-nunez-permanent-2022-06-14",
-  "playerId": "d-nunez",
-  "player": "D. Núñez",
+  "id": "2022-23-out-darwin-nunez-permanent-2022-06-14",
+  "playerId": "darwin-nunez",
+  "player": "Darwin Núñez",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-06-14",
   "type": "permanent",
   "fee": 75,
   "club": "Liverpool",
-  "pos": null,
+  "pos": "ST",
   "age": null
  },
  {
@@ -4264,29 +4264,29 @@
   "age": null
  },
  {
-  "id": "2022-23-out-v-lazaro-permanent-2022-07-01",
-  "playerId": "v-lazaro",
-  "player": "V. Lazaro",
+  "id": "2022-23-out-valentino-lazaro-permanent-2022-07-01",
+  "playerId": "valentino-lazaro",
+  "player": "Valentino Lazaro",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Inter",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2022-23-out-m-svilar-free-2022-07-01",
-  "playerId": "m-svilar",
-  "player": "M. Svilar",
+  "id": "2022-23-out-mile-svilar-free-2022-07-01",
+  "playerId": "mile-svilar",
+  "player": "Mile Svilar",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-07-01",
   "type": "free",
   "fee": 0,
   "club": "AS Roma",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -4303,29 +4303,29 @@
   "age": null
  },
  {
-  "id": "2022-23-in-m-ristic-free-2022-07-01",
-  "playerId": "m-ristic",
-  "player": "M. Ristić",
+  "id": "2022-23-in-mihailo-ristic-free-2022-07-01",
+  "playerId": "mihailo-ristic",
+  "player": "Mihailo Ristić",
   "season": "2022-23",
   "dir": "in",
   "date": "2022-07-01",
   "type": "free",
   "fee": 0,
   "club": "Montpellier",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2022-23-in-p-musa-permanent-2022-07-01",
-  "playerId": "p-musa",
-  "player": "P. Musa",
+  "id": "2022-23-in-petar-musa-permanent-2022-07-01",
+  "playerId": "petar-musa",
+  "player": "Petar Musa",
   "season": "2022-23",
   "dir": "in",
   "date": "2022-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Slavia Praha",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -4472,16 +4472,16 @@
   "age": null
  },
  {
-  "id": "2022-23-in-e-fernandez-permanent-2022-07-14",
-  "playerId": "e-fernandez",
-  "player": "E. Fernández",
+  "id": "2022-23-in-enzo-fernandez-permanent-2022-07-14",
+  "playerId": "enzo-fernandez",
+  "player": "Enzo Fernández",
   "season": "2022-23",
   "dir": "in",
   "date": "2022-07-14",
   "type": "permanent",
   "fee": 10,
   "club": "River Plate",
-  "pos": null,
+  "pos": "CM",
   "age": null
  },
  {
@@ -4498,29 +4498,29 @@
   "age": null
  },
  {
-  "id": "2022-23-out-everton-permanent-2022-07-18",
-  "playerId": "everton",
-  "player": "Everton",
+  "id": "2022-23-out-everton-soares-permanent-2022-07-18",
+  "playerId": "everton-soares",
+  "player": "Everton Soares",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-07-18",
   "type": "permanent",
   "fee": 13.5,
   "club": "Flamengo",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2022-23-out-h-seferovic-loan-out-2022-07-20",
-  "playerId": "h-seferovic",
-  "player": "H. Seferović",
+  "id": "2022-23-out-haris-seferovic-loan-out-2022-07-20",
+  "playerId": "haris-seferovic",
+  "player": "Haris Seferovic",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-07-20",
   "type": "loan-out",
   "fee": null,
   "club": "Galatasaray",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -4628,29 +4628,29 @@
   "age": 26
  },
  {
-  "id": "2022-23-out-r-yaremchuk-permanent-2022-08-30",
-  "playerId": "r-yaremchuk",
-  "player": "R. Yaremchuk",
+  "id": "2022-23-out-roman-yaremchuk-permanent-2022-08-30",
+  "playerId": "roman-yaremchuk",
+  "player": "Roman Yaremchuk",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-08-30",
   "type": "permanent",
   "fee": 16,
   "club": "Club Brugge KV",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2022-23-in-j-draxler-loan-in-2022-09-01",
-  "playerId": "j-draxler",
-  "player": "J. Draxler",
+  "id": "2022-23-in-julian-draxler-loan-in-2022-09-01",
+  "playerId": "julian-draxler",
+  "player": "Julian Draxler",
   "season": "2022-23",
   "dir": "in",
   "date": "2022-09-01",
   "type": "loan-in",
   "fee": null,
   "club": "Paris Saint Germain",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -4667,68 +4667,68 @@
   "age": null
  },
  {
-  "id": "2022-23-in-j-brooks-free-2022-09-01",
-  "playerId": "j-brooks",
-  "player": "J. Brooks",
+  "id": "2022-23-in-john-brooks-free-2022-09-01",
+  "playerId": "john-brooks",
+  "player": "John Brooks",
   "season": "2022-23",
   "dir": "in",
   "date": "2022-09-01",
   "type": "free",
   "fee": 0,
   "club": "VfL Wolfsburg",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2022-23-out-s-meite-loan-out-2022-09-01",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2022-23-out-soualiho-meite-loan-out-2022-09-01",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-09-01",
   "type": "loan-out",
   "fee": null,
   "club": "Cremonese",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2022-23-out-j-weigl-loan-out-2022-09-01",
-  "playerId": "j-weigl",
-  "player": "J. Weigl",
+  "id": "2022-23-out-julian-weigl-loan-out-2022-09-01",
+  "playerId": "julian-weigl",
+  "player": "Julian Weigl",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-09-01",
   "type": "loan-out",
   "fee": null,
   "club": "Borussia Mönchengladbach",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2022-23-out-j-vertonghen-free-2022-09-02",
-  "playerId": "j-vertonghen",
-  "player": "J. Vertonghen",
+  "id": "2022-23-out-jan-vertonghen-free-2022-09-02",
+  "playerId": "jan-vertonghen",
+  "player": "Jan Vertonghen",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-09-02",
   "type": "free",
   "fee": 0,
   "club": "Anderlecht",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2022-23-out-a-taarabt-free-2022-09-24",
-  "playerId": "a-taarabt",
-  "player": "A. Taarabt",
+  "id": "2022-23-out-adel-taarabt-free-2022-09-24",
+  "playerId": "adel-taarabt",
+  "player": "Adel Taarabt",
   "season": "2022-23",
   "dir": "out",
   "date": "2022-09-24",
   "type": "free",
   "fee": 0,
   "club": "Al Nasr",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -4784,16 +4784,16 @@
   "age": null
  },
  {
-  "id": "2022-23-in-c-tengstedt-permanent-2023-01-11",
-  "playerId": "c-tengstedt",
-  "player": "C. Tengstedt",
+  "id": "2022-23-in-casper-tengstedt-permanent-2023-01-11",
+  "playerId": "casper-tengstedt",
+  "player": "Casper Tengstedt",
   "season": "2022-23",
   "dir": "in",
   "date": "2023-01-11",
   "type": "permanent",
   "fee": 7,
   "club": "Rosenborg",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -4875,16 +4875,16 @@
   "age": null
  },
  {
-  "id": "2022-23-out-j-brooks-permanent-2023-01-26",
-  "playerId": "j-brooks",
-  "player": "J. Brooks",
+  "id": "2022-23-out-john-brooks-permanent-2023-01-26",
+  "playerId": "john-brooks",
+  "player": "John Brooks",
   "season": "2022-23",
   "dir": "out",
   "date": "2023-01-26",
   "type": "permanent",
   "fee": 0.3,
   "club": "1899 Hoffenheim",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -4914,29 +4914,29 @@
   "age": null
  },
  {
-  "id": "2022-23-out-h-seferovic-loan-out-2023-01-31",
-  "playerId": "h-seferovic",
-  "player": "H. Seferović",
+  "id": "2022-23-out-haris-seferovic-loan-out-2023-01-31",
+  "playerId": "haris-seferovic",
+  "player": "Haris Seferovic",
   "season": "2022-23",
   "dir": "out",
   "date": "2023-01-31",
   "type": "loan-out",
   "fee": null,
   "club": "Celta Vigo",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2022-23-out-e-fernandez-permanent-2023-01-31",
-  "playerId": "e-fernandez",
-  "player": "E. Fernández",
+  "id": "2022-23-out-enzo-fernandez-permanent-2023-01-31",
+  "playerId": "enzo-fernandez",
+  "player": "Enzo Fernández",
   "season": "2022-23",
   "dir": "out",
   "date": "2023-01-31",
   "type": "permanent",
   "fee": 121,
   "club": "Chelsea",
-  "pos": null,
+  "pos": "CM",
   "age": null
  },
  {
@@ -4992,16 +4992,16 @@
   "age": null
  },
  {
-  "id": "2023-24-out-j-draxler-permanent-2023-07-01",
-  "playerId": "j-draxler",
-  "player": "J. Draxler",
+  "id": "2023-24-out-julian-draxler-permanent-2023-07-01",
+  "playerId": "julian-draxler",
+  "player": "Julian Draxler",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Paris Saint Germain",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5057,16 +5057,16 @@
   "age": null
  },
  {
-  "id": "2023-24-in-s-meite-permanent-2023-07-01",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2023-24-in-soualiho-meite-permanent-2023-07-01",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2023-24",
   "dir": "in",
   "date": "2023-07-01",
   "type": "permanent",
   "fee": null,
   "club": "Cremonese",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5083,16 +5083,16 @@
   "age": null
  },
  {
-  "id": "2023-24-out-j-weigl-permanent-2023-07-01",
-  "playerId": "j-weigl",
-  "player": "J. Weigl",
+  "id": "2023-24-out-julian-weigl-permanent-2023-07-01",
+  "playerId": "julian-weigl",
+  "player": "Julian Weigl",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-07-01",
   "type": "permanent",
   "fee": 7.2,
   "club": "Borussia Mönchengladbach",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5226,29 +5226,29 @@
   "age": null
  },
  {
-  "id": "2023-24-in-d-jurasek-permanent-2023-07-10",
-  "playerId": "d-jurasek",
-  "player": "D. Jurásek",
+  "id": "2023-24-in-david-jurasek-permanent-2023-07-10",
+  "playerId": "david-jurasek",
+  "player": "David Jurásek",
   "season": "2023-24",
   "dir": "in",
   "date": "2023-07-10",
   "type": "permanent",
   "fee": 14,
   "club": "Slavia Praha",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2023-24-out-c-ndour-free-2023-07-12",
-  "playerId": "c-ndour",
-  "player": "C. Ndour",
+  "id": "2023-24-out-cher-ndour-free-2023-07-12",
+  "playerId": "cher-ndour",
+  "player": "Cher Ndour",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-07-12",
   "type": "free",
   "fee": 0,
   "club": "Paris Saint Germain",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5317,16 +5317,16 @@
   "age": 22
  },
  {
-  "id": "2023-24-out-s-meite-loan-out-2023-08-27",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2023-24-out-soualiho-meite-loan-out-2023-08-27",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-08-27",
   "type": "loan-out",
   "fee": null,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5356,29 +5356,29 @@
   "age": null
  },
  {
-  "id": "2023-24-out-m-ristic-permanent-2023-09-01",
-  "playerId": "m-ristic",
-  "player": "M. Ristić",
+  "id": "2023-24-out-mihailo-ristic-permanent-2023-09-01",
+  "playerId": "mihailo-ristic",
+  "player": "Mihailo Ristić",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-09-01",
   "type": "permanent",
   "fee": null,
   "club": "Celta Vigo",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2023-24-out-o-vlachodimos-permanent-2023-09-01",
-  "playerId": "o-vlachodimos",
-  "player": "O. Vlachodimos",
+  "id": "2023-24-out-odysseas-vlachodimos-permanent-2023-09-01",
+  "playerId": "odysseas-vlachodimos",
+  "player": "Odysseas Vlachodimos",
   "season": "2023-24",
   "dir": "out",
   "date": "2023-09-01",
   "type": "permanent",
   "fee": 9,
   "club": "Nottingham Forest",
-  "pos": null,
+  "pos": "GK",
   "age": null
  },
  {
@@ -5512,16 +5512,16 @@
   "age": null
  },
  {
-  "id": "2023-24-out-d-jurasek-loan-out-2024-01-22",
-  "playerId": "d-jurasek",
-  "player": "D. Jurásek",
+  "id": "2023-24-out-david-jurasek-loan-out-2024-01-22",
+  "playerId": "david-jurasek",
+  "player": "David Jurásek",
   "season": "2023-24",
   "dir": "out",
   "date": "2024-01-22",
   "type": "loan-out",
   "fee": null,
   "club": "1899 Hoffenheim",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -5551,16 +5551,16 @@
   "age": 18
  },
  {
-  "id": "2023-24-out-p-musa-permanent-2024-02-01",
-  "playerId": "p-musa",
-  "player": "P. Musa",
+  "id": "2023-24-out-petar-musa-permanent-2024-02-01",
+  "playerId": "petar-musa",
+  "player": "Petar Musa",
   "season": "2023-24",
   "dir": "out",
   "date": "2024-02-01",
   "type": "permanent",
   "fee": 10,
   "club": "FC Dallas",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -5603,16 +5603,16 @@
   "age": 24
  },
  {
-  "id": "2024-25-in-s-meite-permanent-2024-07-01",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2024-25-in-soualiho-meite-permanent-2024-07-01",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2024-25",
   "dir": "in",
   "date": "2024-07-01",
   "type": "permanent",
   "fee": null,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -5655,16 +5655,16 @@
   "age": null
  },
  {
-  "id": "2024-25-out-rafa-free-2024-07-01",
-  "playerId": "rafa",
-  "player": "Rafa",
+  "id": "2024-25-out-rafa-silva-free-2024-07-01",
+  "playerId": "rafa-silva",
+  "player": "Rafa Silva",
   "season": "2024-25",
   "dir": "out",
   "date": "2024-07-01",
   "type": "free",
   "fee": 0,
   "club": "Besiktas",
-  "pos": null,
+  "pos": "AM",
   "age": null
  },
  {
@@ -5759,9 +5759,9 @@
   "age": 25
  },
  {
-  "id": "2024-25-out-l-kokubo-permanent-2024-07-11",
-  "playerId": "l-kokubo",
-  "player": "L. Kokubo",
+  "id": "2024-25-out-leo-kokubo-permanent-2024-07-11",
+  "playerId": "leo-kokubo",
+  "player": "Leo Kokubo",
   "season": "2024-25",
   "dir": "out",
   "date": "2024-07-11",
@@ -5837,16 +5837,16 @@
   "age": null
  },
  {
-  "id": "2024-25-out-c-tengstedt-loan-out-2024-08-09",
-  "playerId": "c-tengstedt",
-  "player": "C. Tengstedt",
+  "id": "2024-25-out-casper-tengstedt-loan-out-2024-08-09",
+  "playerId": "casper-tengstedt",
+  "player": "Casper Tengstedt",
   "season": "2024-25",
   "dir": "out",
   "date": "2024-08-09",
   "type": "loan-out",
   "fee": null,
   "club": "Verona",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -5980,16 +5980,16 @@
   "age": 23
  },
  {
-  "id": "2024-25-out-s-meite-loan-out-2025-01-24",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2024-25-out-soualiho-meite-loan-out-2025-01-24",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2024-25",
   "dir": "out",
   "date": "2025-01-24",
   "type": "loan-out",
   "fee": null,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -6240,42 +6240,42 @@
   "age": null
  },
  {
-  "id": "2025-26-in-c-tengstedt-loan-end-2025-07-01",
-  "playerId": "c-tengstedt",
-  "player": "C. Tengstedt",
+  "id": "2025-26-in-casper-tengstedt-loan-end-2025-07-01",
+  "playerId": "casper-tengstedt",
+  "player": "Casper Tengstedt",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-07-01",
   "type": "loan-end",
   "fee": null,
   "club": "Verona",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2025-26-in-s-meite-permanent-2025-07-01",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2025-26-in-soualiho-meite-permanent-2025-07-01",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-07-01",
   "type": "permanent",
   "fee": null,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2025-26-out-s-meite-permanent-2025-07-01",
-  "playerId": "s-meite",
-  "player": "S. Meïté",
+  "id": "2025-26-out-soualiho-meite-permanent-2025-07-01",
+  "playerId": "soualiho-meite",
+  "player": "Soualiho Meïté",
   "season": "2025-26",
   "dir": "out",
   "date": "2025-07-01",
   "type": "permanent",
   "fee": null,
   "club": "PAOK",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -6591,16 +6591,16 @@
   "age": 22
  },
  {
-  "id": "2025-26-in-e-barrenechea-loan-in-2025-07-18",
-  "playerId": "e-barrenechea",
-  "player": "E. Barrenechea",
+  "id": "2025-26-in-enzo-barrenechea-loan-in-2025-07-18",
+  "playerId": "enzo-barrenechea",
+  "player": "Enzo Barrenechea",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-07-18",
   "type": "loan-in",
   "fee": null,
   "club": "Aston Villa",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -6643,16 +6643,16 @@
   "age": 23
  },
  {
-  "id": "2025-26-out-c-tengstedt-permanent-2025-07-24",
-  "playerId": "c-tengstedt",
-  "player": "C. Tengstedt",
+  "id": "2025-26-out-casper-tengstedt-permanent-2025-07-24",
+  "playerId": "casper-tengstedt",
+  "player": "Casper Tengstedt",
   "season": "2025-26",
   "dir": "out",
   "date": "2025-07-24",
   "type": "permanent",
   "fee": null,
   "club": "Feyenoord",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -6695,16 +6695,16 @@
   "age": null
  },
  {
-  "id": "2025-26-in-f-ivanovic-permanent-2025-07-29",
-  "playerId": "f-ivanovic",
-  "player": "F. Ivanović",
+  "id": "2025-26-in-franjo-ivanovic-permanent-2025-07-29",
+  "playerId": "franjo-ivanovic",
+  "player": "Franjo Ivanović",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-07-29",
   "type": "permanent",
   "fee": null,
   "club": "Union St. Gilloise",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -6721,16 +6721,16 @@
   "age": null
  },
  {
-  "id": "2025-26-in-f-ivanovic-permanent-2025-07-31",
-  "playerId": "f-ivanovic",
-  "player": "F. Ivanović",
+  "id": "2025-26-in-franjo-ivanovic-permanent-2025-07-31",
+  "playerId": "franjo-ivanovic",
+  "player": "Franjo Ivanović",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-07-31",
   "type": "permanent",
   "fee": null,
   "club": "Union St. Gilloise",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -6799,29 +6799,29 @@
   "age": null
  },
  {
-  "id": "2025-26-in-d-lukebakio-permanent-2025-08-30",
-  "playerId": "d-lukebakio",
-  "player": "D. Lukebakio",
+  "id": "2025-26-in-dodi-lukebakio-permanent-2025-08-30",
+  "playerId": "dodi-lukebakio",
+  "player": "Dodi Lukébakio",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-08-30",
   "type": "permanent",
   "fee": null,
   "club": "Sevilla",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2025-26-in-h-sudakov-loan-in-2025-08-30",
-  "playerId": "h-sudakov",
-  "player": "H. Sudakov",
+  "id": "2025-26-in-heorhiy-sudakov-loan-in-2025-08-30",
+  "playerId": "heorhiy-sudakov",
+  "player": "Heorhiy Sudakov",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-08-30",
   "type": "loan-in",
   "fee": null,
   "club": "Shakhtar Donetsk",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -6864,16 +6864,16 @@
   "age": 26
  },
  {
-  "id": "2025-26-in-d-lukebakio-permanent-2025-09-01",
-  "playerId": "d-lukebakio",
-  "player": "D. Lukebakio",
+  "id": "2025-26-in-dodi-lukebakio-permanent-2025-09-01",
+  "playerId": "dodi-lukebakio",
+  "player": "Dodi Lukébakio",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-09-01",
   "type": "permanent",
   "fee": null,
   "club": "Sevilla",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -6903,29 +6903,29 @@
   "age": null
  },
  {
-  "id": "2025-26-in-d-banjaqui-permanent-2025-12-15",
-  "playerId": "d-banjaqui",
-  "player": "D. Banjaqui",
+  "id": "2025-26-in-daniel-banjaqui-permanent-2025-12-15",
+  "playerId": "daniel-banjaqui",
+  "player": "Daniel Banjaqui",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-12-15",
   "type": "permanent",
   "fee": null,
   "club": "Benfica",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2025-26-out-d-banjaqui-free-2025-12-17",
-  "playerId": "d-banjaqui",
-  "player": "D. Banjaqui",
+  "id": "2025-26-out-daniel-banjaqui-free-2025-12-17",
+  "playerId": "daniel-banjaqui",
+  "player": "Daniel Banjaqui",
   "season": "2025-26",
   "dir": "out",
   "date": "2025-12-17",
   "type": "free",
   "fee": 0,
   "club": "Banjaqui Daniel",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -6955,16 +6955,16 @@
   "age": 23
  },
  {
-  "id": "2025-26-in-s-lopes-cabral-permanent-2025-12-31",
-  "playerId": "s-lopes-cabral",
-  "player": "S. Lopes Cabral",
+  "id": "2025-26-in-sidny-lopes-cabral-permanent-2025-12-31",
+  "playerId": "sidny-lopes-cabral",
+  "player": "Sidny Lopes Cabral",
   "season": "2025-26",
   "dir": "in",
   "date": "2025-12-31",
   "type": "permanent",
   "fee": null,
   "club": "Estrela",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -7020,16 +7020,16 @@
   "age": 21
  },
  {
-  "id": "2025-26-in-rafa-permanent-2026-01-21",
-  "playerId": "rafa",
-  "player": "Rafa",
+  "id": "2025-26-in-rafa-silva-permanent-2026-01-21",
+  "playerId": "rafa-silva",
+  "player": "Rafa Silva",
   "season": "2025-26",
   "dir": "in",
   "date": "2026-01-21",
   "type": "permanent",
   "fee": null,
   "club": "Beşiktaş",
-  "pos": null,
+  "pos": "AM",
   "age": null
  },
  {
@@ -7228,42 +7228,42 @@
   "age": null
  },
  {
-  "id": "2026-27-out-e-barrenechea-loan-end-2026-06-29",
-  "playerId": "e-barrenechea",
-  "player": "E. Barrenechea",
+  "id": "2026-27-out-enzo-barrenechea-loan-end-2026-06-29",
+  "playerId": "enzo-barrenechea",
+  "player": "Enzo Barrenechea",
   "season": "2026-27",
   "dir": "out",
   "date": "2026-06-29",
   "type": "loan-end",
   "fee": null,
   "club": "Aston Villa",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2026-27-out-h-sudakov-loan-end-2026-06-29",
-  "playerId": "h-sudakov",
-  "player": "H. Sudakov",
+  "id": "2026-27-out-heorhiy-sudakov-loan-end-2026-06-29",
+  "playerId": "heorhiy-sudakov",
+  "player": "Heorhiy Sudakov",
   "season": "2026-27",
   "dir": "out",
   "date": "2026-06-29",
   "type": "loan-end",
   "fee": null,
   "club": "Shakhtar Donetsk",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2026-27-in-h-sudakov-permanent-2026-06-29",
-  "playerId": "h-sudakov",
-  "player": "H. Sudakov",
+  "id": "2026-27-in-heorhiy-sudakov-permanent-2026-06-29",
+  "playerId": "heorhiy-sudakov",
+  "player": "Heorhiy Sudakov",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-06-29",
   "type": "permanent",
   "fee": null,
   "club": "Shakhtar Donetsk",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
@@ -7371,48 +7371,48 @@
   "age": null
  },
  {
-  "id": "2026-27-in-e-barrenechea-permanent-2026-06-30",
-  "playerId": "e-barrenechea",
-  "player": "E. Barrenechea",
+  "id": "2026-27-in-enzo-barrenechea-permanent-2026-06-30",
+  "playerId": "enzo-barrenechea",
+  "player": "Enzo Barrenechea",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-06-30",
   "type": "permanent",
   "fee": null,
   "club": "Aston Villa",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2026-27-in-h-sudakov-permanent-2026-06-30",
-  "playerId": "h-sudakov",
-  "player": "H. Sudakov",
+  "id": "2026-27-in-heorhiy-sudakov-permanent-2026-06-30",
+  "playerId": "heorhiy-sudakov",
+  "player": "Heorhiy Sudakov",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-06-30",
   "type": "permanent",
   "fee": null,
   "club": "Shakhtar Donetsk",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {
-  "id": "2026-27-out-s-lopes-cabral-permanent-2026-06-30",
-  "playerId": "s-lopes-cabral",
-  "player": "S. Lopes Cabral",
+  "id": "2026-27-out-sidny-lopes-cabral-permanent-2026-06-30",
+  "playerId": "sidny-lopes-cabral",
+  "player": "Sidny Lopes Cabral",
   "season": "2026-27",
   "dir": "out",
   "date": "2026-06-30",
   "type": "permanent",
   "fee": null,
   "club": "Trabzonspor",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
   "id": "2026-27-in-gabriel-indio-permanent-2026-06-30",
   "playerId": "gabriel-indio",
-  "player": "Gabriel Indio",
+  "player": "Gabriel Índio",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-06-30",
@@ -7449,16 +7449,16 @@
   "age": 19
  },
  {
-  "id": "2026-27-in-c-lenglet-loan-in-2026-06-30",
-  "playerId": "c-lenglet",
-  "player": "C. Lenglet",
+  "id": "2026-27-in-clement-lenglet-loan-in-2026-06-30",
+  "playerId": "clement-lenglet",
+  "player": "Clément Lenglet",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-06-30",
   "type": "loan-in",
   "fee": null,
   "club": "Atletico Madrid",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -7488,29 +7488,29 @@
   "age": 22
  },
  {
-  "id": "2026-27-in-j-kaminski-permanent-2026-07-05",
-  "playerId": "j-kaminski",
-  "player": "J. Kamiński",
+  "id": "2026-27-in-jakub-kaminski-permanent-2026-07-05",
+  "playerId": "jakub-kaminski",
+  "player": "Jakub Kamiński",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-05",
   "type": "permanent",
   "fee": null,
   "club": "1. FC Köln",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2026-27-in-j-kaminski-permanent-2026-07-06",
-  "playerId": "j-kaminski",
-  "player": "J. Kamiński",
+  "id": "2026-27-in-jakub-kaminski-permanent-2026-07-06",
+  "playerId": "jakub-kaminski",
+  "player": "Jakub Kamiński",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-06",
   "type": "permanent",
   "fee": null,
   "club": "1. FC Köln",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -7579,29 +7579,29 @@
   "age": 21
  },
  {
-  "id": "2026-27-in-j-duran-loan-in-2026-07-19",
-  "playerId": "j-duran",
-  "player": "J. Durán",
+  "id": "2026-27-in-jhon-duran-loan-in-2026-07-19",
+  "playerId": "jhon-duran",
+  "player": "Jhon Durán",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-19",
   "type": "loan-in",
   "fee": null,
   "club": "Al-Nassr",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
-  "id": "2026-27-in-j-duran-loan-in-2026-07-20",
-  "playerId": "j-duran",
-  "player": "J. Durán",
+  "id": "2026-27-in-jhon-duran-loan-in-2026-07-20",
+  "playerId": "jhon-duran",
+  "player": "Jhon Durán",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-20",
   "type": "loan-in",
   "fee": null,
   "club": "Al-Nassr",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -7633,7 +7633,7 @@
  {
   "id": "2026-27-in-gabriel-indio-permanent-2026-07-26",
   "playerId": "gabriel-indio",
-  "player": "Gabriel Indio",
+  "player": "Gabriel Índio",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-26",
@@ -7659,7 +7659,7 @@
  {
   "id": "2026-27-in-gabriel-indio-permanent-2026-07-27",
   "playerId": "gabriel-indio",
-  "player": "Gabriel Indio",
+  "player": "Gabriel Índio",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-07-27",
@@ -7787,16 +7787,16 @@
   "age": null
  },
  {
-  "id": "2026-27-out-f-ivanovic-loan-out-2026-08-11",
-  "playerId": "f-ivanovic",
-  "player": "F. Ivanović",
+  "id": "2026-27-out-franjo-ivanovic-loan-out-2026-08-11",
+  "playerId": "franjo-ivanovic",
+  "player": "Franjo Ivanović",
   "season": "2026-27",
   "dir": "out",
   "date": "2026-08-11",
   "type": "loan-out",
   "fee": null,
   "club": "Lens",
-  "pos": null,
+  "pos": "FW",
   "age": null
  },
  {
@@ -7839,29 +7839,29 @@
   "age": 23
  },
  {
-  "id": "2026-27-in-a-circati-permanent-2026-08-17",
-  "playerId": "a-circati",
-  "player": "A. Circati",
+  "id": "2026-27-in-alessandro-circati-permanent-2026-08-17",
+  "playerId": "alessandro-circati",
+  "player": "Alessandro Circati",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-08-17",
   "type": "permanent",
   "fee": null,
   "club": "Parma",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
-  "id": "2026-27-in-a-circati-permanent-2026-08-18",
-  "playerId": "a-circati",
-  "player": "A. Circati",
+  "id": "2026-27-in-alessandro-circati-permanent-2026-08-18",
+  "playerId": "alessandro-circati",
+  "player": "Alessandro Circati",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-08-18",
   "type": "permanent",
   "fee": null,
   "club": "Parma",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -7917,16 +7917,16 @@
   "age": null
  },
  {
-  "id": "2026-27-in-s-el-karouani-loan-in-2026-08-31",
-  "playerId": "s-el-karouani",
-  "player": "S. El Karouani",
+  "id": "2026-27-in-souffian-el-karouani-loan-in-2026-08-31",
+  "playerId": "souffian-el-karouani",
+  "player": "Souffian El Karouani",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-08-31",
   "type": "loan-in",
   "fee": null,
   "club": "Al-Qadisiyah FC",
-  "pos": null,
+  "pos": "DF",
   "age": null
  },
  {
@@ -7943,16 +7943,16 @@
   "age": 26
  },
  {
-  "id": "2026-27-in-c-echeverri-loan-in-2026-09-01",
-  "playerId": "c-echeverri",
-  "player": "C. Echeverri",
+  "id": "2026-27-in-claudio-echeverri-loan-in-2026-09-01",
+  "playerId": "claudio-echeverri",
+  "player": "Claudio Echeverri",
   "season": "2026-27",
   "dir": "in",
   "date": "2026-09-01",
   "type": "loan-in",
   "fee": null,
   "club": "Manchester City",
-  "pos": null,
+  "pos": "MF",
   "age": null
  },
  {

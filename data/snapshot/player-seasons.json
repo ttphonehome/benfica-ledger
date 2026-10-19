@@ -192,7 +192,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "andre-carrillo",
@@ -207,7 +207,7 @@
   "goals": 3,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "branimir-kalaica",
@@ -372,7 +372,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "marcelo-hermes",
@@ -462,7 +462,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "danilo-barbosa",
@@ -478,6 +478,426 @@
   "assists": null,
   "rating": null,
   "status": "loan-in-ended"
+ },
+ {
+  "playerId": "mile-svilar",
+  "player": "Mile Svilar",
+  "season": "2017-18",
+  "pos": "GK",
+  "origin": "signed",
+  "nat": "BEL",
+  "apps": 9,
+  "mins": 765,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "alex-grimaldo",
+  "player": "Álex Grimaldo",
+  "season": "2017-18",
+  "pos": "LB",
+  "origin": "signed",
+  "nat": "ESP",
+  "apps": 37,
+  "mins": 3145,
+  "minsEstimated": true,
+  "goals": 1,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "luisao",
+  "player": "Luisão",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 24,
+  "mins": 2040,
+  "minsEstimated": true,
+  "goals": 2,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "ljubomir-fejsa",
+  "player": "Ljubomir Fejsa",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "SRB",
+  "apps": 34,
+  "mins": 2890,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "andreas-samaris",
+  "player": "Andreas Samaris",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "GRE",
+  "apps": 25,
+  "mins": 1225,
+  "minsEstimated": true,
+  "goals": 1,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "douglas",
+  "player": "Douglas",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 10,
+  "mins": 730,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "raul-jimenez",
+  "player": "Raúl Jiménez",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "signed",
+  "nat": "MEX",
+  "apps": 43,
+  "mins": 1675,
+  "minsEstimated": true,
+  "goals": 8,
+  "assists": null,
+  "rating": null,
+  "status": "loan-out"
+ },
+ {
+  "playerId": "jonas",
+  "player": "Jonas",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 41,
+  "mins": 3185,
+  "minsEstimated": true,
+  "goals": 37,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "haris-seferovic",
+  "player": "Haris Seferovic",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "signed",
+  "nat": "SUI",
+  "apps": 29,
+  "mins": 1565,
+  "minsEstimated": true,
+  "goals": 7,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "andrija-zivkovic",
+  "player": "Andrija Živković",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "SER",
+  "apps": 30,
+  "mins": 2070,
+  "minsEstimated": true,
+  "goals": 3,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "eduardo-salvio",
+  "player": "Eduardo Salvio",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "ARG",
+  "apps": 34,
+  "mins": 2410,
+  "minsEstimated": true,
+  "goals": 9,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "eliseu",
+  "player": "Eliseu",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 12,
+  "mins": 900,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "filip-krovinovic",
+  "player": "Filip Krovinović",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "CRO",
+  "apps": 19,
+  "mins": 1315,
+  "minsEstimated": true,
+  "goals": 2,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "pizzi",
+  "player": "Pizzi",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 45,
+  "mins": 3645,
+  "minsEstimated": true,
+  "goals": 6,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "franco-cervi",
+  "player": "Franco Cervi",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "ARG",
+  "apps": 37,
+  "mins": 2905,
+  "minsEstimated": true,
+  "goals": 4,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "rafa-silva",
+  "player": "Rafa Silva",
+  "season": "2017-18",
+  "pos": "AM",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 25,
+  "mins": 1645,
+  "minsEstimated": true,
+  "goals": 3,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "bruno-varela",
+  "player": "Bruno Varela",
+  "season": "2017-18",
+  "pos": "GK",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 35,
+  "mins": 2915,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "jardel",
+  "player": "Jardel",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 34,
+  "mins": 2890,
+  "minsEstimated": true,
+  "goals": 2,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "andre-almeida",
+  "player": "André Almeida",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 40,
+  "mins": 3280,
+  "minsEstimated": true,
+  "goals": 2,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "martin-chrien",
+  "player": "Martin Chrien",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "SVK",
+  "apps": 2,
+  "mins": 50,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "loan-out"
+ },
+ {
+  "playerId": "keaton-parks",
+  "player": "Keaton Parks",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "USA",
+  "apps": 6,
+  "mins": 210,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "ruben-dias",
+  "player": "Rúben Dias",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 29,
+  "mins": 2465,
+  "minsEstimated": true,
+  "goals": 4,
+  "assists": null,
+  "rating": null,
+  "status": "stay"
+ },
+ {
+  "playerId": "diogo-goncalves",
+  "player": "Diogo Gonçalves",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "academy",
+  "nat": "POR",
+  "apps": 13,
+  "mins": 745,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "loan-out"
+ },
+ {
+  "playerId": "joao-carvalho",
+  "player": "João Carvalho",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "signed",
+  "nat": "POR",
+  "apps": 10,
+  "mins": 490,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "sold"
+ },
+ {
+  "playerId": "lisandro-lopez",
+  "player": "Lisandro López",
+  "season": "2017-18",
+  "pos": "DF",
+  "origin": "signed",
+  "nat": "ARG",
+  "apps": 8,
+  "mins": 560,
+  "minsEstimated": true,
+  "goals": 1,
+  "assists": null,
+  "rating": null,
+  "status": "loan-out"
+ },
+ {
+  "playerId": "filipe-augusto",
+  "player": "Filipe Augusto",
+  "season": "2017-18",
+  "pos": "MF",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 14,
+  "mins": 950,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "loan-out"
+ },
+ {
+  "playerId": "gabriel-barbosa",
+  "player": "Gabriel Barbosa",
+  "season": "2017-18",
+  "pos": "FW",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 5,
+  "mins": 245,
+  "minsEstimated": true,
+  "goals": 1,
+  "assists": null,
+  "rating": null,
+  "status": "loan-in-ended"
+ },
+ {
+  "playerId": "julio-cesar",
+  "player": "Júlio César",
+  "season": "2017-18",
+  "pos": "GK",
+  "origin": "signed",
+  "nat": "BRA",
+  "apps": 4,
+  "mins": 340,
+  "minsEstimated": true,
+  "goals": 0,
+  "assists": null,
+  "rating": null,
+  "status": "released"
  },
  {
   "playerId": "mile-svilar",
@@ -567,7 +987,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "yuri-ribeiro",
@@ -702,7 +1122,7 @@
   "goals": 6,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "filip-krovinovic",
@@ -717,7 +1137,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "pizzi",
@@ -897,7 +1317,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "cristian-lema",
@@ -912,7 +1332,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "nicolas-castillo",
@@ -1137,7 +1557,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "chiquinho",
@@ -1362,7 +1782,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "caio-lucas-fernandes",
@@ -1377,7 +1797,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "gedson-fernandes",
@@ -1632,7 +2052,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "franco-cervi",
@@ -1647,7 +2067,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "diogo-goncalves",
@@ -1767,7 +2187,7 @@
   "goals": 10,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "haris-seferovic",
@@ -1887,7 +2307,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-in-ended"
  },
  {
   "playerId": "facundo-ferreyra",
@@ -1902,7 +2322,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "carlos-vinicius",
@@ -2022,7 +2442,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "diogo-goncalves",
@@ -2052,7 +2472,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "nicolas-otamendi",
@@ -2157,7 +2577,7 @@
   "goals": 7,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "soualiho-meite",
@@ -2172,7 +2592,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "joao-mario",
@@ -2202,7 +2622,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-in-ended"
  },
  {
   "playerId": "rafa-silva",
@@ -2232,7 +2652,7 @@
   "goals": 3,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "adel-taarabt",
@@ -2247,7 +2667,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "paulo-bernardo",
@@ -2307,7 +2727,7 @@
   "goals": 34,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "haris-seferovic",
@@ -2322,7 +2742,7 @@
   "goals": 4,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "roman-yaremchuk",
@@ -2337,7 +2757,7 @@
   "goals": 9,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "rodrigo-pinho",
@@ -2502,7 +2922,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "gilberto",
@@ -2577,7 +2997,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "nicolas-otamendi",
@@ -2757,7 +3177,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "joao-neves",
@@ -2787,7 +3207,7 @@
   "goals": 2,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "diego-moreira",
@@ -2862,7 +3282,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "roman-yaremchuk",
@@ -2892,7 +3312,7 @@
   "goals": 4,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "diogo-goncalves",
@@ -2937,7 +3357,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "julian-weigl",
@@ -2952,7 +3372,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "gil-dias",
@@ -3357,7 +3777,7 @@
   "goals": 4,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "rafa-silva",
@@ -3372,7 +3792,7 @@
   "goals": 22,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "benjamin-rollheiser",
@@ -3447,7 +3867,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "goncalo-guedes",
@@ -3507,7 +3927,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "petar-musa",
@@ -3522,7 +3942,7 @@
   "goals": 5,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "joao-victor",
@@ -3552,7 +3972,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "joao-mario",
@@ -4302,7 +4722,7 @@
   "goals": 1,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "sold"
  },
  {
   "playerId": "amar-dedic",
@@ -4377,7 +4797,7 @@
   "goals": 0,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "released"
  },
  {
   "playerId": "jose-neto",
@@ -4407,7 +4827,7 @@
   "goals": 2,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-in-ended"
  },
  {
   "playerId": "fredrik-aursnes",
@@ -4437,7 +4857,7 @@
   "goals": 4,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-in-ended"
  },
  {
   "playerId": "manu-silva",
@@ -4572,7 +4992,7 @@
   "goals": 8,
   "assists": null,
   "rating": null,
-  "status": "stay"
+  "status": "loan-out"
  },
  {
   "playerId": "dodi-lukebakio",

@@ -75,7 +75,51 @@ function parseApps(s: string): [number, number] {
   return [num(a), num(b)];
 }
 
+const POS = new Set(["GK", "DF", "MF", "FW"]);
+
+/**
+ * Older articles (e.g. 2017-18) use a plain wikitable instead of {{Efs ...}}:
+ * No. | Pos. | Nat. | Player | (starts, subs, goals) per competition | Total.
+ * Only the Total row ("!a!!b!!c") is read.
+ */
+export function parseStatsTable(wikitext: string): WikiSeason {
+  const header = wikitext.slice(0, wikitext.search(/\n\|-\s*\n\|/) + 1 || undefined);
+  const competitions = [...header.matchAll(/^!\s*colspan="3"[^|\n]*\|(.*)$/gm)]
+    .map((m) => parseLink(m[1]).shown)
+    .filter((c) => c && !/^total$/i.test(c));
+  const players: WikiPlayerRow[] = [];
+  let left = false, loan = false;
+  for (const chunk of wikitext.split(/\n\|-[^\n]*\n/)) {
+    const lines = chunk.split("\n").map((l) => l.trim()).filter(Boolean);
+    if (lines.length === 1 && lines[0].startsWith("!")) {
+      if (/transferred out|left the club|left during|departed/i.test(lines[0])) left = true;
+      if (/on loan|loaned out/i.test(lines[0])) loan = true;
+      continue;
+    }
+    const total = lines.filter((l) => /^!\s*-?\d+\s*!!/.test(l)).at(-1);
+    if (!total || lines.length < 5 || !lines[0].startsWith("|")) continue;
+    const [starts, subs, goals] = total.slice(1).split("!!").map((x) => num(x));
+    const pos = parseLink(lines[1]).shown.toUpperCase();
+    const nat = /flagicon\|([A-Z]{3})/.exec(lines[2])?.[1] ?? null;
+    const { target, shown } = parseLink(lines[3].replace(/^\|[^[|]*\|/, ""));
+    if (!target) continue;
+    players.push({
+      name: target,
+      display: shown,
+      pos: POS.has(pos) ? (pos as WikiPlayerRow["pos"]) : null,
+      nat,
+      starts,
+      subs,
+      goals: Math.max(0, goals),
+      leftDuringSeason: left,
+      onLoan: loan,
+    });
+  }
+  return { competitions, players };
+}
+
 export function parseSquadStats(wikitext: string): WikiSeason {
+  if (!/\{\{\s*Efs player/i.test(wikitext) && /\{\|\s*class="wikitable/.test(wikitext)) return parseStatsTable(wikitext);
   const start = findTemplates(wikitext, "Efs start")[0];
   const competitions = start
     ? splitTemplate(start.body).slice(1).filter((x) => x && !x.includes("=")).map((x) => parseLink(x.replace(/\{\{ref[^}]*\}\}/gi, "")).shown)

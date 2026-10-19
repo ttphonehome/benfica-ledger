@@ -1,0 +1,56 @@
+=== Appearances and goals===
+{| class="wikitable" style="text-align:center; width:95%"
+! rowspan="2" style="vertical-align:center; style=" |{{Abbr|No.|Squad Number}}
+! rowspan="2" style="vertical-align:center; style=" |{{Abbr|Pos.|Position}}
+! rowspan="2" style="vertical-align:center; style=" |{{Abbr|Nat.|Nationality}}
+! rowspan="2" style="vertical-align:center;" |Player
+! colspan="3" style="width:85px;" |[[2017–18 Primeira Liga|Primeira Liga]]
+! colspan="3" style="width:85px;" |[[2017–18 Taça de Portugal|Taça de Portugal]]
+! colspan="3" style="width:85px;" |[[2017–18 Taça da Liga|Taça da Liga]]
+! colspan="3" style="width:85px;" |[[2017 Supertaça Cândido de Oliveira|Supertaça]]
+! colspan="3" style="width:85px;" |[[2017–18 UEFA Champions League|Champions League]]
+! colspan="3" style="width:85px;" |Total
+|-
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]]| Goals }}
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]] | Goals }}
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]] | Goals }}
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]] | Goals }}
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]] | Goals }}
+!{{Abbr| [[File:Soccer field icon.svg|13px]] | Matches started }}
+!{{Abbr| [[File:Substitution.svg|13px]] | Substitution appearances }}
+!{{Abbr| [[File:Soccerball shade.svg|13px]] | Goals }}
+|-
+| align="right" |1
+| align="center" |[[Goalkeeper (association football)|GK]]
+| align="center" |{{flagicon|BEL}}
+| align="left" |[[Mile Svilar]]
+|3||0||-2
+||1||0||0
+||2||0||-3
+|colspan="3"|—
+||3||0||-5
+!9!!0!!-10
+|-
+! colspan="22" style="background:#eaecf0; text-align:center;"| Players transferred out during the season
+|-
+| align="right" |2
+| align="center" |[[Defender (association football)|DF]]
+| align="center" |{{flagicon|ARG}}
+| align="left" |[[Lisandro López (footballer, born 1989)|Lisandro López]]
+|2||2||0
+||0||0||0
+||2||0||1
+||0||0||0
+||2||0||0
+!6!!2!!1
+|}

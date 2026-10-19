@@ -1,11 +1,11 @@
 ## Benfica data refresh
 
-As of 2026-10-19. API requests this run: 83, 21 left today.
+As of 2026-10-19. API requests this run: 0.
 
 | Season | Source |
 | --- | --- |
 | 2016-17 | wikipedia |
-| 2017-18 | none |
+| 2017-18 | wikipedia |
 | 2018-19 | wikipedia |
 | 2019-20 | wikipedia |
 | 2020-21 | wikipedia |
@@ -16,7 +16,7 @@ As of 2026-10-19. API requests this run: 83, 21 left today.
 | 2025-26 | wikipedia |
 | 2026-27 | wikipedia |
 
-Rows: playerSeasons 351, transfers 619, injuries 15, managers 7, presidents 2, undisclosedFees 233. Formations known for 53 of 56 matches.
+Rows: playerSeasons 379, transfers 619, injuries 15, managers 7, presidents 2, undisclosedFees 233. Formations known for 53 of 56 matches.
 
 ### Warnings
 
@@ -41,16 +41,3 @@ Rows: playerSeasons 351, transfers 619, injuries 15, managers 7, presidents 2, u
 - President Vieira 2019-20: no match results available; kept the design-handoff record
 - President Vieira 2020-21: no match results available; kept the design-handoff record
 - President Vieira 2021-22: no match results available; kept the design-handoff record
-
-### Log
-
-- API plan does not cover players 2026: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2025: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2023: Free plans are limited to a maximum value of 3 for the Page parameter
-- API plan does not cover players 2022: Free plans are limited to a maximum value of 3 for the Page parameter
-- API plan does not cover players 2021: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2020: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2019: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2018: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2017: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2016: Free plans do not have access to this season, try from 2022 to 2024.
