@@ -22,7 +22,7 @@ async function get(path) {
   return body;
 }
 const sample = (x, n = 1500) => {
-  const s = JSON.stringify(x);
+  const s = JSON.stringify(x) ?? "undefined";
   return s.length > n ? s.slice(0, n) + "…" : s;
 };
 const shape = (o, depth = 0) => {
@@ -43,18 +43,15 @@ if (!benfica) { console.log("Could not identify Benfica; stopping."); process.ex
 const id = benfica.team.id;
 console.log("   => Benfica team id", id);
 
-const seasonAccess = {};
-for (let y = 2016; y <= 2026; y++) {
-  const p = await get(`/players?team=${id}&season=${y}&page=1`);
-  seasonAccess[y] = p.errors && Object.keys(p.errors).length ? `blocked: ${sample(p.errors, 200)}` : `ok (${p.results} on page 1 of ${p.paging?.total})`;
-  if (y === 2025 && p.response?.[0]) {
-    console.log("   player shape:", sample(shape(p.response[0]), 2500));
-    const s = p.response[0].statistics?.[0];
-    console.log("   sample statistics[0]:", sample(s, 1500));
-    console.log("   leagues in statistics[]:", sample(p.response[0].statistics?.map((x) => `${x.league?.id}:${x.league?.name}:${x.team?.id}`)));
-  }
+// Run 1 found the free plan allows 2022-2024 only. Probe shapes on 2024.
+const Y = Number(process.env.PROBE_SEASON ?? 2024);
+const pl = await get(`/players?team=${id}&season=${Y}&page=1`);
+if (pl.response?.[0]) {
+  const p0 = pl.response[0];
+  console.log("   player shape:", sample(shape(p0), 2500));
+  console.log("   sample player:", sample(p0.player, 600));
+  for (const st of p0.statistics ?? []) console.log("   stat:", sample(st, 900));
 }
-console.log("\n   SEASON ACCESS:", JSON.stringify(seasonAccess, null, 1));
 
 const tr = await get(`/transfers?team=${id}`);
 const moves = (tr.response ?? []).flatMap((p) => p.transfers.map((t) => ({ player: p.player.name, ...t })));
@@ -62,8 +59,8 @@ console.log("   transfer players", tr.results, "moves", moves.length, "date rang
 console.log("   distinct type values:", sample([...new Set(moves.map((m) => m.type))], 1200));
 console.log("   sample move:", sample(moves.find((m) => m.date >= "2024-06-01"), 600));
 
-const inj = await get(`/injuries?team=${id}&season=2025`);
-console.log("   injury sample:", sample(inj.response?.[0], 900));
+const inj = await get(`/injuries?team=${id}&season=${Y}`);
+console.log("   injury count:", inj.results, "sample:", sample(inj.response?.slice(0, 2), 1400));
 
 const co = await get(`/coachs?team=${id}`);
 for (const c of co.response ?? []) {
@@ -71,11 +68,12 @@ for (const c of co.response ?? []) {
   console.log(`   coach ${c.id} ${c.name}: ${stints.join(", ")}`);
 }
 
-const fx = await get(`/fixtures?team=${id}&season=2025`);
+const fx = await get(`/fixtures?team=${id}&season=${Y}`);
 console.log("   fixture leagues:", sample([...new Set((fx.response ?? []).map((f) => `${f.league.id}:${f.league.name}`))]));
 console.log("   fixture sample:", sample(fx.response?.[0], 900));
 
-const st = await get(`/standings?league=94&season=2025`);
+console.log("   fixtures:", fx.results, "statuses:", sample([...new Set((fx.response ?? []).map((f) => f.fixture.status.short))]));
+const st = await get(`/standings?league=94&season=${Y}`);
 const row = st.response?.[0]?.league?.standings?.[0]?.find((x) => x.team.id === id);
 console.log("   standings row:", sample(row, 600));
 
@@ -85,6 +83,12 @@ if (done) {
   console.log("   lineup formations:", sample((lu.response ?? []).map((l) => `${l.team.id}:${l.formation}`)));
 }
 
-const tro = co.response?.[0] ? await get(`/trophies?coach=${co.response[0].id}`) : null;
-if (tro) console.log("   trophies sample:", sample(tro.response?.slice(0, 5), 800));
+const schmidt = (co.response ?? []).find((c) => /Schmidt/.test(c.name)) ?? co.response?.[0];
+const tro = schmidt ? await get(`/trophies?coach=${schmidt.id}`) : null;
+if (tro) console.log("   trophies:", sample(tro.response, 1500));
+// Also check what the free plan returns for the current season on fixtures and standings.
+const cur = await get(`/fixtures?team=${id}&season=2026`);
+console.log("   current-season fixtures:", cur.results);
+const sq = await get(`/players/squads?team=${id}`);
+console.log("   current squad (players/squads):", sq.results, sample(sq.response?.[0]?.players?.slice(0, 3), 600));
 console.log(`\nDone in ${calls} requests.`);
