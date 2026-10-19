@@ -479,6 +479,13 @@ export function merge(input: MergeInput): { dataset: Dataset; report: MergeRepor
         return false;
       })
       .map((h) => ({ managerId: h.manager_id, verdict: h.verdict, note: h.note }));
+    // Verdicts are editorial, so a missing one is reported rather than filled in.
+    for (const m of mgrList) {
+      const inOffice = m.appointed >= p.appointed && (!p.departed || m.appointed < p.departed);
+      if (inOffice && !managersHired.some((h) => h.managerId === m.id)) {
+        warnings.push(`manager-hires.csv: no verdict for ${p.name} hiring ${m.name} (${m.id}, ${m.appointed}); not shown on the Presidency screen`);
+      }
+    }
     return { id: p.id, name: p.name, nick: p.nick, appointed: p.appointed, departed: p.departed, notes: p.notes, seasons, managersHired };
   });
 

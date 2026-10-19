@@ -177,7 +177,7 @@
   "name": "Bruno Lage",
   "nick": "Lage · 1st stint",
   "appointed": "2019-01-03",
-  "departed": "2020-06-30",
+  "departed": "2020-06-29",
   "seasons": [
    {
     "season": "2018-19",
@@ -269,6 +269,14 @@
   ]
  },
  {
+  "id": "verissimo-2020",
+  "name": "Nélson Veríssimo",
+  "nick": "Veríssimo · 2020",
+  "appointed": "2020-06-30",
+  "departed": "2020-07-14",
+  "seasons": []
+ },
+ {
   "id": "jesus-2",
   "name": "Jorge Jesus",
   "nick": "Jesus · 2nd stint",
@@ -357,7 +365,7 @@
  {
   "id": "verissimo",
   "name": "Nélson Veríssimo",
-  "nick": "Veríssimo",
+  "nick": "Veríssimo · 2021-22",
   "appointed": "2021-12-29",
   "departed": "2022-06-30",
   "seasons": [
@@ -528,7 +536,7 @@
   "name": "Bruno Lage",
   "nick": "Lage · 2nd stint",
   "appointed": "2024-09-01",
-  "departed": "2026-06-30",
+  "departed": "2025-09-16",
   "seasons": [
    {
     "season": "2024-25",
@@ -559,6 +567,14 @@
     ]
    }
   ]
+ },
+ {
+  "id": "mourinho",
+  "name": "José Mourinho",
+  "nick": "Mourinho",
+  "appointed": "2025-09-18",
+  "departed": "2026-06-30",
+  "seasons": []
  },
  {
   "id": "marco-silva",

@@ -266,6 +266,7 @@ export const pt: Dict = {
   "managers.still": " · ainda no cargo · {n} meses até agora",
   "managers.record": "Registo",
   "managers.winLine": "{pct}% de vitórias · {ppg} pts/jogo",
+  "managers.noResults": "Ainda sem resultados de jogos carregados para este período.",
   "managers.titles": "Títulos",
   "managers.won": "conquistados",
   "managers.noTitles": "Sem títulos neste mandato",

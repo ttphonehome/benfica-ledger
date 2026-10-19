@@ -49,8 +49,9 @@ const columns = [
   col.accessor("seasonCount", { header: "col.seasons", meta: { right: true } }),
   col.accessor("matches", { header: "col.matches", meta: { right: true } }),
   col.accessor("w", { header: "col.record" }),
-  col.accessor("winPct", { header: "col.winPct", meta: { right: true } }),
-  col.accessor("ppg", { header: "col.ppg", meta: { right: true } }),
+  // A tenure with no results loaded has no win rate, not a 0% one: sort it last.
+  col.accessor((r) => (r.matches ? r.winPct : undefined), { id: "winPct", header: "col.winPct", sortUndefined: "last", meta: { right: true } }),
+  col.accessor((r) => (r.matches ? r.ppg : undefined), { id: "ppg", header: "col.ppg", sortUndefined: "last", meta: { right: true } }),
   col.accessor((r) => r.titles.length, { id: "titles", header: "col.titles", meta: { right: true } }),
   col.accessor((r) => r.avgFinish ?? undefined, { id: "avgFinish", header: "col.avgFinish", sortUndefined: "last", meta: { right: true } }),
   col.accessor((r) => r.avgAcademy ?? undefined, { id: "avgAcademy", header: "col.acadMins", sortUndefined: "last", meta: { right: true } }),
@@ -144,15 +145,21 @@ export function ManagersScreen({ managers, asOf }: { managers: ManagerView[]; as
                       {r.nick}
                     </button>
                   </TableCell>
-                  <TableCell className={num}>{r.seasonCount}</TableCell>
-                  <TableCell className={num}>{r.matches}</TableCell>
+                  <TableCell className={num}>{r.matches ? r.seasonCount : <Faint />}</TableCell>
+                  <TableCell className={num}>{r.matches ? r.matches : <Faint />}</TableCell>
                   <TableCell className="font-mono text-[12.5px]">
-                    {r.w}
-                    <span className="text-mute">–{r.d}–</span>
-                    <span className="text-bad">{r.l}</span>
+                    {r.matches ? (
+                      <>
+                        {r.w}
+                        <span className="text-mute">–{r.d}–</span>
+                        <span className="text-bad">{r.l}</span>
+                      </>
+                    ) : (
+                      <Faint />
+                    )}
                   </TableCell>
-                  <TableCell className={cn(num, "font-medium")}>{f.pct(r.winPct)}</TableCell>
-                  <TableCell className={num}>{f.num(r.ppg, 2)}</TableCell>
+                  <TableCell className={cn(num, "font-medium")}>{r.matches ? f.pct(r.winPct) : <Faint />}</TableCell>
+                  <TableCell className={num}>{r.matches ? f.num(r.ppg, 2) : <Faint />}</TableCell>
                   <TableCell className={num}>
                     {r.titles.length ? <span className="text-good" aria-label={`${r.titles.length} ${t("col.titles")}`}>{"★".repeat(r.titles.length)}</span> : <Faint />}
                   </TableCell>
@@ -177,7 +184,11 @@ export function ManagersScreen({ managers, asOf }: { managers: ManagerView[]; as
         </p>
 
         <StatCards cols={4}>
-          <StatCard label={t("managers.record")} big={<RecordBig w={a.w} d={a.d} l={a.l} />} sub={t("managers.winLine", { pct: Math.round(a.winPct), ppg: f.num(a.ppg, 2) })} />
+          <StatCard
+            label={t("managers.record")}
+            big={a.matches ? <RecordBig w={a.w} d={a.d} l={a.l} /> : DASH}
+            sub={a.matches ? t("managers.winLine", { pct: Math.round(a.winPct), ppg: f.num(a.ppg, 2) }) : t("managers.noResults")}
+          />
           <StatCard label={t("managers.titles")} big={<>{a.titles.length}<Suffix>{t("managers.won")}</Suffix></>} sub={a.titles.join(" · ") || t("managers.noTitles")} />
           <StatCard
             label={t("managers.youth")}
@@ -233,6 +244,13 @@ function SeasonBreakdown({ seasons }: { seasons: ManagerSeason[] }) {
             </TableRow>
           </TableHeader>
           <TableBody>
+            {!oldest.length && (
+              <TableRow>
+                <TableCell colSpan={9} className="font-mono text-xs text-mute">
+                  {t("managers.noResults")}
+                </TableCell>
+              </TableRow>
+            )}
             {oldest.map((s) => (
               <TableRow key={s.season}>
                 <TableCell className="text-sm font-medium">{s.season}</TableCell>
@@ -255,7 +273,7 @@ function SeasonBreakdown({ seasons }: { seasons: ManagerSeason[] }) {
       <div className="mt-3">
         <div className="kicker mt-6">{t("managers.ppgTrajectory")}</div>
         {oldest.length < 2 ? (
-          <p className="mt-3 font-mono text-xs text-mute">{t("managers.single")}</p>
+          <p className="mt-3 font-mono text-xs text-mute">{oldest.length ? t("managers.single") : t("managers.noResults")}</p>
         ) : (
           <PpgTrend points={oldest.map((s) => ({ season: s.season, ppg: ppg(seasonRecord(s)) }))} />
         )}

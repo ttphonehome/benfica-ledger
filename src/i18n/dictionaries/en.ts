@@ -265,6 +265,7 @@ export const en = {
   "managers.still": " · still in charge · {n} months and counting",
   "managers.record": "Record",
   "managers.winLine": "{pct}% win rate · {ppg} pts/game",
+  "managers.noResults": "No match results loaded for this tenure yet.",
   "managers.titles": "Titles",
   "managers.won": "won",
   "managers.noTitles": "No titles in this tenure",
