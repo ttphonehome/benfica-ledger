@@ -1,0 +1,23 @@
+name: Wikipedia probe
+
+# Read-only check of how Wikipedia's Benfica season articles are structured.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - pipeline/probe-wiki.mjs
+      - .github/workflows/wiki-probe.yml
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node pipeline/probe-wiki.mjs
