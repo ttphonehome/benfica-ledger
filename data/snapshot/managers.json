@@ -430,43 +430,26 @@
   "seasons": [
    {
     "season": "2022-23",
-    "wins": 29,
-    "draws": 5,
+    "wins": 42,
+    "draws": 9,
     "losses": 4,
-    "gf": 84,
-    "ga": 25,
-    "finish": 1,
+    "gf": 131,
+    "ga": 40,
+    "finish": null,
     "leaguePoints": 87,
     "competitions": [
+     "UEFA Champions League",
      "Primeira Liga",
-     "Champions League QF"
+     "Taça de Portugal",
+     "Taça da Liga"
     ],
-    "formations": [
-     {
-      "name": "4-2-3-1",
-      "matches": 31,
-      "w": 24,
-      "d": 4,
-      "l": 3,
-      "gf": 71,
-      "ga": 18
-     },
-     {
-      "name": "4-3-3",
-      "matches": 7,
-      "w": 5,
-      "d": 1,
-      "l": 1,
-      "gf": 13,
-      "ga": 7
-     }
-    ],
-    "academyMinutesPct": 28,
+    "formations": [],
+    "academyMinutesPct": 23.9,
     "youthPromoted": [
      "António Silva",
      "Henrique Araújo"
     ],
-    "avgStartXIAge": 26.1,
+    "avgStartXIAge": null,
     "notes": "Title-winning year. Press, transitions, Enzo as orchestrator.",
     "titles": [
      "Primeira Liga 2022-23"
