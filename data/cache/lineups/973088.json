@@ -1,0 +1,423 @@
+{
+ "fetchedAt": "2026-10-20T10:17:06.191Z",
+ "data": [
+  {
+   "team": {
+    "id": 237,
+    "name": "Varzim",
+    "logo": "https://media.api-sports.io/football/teams/237.png",
+    "colors": {
+     "player": {
+      "primary": "ffffff",
+      "number": "fc0303",
+      "border": "ffffff"
+     },
+     "goalkeeper": {
+      "primary": "66ffff",
+      "number": "000000",
+      "border": "66ffff"
+     }
+    }
+   },
+   "coach": {
+    "id": 6483,
+    "name": "Tiago Margarido",
+    "photo": "https://media.api-sports.io/football/coachs/6483.png"
+   },
+   "formation": "3-4-3",
+   "startXI": [
+    {
+     "player": {
+      "id": 41406,
+      "name": "Ricardo Nunes",
+      "number": null,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 96421,
+      "name": "João Faria",
+      "number": null,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 119554,
+      "name": "J. Bonilla",
+      "number": null,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41879,
+      "name": "Bruno Sapo",
+      "number": null,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 141538,
+      "name": "Tito Júnior",
+      "number": null,
+      "pos": "M",
+      "grid": "3:4"
+     }
+    },
+    {
+     "player": {
+      "id": 207001,
+      "name": "Rúben Gonçalves",
+      "number": null,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 142096,
+      "name": "Paulo Moreira",
+      "number": null,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 145974,
+      "name": "C. Gómez",
+      "number": null,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 96360,
+      "name": "João Vasco",
+      "number": null,
+      "pos": "F",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 74624,
+      "name": "O. Osemene",
+      "number": null,
+      "pos": "F",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 142069,
+      "name": "Léo Teixeira",
+      "number": null,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 96713,
+      "name": "Diogo Ramalho",
+      "number": null,
+      "pos": null,
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41684,
+      "name": "Areias",
+      "number": null,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 2156,
+      "name": "Hélder Barbosa",
+      "number": null,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 96548,
+      "name": "Jorge Vilela",
+      "number": null,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41685,
+      "name": "Ludovic",
+      "number": null,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 403479,
+      "name": "Gonçalo Ferreira",
+      "number": null,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 279083,
+      "name": "João Sidónio",
+      "number": null,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 381139,
+      "name": "Longras",
+      "number": null,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 119470,
+      "name": "Tiago Cerveira",
+      "number": null,
+      "pos": "D",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "ffffff",
+      "number": "000000",
+      "border": "ffffff"
+     },
+     "goalkeeper": {
+      "primary": "f1ff00",
+      "number": "000000",
+      "border": "f1ff00"
+     }
+    }
+   },
+   "coach": {
+    "id": 57,
+    "name": "R. Schmidt",
+    "photo": "https://media.api-sports.io/football/coachs/57.png"
+   },
+   "formation": "4-2-3-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 557,
+      "name": "O. Vlachodimos",
+      "number": 99,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 15623,
+      "name": "A. Bah",
+      "number": 6,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 9991,
+      "name": "Lucas Veríssimo",
+      "number": 4,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 67943,
+      "name": "Morato",
+      "number": 91,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 563,
+      "name": "Álex Grimaldo",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 41130,
+      "name": "Chiquinho",
+      "number": 22,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 5996,
+      "name": "E. Fernández",
+      "number": 13,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 552,
+      "name": "David Neres",
+      "number": 7,
+      "pos": "M",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 39043,
+      "name": "F. Aursnes",
+      "number": 8,
+      "pos": "M",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 267,
+      "name": "J. Draxler",
+      "number": 93,
+      "pos": "M",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 41585,
+      "name": "Gonçalo Ramos",
+      "number": 88,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 206,
+      "name": "João Mário",
+      "number": 20,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 21584,
+      "name": "M. Ristić",
+      "number": 23,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162098,
+      "name": "Henrique Araújo",
+      "number": 39,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1615,
+      "name": "Gil Dias",
+      "number": 31,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 331832,
+      "name": "António Silva",
+      "number": 66,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41293,
+      "name": "Helton Leite",
+      "number": 77,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 335051,
+      "name": "João Neves",
+      "number": null,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}

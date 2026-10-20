@@ -1,0 +1,477 @@
+{
+ "fetchedAt": "2026-10-20T10:15:09.152Z",
+ "data": [
+  {
+   "team": {
+    "id": 505,
+    "name": "Inter",
+    "logo": "https://media.api-sports.io/football/teams/505.png",
+    "colors": {
+     "player": {
+      "primary": "024ec0",
+      "number": "ffffff",
+      "border": "024ec0"
+     },
+     "goalkeeper": {
+      "primary": "ff6600",
+      "number": "ffffff",
+      "border": "ff6600"
+     }
+    }
+   },
+   "coach": {
+    "id": 2392,
+    "name": "S. Inzaghi",
+    "photo": "https://media.api-sports.io/football/coachs/2392.png"
+   },
+   "formation": "3-5-2",
+   "startXI": [
+    {
+     "player": {
+      "id": 526,
+      "name": "A. Onana",
+      "number": 24,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 887,
+      "name": "M. Darmian",
+      "number": 36,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 1836,
+      "name": "F. Acerbi",
+      "number": 15,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 31009,
+      "name": "A. Bastoni",
+      "number": 95,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 226,
+      "name": "D. Dumfries",
+      "number": 2,
+      "pos": "M",
+      "grid": "3:5"
+     }
+    },
+    {
+     "player": {
+      "id": 30558,
+      "name": "N. Barella",
+      "number": 23,
+      "pos": "M",
+      "grid": "3:4"
+     }
+    },
+    {
+     "player": {
+      "id": 201,
+      "name": "M. Brozović",
+      "number": 77,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 1457,
+      "name": "H. Mkhitaryan",
+      "number": 22,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 31010,
+      "name": "F. Dimarco",
+      "number": 32,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 217,
+      "name": "Lautaro Martínez",
+      "number": 10,
+      "pos": "F",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 790,
+      "name": "E. Džeko",
+      "number": 9,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 907,
+      "name": "R. Lukaku",
+      "number": 90,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1640,
+      "name": "H. Çalhanoğlu",
+      "number": 20,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1854,
+      "name": "J. Correa",
+      "number": 11,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 30422,
+      "name": "R. Gosens",
+      "number": 8,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 193,
+      "name": "D. D'Ambrosio",
+      "number": 33,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 30974,
+      "name": "A. Cordaz",
+      "number": 21,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 91422,
+      "name": "R. Bellanova",
+      "number": 12,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 194,
+      "name": "S. de Vrij",
+      "number": 6,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 188,
+      "name": "S. Handanovič",
+      "number": 1,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 275776,
+      "name": "K. Asllani",
+      "number": 14,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 203,
+      "name": "R. Gagliardini",
+      "number": 5,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 341646,
+      "name": "V. Carboni",
+      "number": 45,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "ff0000",
+      "number": "ffffff",
+      "border": "ff0000"
+     },
+     "goalkeeper": {
+      "primary": "f1ff00",
+      "number": "000000",
+      "border": "f1ff00"
+     }
+    }
+   },
+   "coach": {
+    "id": 57,
+    "name": "R. Schmidt",
+    "photo": "https://media.api-sports.io/football/coachs/57.png"
+   },
+   "formation": "4-2-3-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 557,
+      "name": "O. Vlachodimos",
+      "number": 99,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 10305,
+      "name": "Gilberto",
+      "number": 2,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 331832,
+      "name": "António Silva",
+      "number": 66,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 624,
+      "name": "N. Otamendi",
+      "number": 30,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 563,
+      "name": "Álex Grimaldo",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41130,
+      "name": "Chiquinho",
+      "number": 22,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 206,
+      "name": "João Mário",
+      "number": 20,
+      "pos": "M",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 573,
+      "name": "Rafa",
+      "number": 27,
+      "pos": "M",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 39043,
+      "name": "F. Aursnes",
+      "number": 8,
+      "pos": "M",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 41585,
+      "name": "Gonçalo Ramos",
+      "number": 88,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 552,
+      "name": "David Neres",
+      "number": 7,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 925,
+      "name": "Gonçalo Guedes",
+      "number": 15,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 66055,
+      "name": "P. Musa",
+      "number": 33,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 335051,
+      "name": "João Neves",
+      "number": 87,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 301528,
+      "name": "A. Schjelderup",
+      "number": 21,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 21584,
+      "name": "M. Ristić",
+      "number": 23,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 67943,
+      "name": "Morato",
+      "number": 91,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 311083,
+      "name": "C. Ndour",
+      "number": 73,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 350337,
+      "name": "André Gomes",
+      "number": 75,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162703,
+      "name": "C. Tengstedt",
+      "number": 19,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 9991,
+      "name": "Lucas Veríssimo",
+      "number": 4,
+      "pos": "D",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}

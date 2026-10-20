@@ -1,0 +1,423 @@
+{
+ "fetchedAt": "2026-10-20T10:17:32.202Z",
+ "data": [
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "f50505",
+      "number": "ffffff",
+      "border": "f50505"
+     },
+     "goalkeeper": {
+      "primary": "f1ff00",
+      "number": "000000",
+      "border": "f1ff00"
+     }
+    }
+   },
+   "coach": {
+    "id": 57,
+    "name": "R. Schmidt",
+    "photo": "https://media.api-sports.io/football/coachs/57.png"
+   },
+   "formation": "4-2-3-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 557,
+      "name": "O. Vlachodimos",
+      "number": 99,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 10305,
+      "name": "Gilberto",
+      "number": 2,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 563,
+      "name": "Álex Grimaldo",
+      "number": 3,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 10225,
+      "name": "João Victor",
+      "number": 38,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 67943,
+      "name": "Morato",
+      "number": 91,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 267,
+      "name": "J. Draxler",
+      "number": 93,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 573,
+      "name": "Rafa",
+      "number": 27,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 41130,
+      "name": "Chiquinho",
+      "number": 22,
+      "pos": "M",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 66055,
+      "name": "P. Musa",
+      "number": 33,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 552,
+      "name": "David Neres",
+      "number": 7,
+      "pos": "M",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 41290,
+      "name": "Rodrigo Pinho",
+      "number": 18,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162098,
+      "name": "Henrique Araújo",
+      "number": 39,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 25397,
+      "name": "J. Brooks",
+      "number": 25,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 161938,
+      "name": "Paulo Bernardo",
+      "number": 55,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41293,
+      "name": "Helton Leite",
+      "number": 77,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 21584,
+      "name": "M. Ristić",
+      "number": 23,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 562,
+      "name": "André Almeida",
+      "number": 34,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1615,
+      "name": "Gil Dias",
+      "number": 31,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 19300,
+      "name": "Diogo Gonçalves",
+      "number": 17,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 235,
+    "name": "Penafiel",
+    "logo": "https://media.api-sports.io/football/teams/235.png",
+    "colors": {
+     "player": {
+      "primary": "ffffff",
+      "number": "030303",
+      "border": "ffffff"
+     },
+     "goalkeeper": {
+      "primary": "ffff00",
+      "number": "000000",
+      "border": "ffff00"
+     }
+    }
+   },
+   "coach": {
+    "id": 2214,
+    "name": "Filó",
+    "photo": "https://media.api-sports.io/football/coachs/2214.png"
+   },
+   "formation": "4-3-3",
+   "startXI": [
+    {
+     "player": {
+      "id": 41486,
+      "name": "Caio Secco",
+      "number": 22,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 41968,
+      "name": "Simãozinho",
+      "number": 15,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 125352,
+      "name": "João Miguel",
+      "number": 14,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 41672,
+      "name": "Leandro Teixeira",
+      "number": 6,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41707,
+      "name": "Adriano Castanheira",
+      "number": 11,
+      "pos": "F",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 96561,
+      "name": "João Oliveira",
+      "number": 20,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 125356,
+      "name": "Filipe Cardoso",
+      "number": 35,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41559,
+      "name": "Feliz Vaz",
+      "number": 30,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 16150,
+      "name": "M. Mølvadgaard",
+      "number": 9,
+      "pos": "F",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 41257,
+      "name": "Robinho",
+      "number": 75,
+      "pos": "D",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 41596,
+      "name": "Edi Semedo",
+      "number": 7,
+      "pos": "F",
+      "grid": "4:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 41795,
+      "name": "Rúben Freitas",
+      "number": 25,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41674,
+      "name": "Vasco Braga",
+      "number": 23,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41629,
+      "name": "Roberto",
+      "number": 17,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41178,
+      "name": "Afonso Figueiredo",
+      "number": 28,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41937,
+      "name": "Silvério",
+      "number": 4,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41925,
+      "name": "Fábio Fortes",
+      "number": 91,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41698,
+      "name": "Mica",
+      "number": 77,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41646,
+      "name": "Reko",
+      "number": 8,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41959,
+      "name": "Filipe Ferreira",
+      "number": 73,
+      "pos": "G",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}

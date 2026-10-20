@@ -1,0 +1,459 @@
+{
+ "fetchedAt": "2026-10-20T10:12:00.579Z",
+ "data": [
+  {
+   "team": {
+    "id": 571,
+    "name": "Red Bull Salzburg",
+    "logo": "https://media.api-sports.io/football/teams/571.png",
+    "colors": {
+     "player": {
+      "primary": "000040",
+      "number": "ff0000",
+      "border": "000040"
+     },
+     "goalkeeper": {
+      "primary": "ffcc33",
+      "number": "cc0000",
+      "border": "ffcc33"
+     }
+    }
+   },
+   "coach": {
+    "id": 1916,
+    "name": "G. Struber",
+    "photo": "https://media.api-sports.io/football/coachs/1916.png"
+   },
+   "formation": "4-3-1-2",
+   "startXI": [
+    {
+     "player": {
+      "id": 7525,
+      "name": "A. Schlager",
+      "number": 24,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 322984,
+      "name": "S. Baidoo",
+      "number": 6,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 119762,
+      "name": "K. Piątkowski",
+      "number": 4,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 45826,
+      "name": "S. Pavlović",
+      "number": 31,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 7318,
+      "name": "A. Dedić",
+      "number": 70,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 162189,
+      "name": "M. Bidstrup",
+      "number": 18,
+      "pos": "M",
+      "grid": "3:3"
+     }
+    },
+    {
+     "player": {
+      "id": 179843,
+      "name": "L. Gourna-Douath",
+      "number": 27,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 7332,
+      "name": "L. Sučić",
+      "number": 10,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 329715,
+      "name": "O. Gloukh",
+      "number": 30,
+      "pos": "M",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 302869,
+      "name": "N. Dorgeles",
+      "number": 45,
+      "pos": "F",
+      "grid": "5:2"
+     }
+    },
+    {
+     "player": {
+      "id": 301763,
+      "name": "P. Ratkov",
+      "number": 21,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 688,
+      "name": "Fernando",
+      "number": 11,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 7571,
+      "name": "S. Koïta",
+      "number": 20,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 322985,
+      "name": "D. Kameri",
+      "number": 8,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 271066,
+      "name": "R. Šimić",
+      "number": 23,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 26507,
+      "name": "N. Mantl",
+      "number": 1,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 302915,
+      "name": "M. Diambou",
+      "number": 15,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 329265,
+      "name": "L. Morgalla",
+      "number": 39,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 287792,
+      "name": "J. Krumrey",
+      "number": 41,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 1087,
+      "name": "A. Ulmer",
+      "number": 17,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 331865,
+      "name": "K. Konaté",
+      "number": 19,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 115588,
+      "name": "B. Okoh",
+      "number": 5,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 304026,
+      "name": "A. Forson",
+      "number": 32,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  },
+  {
+   "team": {
+    "id": 211,
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "colors": {
+     "player": {
+      "primary": "ffffff",
+      "number": "c92626",
+      "border": "ffffff"
+     },
+     "goalkeeper": {
+      "primary": "f1ff00",
+      "number": "000000",
+      "border": "f1ff00"
+     }
+    }
+   },
+   "coach": {
+    "id": 57,
+    "name": "R. Schmidt",
+    "photo": "https://media.api-sports.io/football/coachs/57.png"
+   },
+   "formation": "4-2-3-1",
+   "startXI": [
+    {
+     "player": {
+      "id": 675,
+      "name": "A. Trubin",
+      "number": 1,
+      "pos": "G",
+      "grid": "1:1"
+     }
+    },
+    {
+     "player": {
+      "id": 39043,
+      "name": "F. Aursnes",
+      "number": 8,
+      "pos": "D",
+      "grid": "2:4"
+     }
+    },
+    {
+     "player": {
+      "id": 161939,
+      "name": "Tomás Araújo",
+      "number": 44,
+      "pos": "D",
+      "grid": "2:3"
+     }
+    },
+    {
+     "player": {
+      "id": 624,
+      "name": "N. Otamendi",
+      "number": 30,
+      "pos": "D",
+      "grid": "2:2"
+     }
+    },
+    {
+     "player": {
+      "id": 67943,
+      "name": "Morato",
+      "number": 5,
+      "pos": "D",
+      "grid": "2:1"
+     }
+    },
+    {
+     "player": {
+      "id": 335051,
+      "name": "João Neves",
+      "number": 87,
+      "pos": "M",
+      "grid": "3:2"
+     }
+    },
+    {
+     "player": {
+      "id": 37155,
+      "name": "O. Kökçü",
+      "number": 10,
+      "pos": "M",
+      "grid": "3:1"
+     }
+    },
+    {
+     "player": {
+      "id": 266,
+      "name": "Á. Di María",
+      "number": 11,
+      "pos": "M",
+      "grid": "4:3"
+     }
+    },
+    {
+     "player": {
+      "id": 573,
+      "name": "Rafa",
+      "number": 27,
+      "pos": "M",
+      "grid": "4:2"
+     }
+    },
+    {
+     "player": {
+      "id": 206,
+      "name": "João Mário",
+      "number": 20,
+      "pos": "M",
+      "grid": "4:1"
+     }
+    },
+    {
+     "player": {
+      "id": 162703,
+      "name": "C. Tengstedt",
+      "number": 19,
+      "pos": "F",
+      "grid": "5:1"
+     }
+    }
+   ],
+   "substitutes": [
+    {
+     "player": {
+      "id": 66055,
+      "name": "P. Musa",
+      "number": 33,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 925,
+      "name": "Gonçalo Guedes",
+      "number": 17,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 575,
+      "name": "Florentino",
+      "number": 61,
+      "pos": "M",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 9938,
+      "name": "Arthur Cabral",
+      "number": 9,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162595,
+      "name": "Samuel Soares",
+      "number": 24,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 158065,
+      "name": "Tiago Gouveia",
+      "number": 47,
+      "pos": "F",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 128793,
+      "name": "D. Jurásek",
+      "number": 13,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 10225,
+      "name": "João Victor",
+      "number": 38,
+      "pos": "D",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 162482,
+      "name": "L. Kokubo",
+      "number": 45,
+      "pos": "G",
+      "grid": null
+     }
+    },
+    {
+     "player": {
+      "id": 41130,
+      "name": "Chiquinho",
+      "number": 22,
+      "pos": "M",
+      "grid": null
+     }
+    }
+   ]
+  }
+ ]
+}
