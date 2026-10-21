@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-20. API requests this run: 94, 15 left today.
+As of 2026-10-21. API requests this run: 19, 98 left today.
 
 | Season | Source |
 | --- | --- |
@@ -16,7 +16,7 @@ As of 2026-10-20. API requests this run: 94, 15 left today.
 | 2025-26 | wikipedia |
 | 2026-27 | wikipedia |
 
-Rows: playerSeasons 379, transfers 619, injuries 36, managers 9, presidents 2, undisclosedFees 233. Formations known for 145 of 167 matches.
+Rows: playerSeasons 379, transfers 620, injuries 36, managers 9, presidents 2, undisclosedFees 233. Formations known for 161 of 167 matches.
 
 ### Warnings
 
