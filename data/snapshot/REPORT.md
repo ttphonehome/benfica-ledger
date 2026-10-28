@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-27. API requests this run: 20, 93 left today.
+As of 2026-10-28. API requests this run: 1, 99 left today.
 
 | Season | Source |
 | --- | --- |
@@ -37,16 +37,3 @@ Rows: playerSeasons 380, transfers 620, injuries 36, managers 9, presidents 2, u
 - President Vieira 2019-20: no match results available; kept the design-handoff record
 - President Vieira 2020-21: no match results available; kept the design-handoff record
 - President Vieira 2021-22: no match results available; kept the design-handoff record
-
-### Log
-
-- API plan does not cover players 2026: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2025: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2023: Free plans are limited to a maximum value of 3 for the Page parameter
-- API plan does not cover players 2022: Free plans are limited to a maximum value of 3 for the Page parameter
-- API plan does not cover players 2021: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2020: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2019: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2018: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2017: Free plans do not have access to this season, try from 2022 to 2024.
-- API plan does not cover players 2016: Free plans do not have access to this season, try from 2022 to 2024.
