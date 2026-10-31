@@ -1,6 +1,6 @@
 ## Benfica data refresh
 
-As of 2026-10-30. API requests this run: 0.
+As of 2026-10-31. API requests this run: 1, 99 left today.
 
 | Season | Source |
 | --- | --- |
