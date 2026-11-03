@@ -1,18 +1,18 @@
 {
- "fetchedAt": "2026-10-27T10:39:23.772Z",
+ "fetchedAt": "2026-11-03T12:51:35.821Z",
  "data": [
   {
    "id": 10,
    "name": "Marco Silva",
-   "firstname": null,
-   "lastname": null,
-   "age": null,
+   "firstname": "Marco Alexandre",
+   "lastname": "Saraiva da Silva",
+   "age": 48,
    "birth": {
-    "date": null,
-    "place": null,
-    "country": null
+    "date": "1977-07-12",
+    "place": "Lisboa",
+    "country": "Portugal"
    },
-   "nationality": null,
+   "nationality": "Portugal",
    "height": null,
    "weight": null,
    "photo": "https://media.api-sports.io/football/coachs/10.png",
@@ -37,8 +37,8 @@
       "name": "Fulham",
       "logo": "https://media.api-sports.io/football/teams/36.png"
      },
-     "start": "2021-08-01",
-     "end": "2026-05-01"
+     "start": "2021-07-01",
+     "end": null
     },
     {
      "team": {
@@ -46,7 +46,7 @@
       "name": "Everton",
       "logo": "https://media.api-sports.io/football/teams/45.png"
      },
-     "start": "2018-08-01",
+     "start": "2018-05-01",
      "end": "2019-12-01"
     },
     {
@@ -55,7 +55,7 @@
       "name": "Watford",
       "logo": "https://media.api-sports.io/football/teams/38.png"
      },
-     "start": "2017-08-01",
+     "start": "2017-05-01",
      "end": "2018-01-01"
     },
     {
@@ -70,11 +70,29 @@
     {
      "team": {
       "id": 553,
-      "name": "Olympiakos Piraeus",
+      "name": "Olympiakos",
       "logo": "https://media.api-sports.io/football/teams/553.png"
      },
-     "start": "2015-10-01",
-     "end": "2016-05-01"
+     "start": "2015-07-01",
+     "end": "2016-06-01"
+    },
+    {
+     "team": {
+      "id": 228,
+      "name": "Sporting Lisbon",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+     },
+     "start": "2014-07-01",
+     "end": "2015-07-01"
+    },
+    {
+     "team": {
+      "id": 230,
+      "name": "Estoril",
+      "logo": "https://media.api-sports.io/football/teams/230.png"
+     },
+     "start": "2012-07-01",
+     "end": "2014-05-01"
     }
    ]
   },
