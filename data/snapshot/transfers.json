@@ -7475,6 +7475,19 @@
   "age": null
  },
  {
+  "id": "2026-27-out-juvenal-correia-free-2026-06-30",
+  "playerId": "juvenal-correia",
+  "player": "Juvenal Correia",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-06-30",
+  "type": "free",
+  "fee": 0,
+  "club": "Famalicao",
+  "pos": null,
+  "age": null
+ },
+ {
   "id": "2026-27-out-diogo-prioste-loan-out-2026-07-02",
   "playerId": "diogo-prioste",
   "player": "Diogo Prioste",
@@ -7876,6 +7889,19 @@
   "club": "Gençlerbirliği S.K.",
   "pos": "FW",
   "age": 25
+ },
+ {
+  "id": "2026-27-in-a-saidi-loan-in-2026-08-21",
+  "playerId": "a-saidi",
+  "player": "A. Saidi",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-08-21",
+  "type": "loan-in",
+  "fee": null,
+  "club": "Benfica U23",
+  "pos": null,
+  "age": null
  },
  {
   "id": "2026-27-out-joao-rego-loan-out-2026-08-21",
