@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T13:58:29.186Z",
+ "fetchedAt": "2026-11-11T12:46:23.979Z",
  "data": [
   {
    "player": {
@@ -8978,7 +8978,7 @@
     "id": 37155,
     "name": "O. Kökçü"
    },
-   "update": "2026-11-02T00:36:57+00:00",
+   "update": "2026-11-09T00:41:24+00:00",
    "transfers": [
     {
      "date": "2023-07-01",
@@ -9393,7 +9393,7 @@
     "id": 304827,
     "name": "Gustavo Marques"
    },
-   "update": "2026-11-02T00:07:11+00:00",
+   "update": "2026-11-09T00:08:33+00:00",
    "transfers": [
     {
      "date": "2024-07-03",
@@ -13317,7 +13317,7 @@
     "id": 284300,
     "name": "Álvaro Fernández"
    },
-   "update": "2026-11-02T00:35:21+00:00",
+   "update": "2026-11-09T00:39:14+00:00",
    "transfers": [
     {
      "date": "2024-07-01",
@@ -13353,22 +13353,6 @@
     },
     {
      "date": "2025-07-14",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 541,
-       "name": "Real Madrid",
-       "logo": "https://media.api-sports.io/football/teams/541.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2025-07-13",
      "type": "Transfer",
      "teams": {
       "in": {
@@ -15897,7 +15881,7 @@
     "id": 158065,
     "name": "Tiago Gouveia"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:58:26+00:00",
    "transfers": [
     {
      "date": "2023-07-01",
@@ -16093,7 +16077,7 @@
     "id": 162098,
     "name": "Henrique Araújo"
    },
-   "update": "2026-11-02T01:18:05+00:00",
+   "update": "2026-11-09T01:23:28+00:00",
    "transfers": [
     {
      "date": "2024-07-11",
@@ -16214,7 +16198,7 @@
     "id": 575,
     "name": "Florentino"
    },
-   "update": "2026-11-02T00:15:24+00:00",
+   "update": "2026-11-09T00:16:51+00:00",
    "transfers": [
     {
      "date": "2022-07-01",
@@ -16474,7 +16458,7 @@
     "id": 624,
     "name": "N. Otamendi"
    },
-   "update": "2026-11-02T00:04:21+00:00",
+   "update": "2026-11-09T00:04:26+00:00",
    "transfers": [
     {
      "date": "2020-09-29",
@@ -16802,7 +16786,7 @@
     "id": 41320,
     "name": "André Ferreira"
    },
-   "update": "2026-11-02T05:28:55+00:00",
+   "update": "2026-11-09T05:24:44+00:00",
    "transfers": [
     {
      "date": "2017-07-02",
@@ -17838,7 +17822,7 @@
     "id": 1163,
     "name": "Bruma"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2025-02-03",
@@ -17858,22 +17842,6 @@
     },
     {
      "date": "2026-09-13",
-     "type": "Free agent",
-     "teams": {
-      "in": {
-       "id": 1123,
-       "name": "Aris Thessalonikis",
-       "logo": "https://media.api-sports.io/football/teams/1123.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-09-12",
      "type": "Free agent",
      "teams": {
       "in": {
@@ -17920,7 +17888,7 @@
     "id": 265722,
     "name": "Rafael Obrador"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2025-07-11",
@@ -18009,7 +17977,7 @@
     "id": 345416,
     "name": "Rafael LuÃ­s"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:58:26+00:00",
    "transfers": [
     {
      "date": "2025-08-18",
@@ -18044,22 +18012,6 @@
      }
     },
     {
-     "date": "2026-09-03",
-     "type": "Free agent",
-     "teams": {
-      "in": {
-       "id": 997,
-       "name": "Gençlerbirliği S.K.",
-       "logo": "https://media.api-sports.io/football/teams/997.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
      "date": "2026-06-29",
      "type": "Return from loan",
      "teams": {
@@ -18076,7 +18028,7 @@
      }
     },
     {
-     "date": "2026-09-02",
+     "date": "2026-09-03",
      "type": "Free agent",
      "teams": {
       "in": {
@@ -18139,7 +18091,7 @@
     "id": 350337,
     "name": "André Gomes"
    },
-   "update": "2026-11-02T01:18:05+00:00",
+   "update": "2026-11-09T01:23:28+00:00",
    "transfers": [
     {
      "date": "2025-07-10",
@@ -18237,7 +18189,7 @@
     "id": 162184,
     "name": "Rafael Rodrigues"
    },
-   "update": "2026-11-02T00:37:29+00:00",
+   "update": "2026-11-09T00:41:46+00:00",
    "transfers": [
     {
      "date": "2025-06-29",
@@ -18351,7 +18303,7 @@
     "id": 345387,
     "name": "Ivan Lima"
    },
-   "update": "2026-11-02T00:31:06+00:00",
+   "update": "2026-11-09T00:34:54+00:00",
    "transfers": [
     {
      "date": "2025-06-30",
@@ -18392,7 +18344,7 @@
     "id": 340547,
     "name": "Gustavo Varela"
    },
-   "update": "2026-11-02T01:03:08+00:00",
+   "update": "2026-11-09T01:08:59+00:00",
    "transfers": [
     {
      "date": "2025-07-08",
@@ -18474,7 +18426,7 @@
     "id": 7318,
     "name": "A. Dedić"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2025-07-14",
@@ -18510,22 +18462,6 @@
     },
     {
      "date": "2026-08-17",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 34,
-       "name": "Newcastle",
-       "logo": "https://media.api-sports.io/football/teams/34.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-08-16",
      "type": "Transfer",
      "teams": {
       "in": {
@@ -18597,7 +18533,7 @@
     "id": 441268,
     "name": "Rodrigo Miguel Ferreira Rêgo"
    },
-   "update": "2026-11-02T00:15:11+00:00",
+   "update": "2026-11-09T00:16:46+00:00",
    "transfers": [
     {
      "date": "2025-11-19",
@@ -18754,7 +18690,7 @@
     "id": 180320,
     "name": "A. Bajrami"
    },
-   "update": "2026-11-02T00:36:14+00:00",
+   "update": "2026-11-09T00:40:24+00:00",
    "transfers": [
     {
      "date": "2025-07-13",
@@ -18909,7 +18845,7 @@
     "id": 158378,
     "name": "E. Barrenechea"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2025-07-18",
@@ -18966,7 +18902,7 @@
     "id": 161945,
     "name": "H. Sudakov"
    },
-   "update": "2026-11-02T00:37:20+00:00",
+   "update": "2026-11-09T00:41:41+00:00",
    "transfers": [
     {
      "date": "2025-08-30",
@@ -19015,22 +18951,6 @@
        "logo": "https://media.api-sports.io/football/teams/550.png"
       }
      }
-    },
-    {
-     "date": "2026-06-29",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 550,
-       "name": "Shakhtar Donetsk",
-       "logo": "https://media.api-sports.io/football/teams/550.png"
-      }
-     }
     }
    ]
   },
@@ -19039,7 +18959,7 @@
     "id": 195104,
     "name": "R. Rios"
    },
-   "update": "2026-11-02T00:33:16+00:00",
+   "update": "2026-11-09T00:36:57+00:00",
    "transfers": [
     {
      "date": "2025-07-22",
@@ -19080,7 +19000,7 @@
     "id": 202951,
     "name": "F. Ivanović"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2025-07-31",
@@ -19137,7 +19057,7 @@
     "id": 308689,
     "name": "S. Lopes Cabral"
    },
-   "update": "2026-11-02T00:37:13+00:00",
+   "update": "2026-11-09T00:41:36+00:00",
    "transfers": [
     {
      "date": "2025-12-31",
@@ -19278,7 +19198,7 @@
     "id": 630903,
     "name": "Gabriel Indio"
    },
-   "update": "2026-11-02T03:08:05+00:00",
+   "update": "2026-11-09T03:02:43+00:00",
    "transfers": [
     {
      "date": "2026-06-30",
@@ -19298,22 +19218,6 @@
     },
     {
      "date": "2026-07-27",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 13975,
-       "name": "Athletic Club",
-       "logo": "https://media.api-sports.io/football/teams/13975.png"
-      }
-     }
-    },
-    {
-     "date": "2026-07-26",
      "type": "Transfer",
      "teams": {
       "in": {
@@ -19357,331 +19261,10 @@
   },
   {
    "player": {
-    "id": 13489,
-    "name": "J. Durán"
-   },
-   "update": "2026-11-02T00:33:20+00:00",
-   "transfers": [
-    {
-     "date": "2026-07-20",
-     "type": "Loan",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 2939,
-       "name": "Al-Nassr",
-       "logo": "https://media.api-sports.io/football/teams/2939.png"
-      }
-     }
-    },
-    {
-     "date": "2026-07-19",
-     "type": "Loan",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 2939,
-       "name": "Al-Nassr",
-       "logo": "https://media.api-sports.io/football/teams/2939.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 550937,
-    "name": "J. Trevisan"
-   },
-   "update": "2026-11-02T00:31:20+00:00",
-   "transfers": [
-    {
-     "date": "2026-09-06",
-     "type": "Free agent",
-     "teams": {
-      "in": {
-       "id": 2246,
-       "name": "CFR 1907 Cluj",
-       "logo": "https://media.api-sports.io/football/teams/2246.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-09-05",
-     "type": "Free agent",
-     "teams": {
-      "in": {
-       "id": 2246,
-       "name": "CFR 1907 Cluj",
-       "logo": "https://media.api-sports.io/football/teams/2246.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 666524,
-    "name": "V. Mendes"
-   },
-   "update": "2026-11-02T00:08:51+00:00",
-   "transfers": [
-    {
-     "date": "2026-06-30",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 634,
-       "name": "Botev Plovdiv",
-       "logo": "https://media.api-sports.io/football/teams/634.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 331832,
-    "name": "António Silva"
-   },
-   "update": "2026-11-02T00:31:21+00:00",
-   "transfers": [
-    {
-     "date": "2026-07-31",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 35,
-       "name": "Bournemouth",
-       "logo": "https://media.api-sports.io/football/teams/35.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-07-30",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 35,
-       "name": "Bournemouth",
-       "logo": "https://media.api-sports.io/football/teams/35.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 182311,
-    "name": "L. Lacroix"
-   },
-   "update": "2026-11-02T00:18:03+00:00",
-   "transfers": [
-    {
-     "date": "2025-08-29",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 89,
-       "name": "Dijon",
-       "logo": "https://media.api-sports.io/football/teams/89.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 400525,
-    "name": "Gonçalo Oliveira"
-   },
-   "update": "2026-11-02T00:18:37+00:00",
-   "transfers": [
-    {
-     "date": "2026-06-30",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 94,
-       "name": "Rennes",
-       "logo": "https://media.api-sports.io/football/teams/94.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 41104,
-    "name": "João Palhinha"
-   },
-   "update": "2026-11-02T00:31:20+00:00",
-   "transfers": [
-    {
-     "date": "2026-08-24",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 157,
-       "name": "Bayern München",
-       "logo": "https://media.api-sports.io/football/teams/157.png"
-      }
-     }
-    },
-    {
-     "date": "2026-08-25",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 157,
-       "name": "Bayern München",
-       "logo": "https://media.api-sports.io/football/teams/157.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 567697,
-    "name": "G. Neves"
-   },
-   "update": "2026-11-02T00:31:21+00:00",
-   "transfers": [
-    {
-     "date": "2026-08-07",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 192,
-       "name": "1. FC Köln",
-       "logo": "https://media.api-sports.io/football/teams/192.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-08-06",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 192,
-       "name": "1. FC Köln",
-       "logo": "https://media.api-sports.io/football/teams/192.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
-    "id": 40560,
-    "name": "J. Kamiński"
-   },
-   "update": "2026-11-02T00:31:20+00:00",
-   "transfers": [
-    {
-     "date": "2026-07-05",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 192,
-       "name": "1. FC Köln",
-       "logo": "https://media.api-sports.io/football/teams/192.png"
-      }
-     }
-    },
-    {
-     "date": "2026-07-06",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 192,
-       "name": "1. FC Köln",
-       "logo": "https://media.api-sports.io/football/teams/192.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
     "id": 675850,
     "name": "Ismael Dabo"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-07-31",
@@ -19714,45 +19297,95 @@
        "logo": "https://media.api-sports.io/football/teams/211.png"
       }
      }
+    },
+    {
+     "date": "2026-07-29",
+     "type": "Free agent",
+     "teams": {
+      "in": {
+       "id": null,
+       "name": "Dabo Ismael",
+       "logo": null
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
     }
    ]
   },
   {
    "player": {
-    "id": 348568,
-    "name": "A. Circati"
+    "id": 666524,
+    "name": "V. Mendes"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:09:58+00:00",
    "transfers": [
     {
-     "date": "2026-08-17",
+     "date": "2026-06-30",
      "type": "Transfer",
      "teams": {
       "in": {
+       "id": 634,
+       "name": "Botev Plovdiv",
+       "logo": "https://media.api-sports.io/football/teams/634.png"
+      },
+      "out": {
        "id": 211,
        "name": "Benfica",
        "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 523,
-       "name": "Parma",
-       "logo": "https://media.api-sports.io/football/teams/523.png"
       }
      }
-    },
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 182311,
+    "name": "L. Lacroix"
+   },
+   "update": "2026-11-09T00:20:42+00:00",
+   "transfers": [
     {
-     "date": "2026-08-18",
+     "date": "2025-08-29",
      "type": "Transfer",
      "teams": {
       "in": {
+       "id": 89,
+       "name": "Dijon",
+       "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "out": {
        "id": 211,
        "name": "Benfica",
        "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 400525,
+    "name": "Gonçalo Oliveira"
+   },
+   "update": "2026-11-09T00:21:28+00:00",
+   "transfers": [
+    {
+     "date": "2026-06-30",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 94,
+       "name": "Rennes",
+       "logo": "https://media.api-sports.io/football/teams/94.png"
       },
       "out": {
-       "id": 523,
-       "name": "Parma",
-       "logo": "https://media.api-sports.io/football/teams/523.png"
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
       }
      }
     }
@@ -19763,7 +19396,7 @@
     "id": 414385,
     "name": "C. Echeverri"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-09-01",
@@ -19785,10 +19418,35 @@
   },
   {
    "player": {
+    "id": 127803,
+    "name": "S. El Karouani"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-08-31",
+     "type": "Loan",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 2933,
+       "name": "Al-Qadisiyah FC",
+       "logo": "https://media.api-sports.io/football/teams/2933.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
     "id": 669228,
     "name": "D. Kauan"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-08-29",
@@ -19813,7 +19471,7 @@
     "id": 462864,
     "name": "A. Saidi"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-08-21",
@@ -19835,35 +19493,10 @@
   },
   {
    "player": {
-    "id": 616827,
-    "name": "Felipe Lima"
-   },
-   "update": "2026-11-02T00:31:20+00:00",
-   "transfers": [
-    {
-     "date": "2026-07-24",
-     "type": "Loan",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 4724,
-       "name": "Alverca",
-       "logo": "https://media.api-sports.io/football/teams/4724.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
     "id": 133,
     "name": "C. Lenglet"
    },
-   "update": "2026-11-02T00:31:20+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-06-30",
@@ -19888,7 +19521,7 @@
     "id": 454415,
     "name": "B. Souza"
    },
-   "update": "2026-11-02T05:47:40+00:00",
+   "update": "2026-11-09T05:45:51+00:00",
    "transfers": [
     {
      "date": "2026-06-29",
@@ -19926,10 +19559,35 @@
   },
   {
    "player": {
+    "id": 312164,
+    "name": "J. Wynder"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-09-01",
+     "type": "Loan",
+     "teams": {
+      "in": {
+       "id": 1609,
+       "name": "New England Revolution",
+       "logo": "https://media.api-sports.io/football/teams/1609.png"
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
     "id": 412743,
     "name": "Tiago Parente"
    },
-   "update": "2026-11-02T00:31:21+00:00",
+   "update": "2026-11-09T00:35:02+00:00",
    "transfers": [
     {
      "date": "2026-08-02",
@@ -19951,51 +19609,10 @@
   },
   {
    "player": {
-    "id": 577999,
-    "name": "J. Monteiro"
-   },
-   "update": "2026-11-02T00:31:29+00:00",
-   "transfers": [
-    {
-     "date": "2026-07-29",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 213,
-       "name": "Feirense",
-       "logo": "https://media.api-sports.io/football/teams/213.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    },
-    {
-     "date": "2026-07-30",
-     "type": "Transfer",
-     "teams": {
-      "in": {
-       "id": 213,
-       "name": "Feirense",
-       "logo": "https://media.api-sports.io/football/teams/213.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
     "id": 689241,
     "name": "Juvenal Correia"
    },
-   "update": "2026-11-02T00:31:28+00:00",
+   "update": "2026-11-09T00:35:16+00:00",
    "transfers": [
     {
      "date": "2026-06-30",
@@ -20020,7 +19637,7 @@
     "id": 345390,
     "name": "João Veloso"
    },
-   "update": "2026-11-02T00:31:30+00:00",
+   "update": "2026-11-09T00:35:19+00:00",
    "transfers": [
     {
      "date": "2026-07-12",
@@ -20042,35 +19659,10 @@
   },
   {
    "player": {
-    "id": 127803,
-    "name": "S. El Karouani"
-   },
-   "update": "2026-11-02T00:33:22+00:00",
-   "transfers": [
-    {
-     "date": "2026-08-31",
-     "type": "Loan",
-     "teams": {
-      "in": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      },
-      "out": {
-       "id": 2933,
-       "name": "Al-Qadisiyah FC",
-       "logo": "https://media.api-sports.io/football/teams/2933.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
     "id": 668540,
     "name": "L. Velickovic"
    },
-   "update": "2026-11-02T00:36:06+00:00",
+   "update": "2026-11-09T00:40:02+00:00",
    "transfers": [
     {
      "date": "2026-07-15",
@@ -20092,35 +19684,10 @@
   },
   {
    "player": {
-    "id": 312164,
-    "name": "J. Wynder"
-   },
-   "update": "2026-11-02T00:37:59+00:00",
-   "transfers": [
-    {
-     "date": "2026-09-01",
-     "type": "Loan",
-     "teams": {
-      "in": {
-       "id": 1609,
-       "name": "New England Revolution",
-       "logo": "https://media.api-sports.io/football/teams/1609.png"
-      },
-      "out": {
-       "id": 211,
-       "name": "Benfica",
-       "logo": "https://media.api-sports.io/football/teams/211.png"
-      }
-     }
-    }
-   ]
-  },
-  {
-   "player": {
     "id": 480315,
     "name": "Sofiane Dris"
    },
-   "update": "2026-11-02T00:41:13+00:00",
+   "update": "2026-11-09T00:45:36+00:00",
    "transfers": [
     {
      "date": "2024-08-01",
@@ -20145,7 +19712,7 @@
     "id": 364811,
     "name": "Diogo Ferreira Prioste"
    },
-   "update": "2026-11-02T01:03:08+00:00",
+   "update": "2026-11-09T01:08:59+00:00",
    "transfers": [
     {
      "date": "2026-07-02",
@@ -20170,7 +19737,7 @@
     "id": 345427,
     "name": "João Pedro Seno Luís Rêgo"
    },
-   "update": "2026-11-02T01:18:05+00:00",
+   "update": "2026-11-09T01:23:28+00:00",
    "transfers": [
     {
      "date": "2026-08-21",
@@ -20192,10 +19759,35 @@
   },
   {
    "player": {
+    "id": 616827,
+    "name": "Felipe Lima"
+   },
+   "update": "2026-11-09T01:23:34+00:00",
+   "transfers": [
+    {
+     "date": "2026-07-24",
+     "type": "Loan",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 4724,
+       "name": "Alverca",
+       "logo": "https://media.api-sports.io/football/teams/4724.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
     "id": 427854,
     "name": "Rodrigo Santos Ribeiro"
    },
-   "update": "2026-11-02T01:18:23+00:00",
+   "update": "2026-11-09T01:23:49+00:00",
    "transfers": [
     {
      "date": "2026-07-11",
@@ -20205,6 +19797,206 @@
        "id": 4744,
        "name": "Felgueiras 1932",
        "logo": "https://media.api-sports.io/football/teams/4744.png"
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 13489,
+    "name": "J. Durán"
+   },
+   "update": "2026-11-09T00:37:03+00:00",
+   "transfers": [
+    {
+     "date": "2026-07-20",
+     "type": "Loan",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 2939,
+       "name": "Al-Nassr",
+       "logo": "https://media.api-sports.io/football/teams/2939.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 40560,
+    "name": "J. Kamiński"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-07-06",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 192,
+       "name": "1. FC Köln",
+       "logo": "https://media.api-sports.io/football/teams/192.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 41104,
+    "name": "João Palhinha"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-08-25",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 157,
+       "name": "Bayern München",
+       "logo": "https://media.api-sports.io/football/teams/157.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 331832,
+    "name": "António Silva"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-07-31",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 35,
+       "name": "Bournemouth",
+       "logo": "https://media.api-sports.io/football/teams/35.png"
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 348568,
+    "name": "A. Circati"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-08-18",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "out": {
+       "id": 523,
+       "name": "Parma",
+       "logo": "https://media.api-sports.io/football/teams/523.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 550937,
+    "name": "J. Trevisan"
+   },
+   "update": "2026-11-09T00:35:54+00:00",
+   "transfers": [
+    {
+     "date": "2026-09-06",
+     "type": "Free agent",
+     "teams": {
+      "in": {
+       "id": 2246,
+       "name": "CFR 1907 Cluj",
+       "logo": "https://media.api-sports.io/football/teams/2246.png"
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 567697,
+    "name": "G. Neves"
+   },
+   "update": "2026-11-09T00:35:02+00:00",
+   "transfers": [
+    {
+     "date": "2026-08-07",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 192,
+       "name": "1. FC Köln",
+       "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "out": {
+       "id": 211,
+       "name": "Benfica",
+       "logo": "https://media.api-sports.io/football/teams/211.png"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "player": {
+    "id": 577999,
+    "name": "J. Monteiro"
+   },
+   "update": "2026-11-09T00:35:17+00:00",
+   "transfers": [
+    {
+     "date": "2026-07-30",
+     "type": "Transfer",
+     "teams": {
+      "in": {
+       "id": 213,
+       "name": "Feirense",
+       "logo": "https://media.api-sports.io/football/teams/213.png"
       },
       "out": {
        "id": 211,
