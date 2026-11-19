@@ -6539,6 +6539,19 @@
   "age": 24
  },
  {
+  "id": "2025-26-out-alvaro-carreras-permanent-2025-07-13",
+  "playerId": "alvaro-carreras",
+  "player": "Álvaro Carreras",
+  "season": "2025-26",
+  "dir": "out",
+  "date": "2025-07-13",
+  "type": "permanent",
+  "fee": null,
+  "club": "Real Madrid",
+  "pos": "LB",
+  "age": 22
+ },
+ {
   "id": "2025-26-out-adrian-bajrami-loan-out-2025-07-13",
   "playerId": "adrian-bajrami",
   "player": "Adrian Bajrami",
@@ -7241,6 +7254,19 @@
   "age": null
  },
  {
+  "id": "2026-27-in-heorhiy-sudakov-permanent-2026-06-29",
+  "playerId": "heorhiy-sudakov",
+  "player": "Heorhiy Sudakov",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-06-29",
+  "type": "permanent",
+  "fee": null,
+  "club": "Shakhtar Donetsk",
+  "pos": "MF",
+  "age": null
+ },
+ {
   "id": "2026-27-out-a-sandahl-free-2026-06-29",
   "playerId": "a-sandahl",
   "player": "A. Sandahl",
@@ -7397,19 +7423,6 @@
   "age": null
  },
  {
-  "id": "2026-27-out-v-mendes-permanent-2026-06-30",
-  "playerId": "v-mendes",
-  "player": "V. Mendes",
-  "season": "2026-27",
-  "dir": "out",
-  "date": "2026-06-30",
-  "type": "permanent",
-  "fee": null,
-  "club": "Botev Plovdiv",
-  "pos": null,
-  "age": null
- },
- {
   "id": "2026-27-out-goncalo-oliveira-permanent-2026-06-30",
   "playerId": "goncalo-oliveira",
   "player": "Gonçalo Oliveira",
@@ -7421,6 +7434,19 @@
   "club": "Rennes",
   "pos": "DF",
   "age": 19
+ },
+ {
+  "id": "2026-27-out-v-mendes-permanent-2026-06-30",
+  "playerId": "v-mendes",
+  "player": "V. Mendes",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-06-30",
+  "type": "permanent",
+  "fee": null,
+  "club": "Botev Plovdiv",
+  "pos": null,
+  "age": null
  },
  {
   "id": "2026-27-in-clement-lenglet-loan-in-2026-06-30",
@@ -7473,6 +7499,19 @@
   "club": "GIL Vicente",
   "pos": "MF",
   "age": 22
+ },
+ {
+  "id": "2026-27-in-jakub-kaminski-permanent-2026-07-05",
+  "playerId": "jakub-kaminski",
+  "player": "Jakub Kamiński",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-07-05",
+  "type": "permanent",
+  "fee": null,
+  "club": "1. FC Köln",
+  "pos": "FW",
+  "age": null
  },
  {
   "id": "2026-27-in-jakub-kaminski-permanent-2026-07-06",
@@ -7553,6 +7592,19 @@
   "age": 21
  },
  {
+  "id": "2026-27-in-jhon-duran-loan-in-2026-07-19",
+  "playerId": "jhon-duran",
+  "player": "Jhon Durán",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-07-19",
+  "type": "loan-in",
+  "fee": null,
+  "club": "Al-Nassr",
+  "pos": "FW",
+  "age": null
+ },
+ {
   "id": "2026-27-in-jhon-duran-loan-in-2026-07-20",
   "playerId": "jhon-duran",
   "player": "Jhon Durán",
@@ -7589,6 +7641,19 @@
   "fee": null,
   "club": "Monza",
   "pos": "FW",
+  "age": null
+ },
+ {
+  "id": "2026-27-in-gabriel-indio-permanent-2026-07-26",
+  "playerId": "gabriel-indio",
+  "player": "Gabriel Índio",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-07-26",
+  "type": "permanent",
+  "fee": null,
+  "club": "Athletic Club",
+  "pos": null,
   "age": null
  },
  {
@@ -7629,6 +7694,32 @@
   "club": "Lecce",
   "pos": null,
   "age": null
+ },
+ {
+  "id": "2026-27-out-j-monteiro-permanent-2026-07-29",
+  "playerId": "j-monteiro",
+  "player": "J. Monteiro",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-07-29",
+  "type": "permanent",
+  "fee": null,
+  "club": "Feirense",
+  "pos": null,
+  "age": null
+ },
+ {
+  "id": "2026-27-out-antonio-silva-permanent-2026-07-30",
+  "playerId": "antonio-silva",
+  "player": "António Silva",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-07-30",
+  "type": "permanent",
+  "fee": null,
+  "club": "Bournemouth",
+  "pos": "CB",
+  "age": 22
  },
  {
   "id": "2026-27-out-j-monteiro-permanent-2026-07-30",
@@ -7683,6 +7774,19 @@
   "age": null
  },
  {
+  "id": "2026-27-out-g-neves-permanent-2026-08-06",
+  "playerId": "g-neves",
+  "player": "G. Neves",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-08-06",
+  "type": "permanent",
+  "fee": null,
+  "club": "1. FC Köln",
+  "pos": null,
+  "age": null
+ },
+ {
   "id": "2026-27-out-g-neves-permanent-2026-08-07",
   "playerId": "g-neves",
   "player": "G. Neves",
@@ -7722,6 +7826,19 @@
   "age": 22
  },
  {
+  "id": "2026-27-out-amar-dedic-permanent-2026-08-16",
+  "playerId": "amar-dedic",
+  "player": "Amar Dedić",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-08-16",
+  "type": "permanent",
+  "fee": null,
+  "club": "Newcastle",
+  "pos": "DF",
+  "age": 23
+ },
+ {
   "id": "2026-27-out-amar-dedic-permanent-2026-08-17",
   "playerId": "amar-dedic",
   "player": "Amar Dedić",
@@ -7733,6 +7850,19 @@
   "club": "Newcastle",
   "pos": "DF",
   "age": 23
+ },
+ {
+  "id": "2026-27-in-alessandro-circati-permanent-2026-08-17",
+  "playerId": "alessandro-circati",
+  "player": "Alessandro Circati",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-08-17",
+  "type": "permanent",
+  "fee": null,
+  "club": "Parma",
+  "pos": "DF",
+  "age": null
  },
  {
   "id": "2026-27-in-alessandro-circati-permanent-2026-08-18",
@@ -7785,6 +7915,19 @@
   "club": "Casa Pia",
   "pos": "MF",
   "age": 21
+ },
+ {
+  "id": "2026-27-in-joao-palhinha-permanent-2026-08-24",
+  "playerId": "joao-palhinha",
+  "player": "João Palhinha",
+  "season": "2026-27",
+  "dir": "in",
+  "date": "2026-08-24",
+  "type": "permanent",
+  "fee": null,
+  "club": "Bayern München",
+  "pos": "MF",
+  "age": null
  },
  {
   "id": "2026-27-in-joao-palhinha-permanent-2026-08-25",
@@ -7865,6 +8008,19 @@
   "age": 21
  },
  {
+  "id": "2026-27-out-rafael-lua-s-free-2026-09-02",
+  "playerId": "rafael-lua-s",
+  "player": "Rafael LuÃ­s",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-09-02",
+  "type": "free",
+  "fee": 0,
+  "club": "Gençlerbirliği S.K.",
+  "pos": "MF",
+  "age": 21
+ },
+ {
   "id": "2026-27-out-rafael-lua-s-free-2026-09-03",
   "playerId": "rafael-lua-s",
   "player": "Rafael LuÃ­s",
@@ -7878,6 +8034,19 @@
   "age": 21
  },
  {
+  "id": "2026-27-out-j-trevisan-free-2026-09-05",
+  "playerId": "j-trevisan",
+  "player": "J. Trevisan",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-09-05",
+  "type": "free",
+  "fee": 0,
+  "club": "CFR 1907 Cluj",
+  "pos": null,
+  "age": null
+ },
+ {
   "id": "2026-27-out-j-trevisan-free-2026-09-06",
   "playerId": "j-trevisan",
   "player": "J. Trevisan",
@@ -7889,6 +8058,19 @@
   "club": "CFR 1907 Cluj",
   "pos": null,
   "age": null
+ },
+ {
+  "id": "2026-27-out-bruma-free-2026-09-12",
+  "playerId": "bruma",
+  "player": "Bruma",
+  "season": "2026-27",
+  "dir": "out",
+  "date": "2026-09-12",
+  "type": "free",
+  "fee": 0,
+  "club": "Aris Thessalonikis",
+  "pos": "FW",
+  "age": 31
  },
  {
   "id": "2026-27-out-bruma-free-2026-09-13",
